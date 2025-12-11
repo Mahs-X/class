@@ -1,6 +1,6 @@
  [
   {
-    id: "motion",               // slug — safer than numeric
+    id: "motion",            
     name: "গতি অধ্যায়",
     color: "#FF5733",
     order: 1,
@@ -11,12 +11,12 @@
         title: "স্থিতি ও গতির",
         order: 1,
         estimatedTimeMin: 10,
-        passThresholdPercent: 60,    // লেভেল পাসের শর্ত
-        unlockRequirement: { type: "none" }, // or {type: "level_pass", levelId: "motion-00"}
+        passThresholdPercent: 60,   
+        unlockRequirement: { type: "none" }, 
         basics: [
           {
             id: "b1",
-            type: "text",           // text | image | video | interactive
+            type: "text",           
             title: "পারিপার্শ্বিক কাকে বলে?",
             content: {
               definition: "পারিপার্শ্বিক হলো সেই স্থির জিনিস, যাকে ধরে আমরা অন্য কোনো জিনিসের গতি বা স্থিতি মাপতে পারি।",
