@@ -1,132 +1,270 @@
 [
- { "id": "motion",
-  "name": "গতি অধ্যায়",
-  "color": "#FF5733",
-  "order": 1,
-  "version": 1,
-  "levels": [
-    {
-      "id": "motion-01",
-      "title": "স্থিতি ও গতির",
-      "order": 1,
-      "estimatedTimeMin": 10,
-      "passThresholdPercent": 60,
-      "unlockRequirement": { "type": "none" },
-      "basics": [
-        {
-          "id": "b1",
-          "type": "text",
-          "title": "পারিপার্শ্বিক কাকে বলে?",
-          "content": {
-            "definition": "পারিপার্শ্বিক হলো সেই স্থির জিনিস, যাকে ধরে আমরা অন্য কোনো জিনিসের গতি বা স্থিতি মাপতে পারি।",
-            "explanation": "যদি তুমি  প্রমাণ করতে চাও  যে একটি গাড়ি চলমান, তাহলে তোমাকে  এমন একটি স্থির বস্তুর সাথে তুলনা করতে হবে( যেমন গাছ ) এবং বলতে হবে যে গাড়িটি সেই গাছের সাপেক্ষে চলমান। কারণ  সেই  গাছ   তার অবস্থান  এর পরিবর্তন   না করলেও  সেই  গাড়ি  করছে । তাই  ওই গাছটি  পারিপার্শিক  কারণ  তার  সাথেই  তুলনা  করা হয়েছে যেমন: একটি টেবিলের উপর রাখা বইটি...",
-            "image": {
-              "url": "/gotiImages/CarTreeMotion.png",
-              "alt": "car is running from a tree"
+  {
+    "id": "dhonitotto-basic",
+    "name": "ধ্বনিতত্ত্ব: মৌলিক ধারণা",
+    "color": "#00A86B",
+    "order": 1,
+    "version": 1,
+    "levels": [
+      {
+        "id": "dhoni-01",
+        "title": "ধ্বনি ও বর্ণ পরিচয়",
+        "order": 1,
+        "estimatedTimeMin": 10,
+        "passThresholdPercent": 60,
+        "unlockRequirement": { "type": "none" },
+        "basics": [
+          {
+            "id": "b1",
+            "type": "text",
+            "title": "ধ্বনি কাকে বলে?",
+            "content": {
+              "definition": "মানুষের মুখনিঃসৃত বাতাসের সাহায্যে তৈরি আওয়াজ বা শব্দকে ব্যাকরণের ভাষায় 'ধ্বনি' বলে। এটি ভাষার সবচেয়ে ক্ষুদ্রতম একক।",
+              "explanation": "আমরা মুখ দিয়ে যা উচ্চারণ করি, তাই ধ্বনি। যেমন— 'ক', 'আ', 'ব' ইত্যাদি। ধ্বনির কোনো লিখিত রূপ নেই, এটি শ্রুতিগ্রাহ্য (শোনা যায়)।",
+              "image": {
+                "url": "/banglaImages/dhoni/MouthSound.png",
+                "alt": "A diagram showing sound coming out of a human mouth"
+              }
+            }
+          },
+          {
+            "id": "b2",
+            "type": "text",
+            "title": "বর্ণ কাকে বলে?",
+            "content": {
+              "definition": "ধ্বনির লিখিত বা সাংকেতিক রূপকে 'বর্ণ' বলে। বর্ণমালা হলো কোনো ভাষার সব বর্ণের সমষ্টি।",
+              "explanation": "যখন আমরা মুখে উচ্চারণ করা 'আ' ধ্বনিকে লিখে প্রকাশ করি 'আ' প্রতীক দিয়ে, তখন এই লিখিত রূপটিই হলো বর্ণ। বর্ণের মাধ্যমে আমরা ধ্বনিকে সংরক্ষণ করি।",
+              "image": {
+                "url": "/banglaImages/dhoni/LetterScript.png",
+                "alt": "A hand writing a letter/symbol"
+              }
+            }
+          },
+          {
+            "id": "b3",
+            "type": "text",
+            "title": "স্বরধ্বনি ও ব্যঞ্জনধ্বনি",
+            "content": {
+              "definition": "স্বরধ্বনি হলো সেই ধ্বনি যা অন্য ধ্বনির সাহায্য ছাড়াই নিজে নিজে উচ্চারিত হতে পারে (যেমন: অ, আ)। আর ব্যঞ্জনধ্বনি স্বরধ্বনির সাহায্য ছাড়া উচ্চারিত হতে পারে না (যেমন: ক, খ)।",
+              "explanation": "ব্যঞ্জনধ্বনি উচ্চারণ করার সময় শ্বাসবায়ু মুখ বা নাসিকার কোথাও না কোথাও বাধা পায়। বাংলায় মোট ১১টি স্বরধ্বনি ও ৩৯টি ব্যঞ্জনধ্বনি (মোট ৫০টি বর্ণ) আছে।",
+              "image": {
+                "url": "/banglaImages/dhoni/VowelConsonant.png",
+                "alt": "Chart showing categories of Bengali Vowels and Consonants"
+              }
             }
           }
-        },
-        {
-          "id": "b2",
-          "type": "text",
-          "title": "গতি কাকে বলে?",
-          "content": {
-            "definition": "যখন কোনো পারিপার্শ্বিক (যেমন একটি গাছ বা বাড়ি) এর সাপেক্ষে সময়ের সাথে সাথে কোনো বস্তুর অবস্থানের পরিবর্তন হয়, তখন সেই বস্তুকে গতিশীল বলা হয়। আর বস্তুর এই অবস্থাকেই গতি বলে।",
-            "explanation": "তুমি সাইকেলে করে যখন বাড়ি থেকে বের হও, তখন তুমি বাড়ির (পারিপার্শ্বিক) সাপেক্ষে সময়ের সাথে সাথে নিজের অবস্থার পরিবর্তন করছো। তাই তুমি গতিশীল—সেই বাড়ির সাপেক্ষে।",
-            "image": {
-              "url": "/gotiImages/catRuningFromHouse.png",
-              "alt": "catRuningFromHouse"
+        ],
+        "quiz": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "question": "ভাষার সবচেয়ে ক্ষুদ্রতম একক কোনটি?",
+            "options": [
+              { "id": "o1", "text": "বর্ণ" },
+              { "id": "o2", "text": "শব্দ" },
+              { "id": "o3", "text": "ধ্বনি" },
+              { "id": "o4", "text": "বাক্য" }
+            ],
+            "correctOptionId": "o3",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "ধ্বনি হলো ভাষার মূল ভিত্তি, যা মানুষের মুখনিঃসৃত আওয়াজ। এটিই ভাষার সবচেয়ে ক্ষুদ্রতম একক।",
+            "shuffleOptions": true
+          },
+          {
+            "id": "q2",
+            "type": "drag_words",
+            "question": "বর্ণ-এর সংজ্ঞা তৈরি করো",
+            "wordPool": ["লিখিত", "ধ্বনির", "সাংকেতিক", "রূপকে", "বলে"],
+            "targetAnswer": "ধ্বনির লিখিত বা সাংকেতিক রূপকে বলে",
+            "marksIfCorrect": 3,
+            "penaltyIfWrong": -2,
+            "hints": ["শব্দগুলো সঠিক ক্রমে সাজাও"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dhonitotto-classification",
+    "name": "ধ্বনিতত্ত্ব: ধ্বনির শ্রেণিবিভাগ",
+    "color": "#3366FF",
+    "order": 2,
+    "version": 1,
+    "levels": [
+      {
+        "id": "dhoni-02",
+        "title": "ব্যঞ্জনধ্বনির উচ্চারণ স্থান",
+        "order": 1,
+        "estimatedTimeMin": 15,
+        "passThresholdPercent": 60,
+        "unlockRequirement": { "type": "pass-previous", "targetId": "dhoni-01" },
+        "basics": [
+          {
+            "id": "b1",
+            "type": "text",
+            "title": "কণ্ঠ্য ধ্বনি (Velar)",
+            "content": {
+              "definition": "যেসব ধ্বনি জিহ্বার মূলকে নরম তালুর কাছাকাছি নিয়ে গিয়ে উচ্চারণ করা হয়, তাদের কণ্ঠ্য ধ্বনি বলে।",
+              "explanation": "উদাহরণ: ক, খ, গ, ঘ, ঙ। জিহ্বার পেছনের অংশ কণ্ঠনালীর কাছাকাছি আঘাত করে।",
+              "image": {
+                "url": "/banglaImages/dhoni/Konthyo.png",
+                "alt": "Diagram showing the pronunciation location of Velar sounds"
+              }
+            }
+          },
+          {
+            "id": "b2",
+            "type": "text",
+            "title": "তালব্য ধ্বনি (Palatal)",
+            "content": {
+              "definition": "জিহ্বার মাঝখানটা শক্ত তালুর দিকে তুলে উচ্চারণ করা হয় এমন ধ্বনিকে তালব্য ধ্বনি বলে।",
+              "explanation": "উদাহরণ: চ, ছ, জ, ঝ, ঞ। এই ধ্বনিগুলো উচ্চারণের সময় জিহ্বা শক্ত তালুর কাছে আসে।",
+              "image": {
+                "url": "/banglaImages/dhoni/Talobyo.png",
+                "alt": "Diagram showing the pronunciation location of Palatal sounds"
+              }
+            }
+          },
+          {
+            "id": "b3",
+            "type": "text",
+            "title": "ওষ্ঠ্য ধ্বনি (Labial)",
+            "content": {
+              "definition": "যেসব ধ্বনি উচ্চারণের সময় দুই ঠোঁট বা কেবল নিচের ঠোঁট ব্যবহার করা হয়, সেগুলিকে ওষ্ঠ্য ধ্বনি বলে।",
+              "explanation": "উদাহরণ: প, ফ, ব, ভ, ম। এই ধ্বনিগুলো উচ্চারণ করার সময় ঠোঁটের ভূমিকা মুখ্য।",
+              "image": {
+                "url": "/banglaImages/dhoni/Ossthyo.png",
+                "alt": "Diagram showing the pronunciation location of Labial sounds"
+              }
             }
           }
-        },
-        {
-          "id": "b3",
-          "type": "text",
-          "title": " কাকে বলে?",
-          "content": {
-            "definition": "যখন কোনো পারিপার্শ্বিক (যেমন একটি গাছ বা বাড়ি) এর সাপেক্ষে সময়ের সাথে সাথে কোনো বস্তুর অবস্থানের পরিবর্তন হয়, তখন সেই বস্তুকে গতিশীল বলা হয়। আর বস্তুর এই অবস্থাকেই গতি বলে।",
-            "explanation": "তুমি সাইকেলে করে যখন বাড়ি থেকে বের হও, তখন তুমি বাড়ির (পারিপার্শ্বিক) সাপেক্ষে সময়ের সাথে সাথে নিজের অবস্থার পরিবর্তন করছো। তাই তুমি গতিশীল—সেই বাড়ির সাপেক্ষে।",
-            "image": {
-              "url": "/gotiImages/catStandingGoti.png",
-              "alt": "catRuningFromHouse"
+        ],
+        "quiz": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "question": "'গ' ধ্বনিটি উচ্চারণের স্থান অনুযায়ী কোন শ্রেণির?",
+            "options": [
+              { "id": "o1", "text": "তালব্য" },
+              { "id": "o2", "text": "মূর্ধন্য" },
+              { "id": "o3", "text": "কণ্ঠ্য" },
+              { "id": "o4", "text": "দন্ত্য" }
+            ],
+            "correctOptionId": "o3",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "'ক' বর্গীয় ধ্বনিগুলি (ক, খ, গ, ঘ, ঙ) কণ্ঠ থেকে উচ্চারিত হয়, তাই এগুলি কণ্ঠ্য ধ্বনি।",
+            "shuffleOptions": true
+          },
+          {
+            "id": "q2",
+            "type": "image_mcq",
+            "question": "কোন ধ্বনি উচ্চারণের সময় দুই ঠোঁটের স্পর্শ লাগে?",
+            "image": "/gotiImages/earthAroundSun.jpg",
+            "options": [
+              { "id": "o1", "text": "চ" },
+              { "id": "o2", "text": "ত" },
+              { "id": "o3", "text": "প" }
+            ],
+            "correctOptionId": "o3",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "'প' হলো ওষ্ঠ্য ধ্বনি। এই ধ্বনি উচ্চারণের সময় উভয় ঠোঁট ব্যবহৃত হয়।",
+            "shuffleOptions": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shobdototto",
+    "name": "শব্দতত্ত্ব: প্রকারভেদ",
+    "color": "#FFC300",
+    "order": 3,
+    "version": 1,
+    "levels": [
+      {
+        "id": "shobdo-01",
+        "title": "শব্দের গঠনগত ও অর্থগত শ্রেণিবিভাগ",
+        "order": 1,
+        "estimatedTimeMin": 10,
+        "passThresholdPercent": 60,
+        "unlockRequirement": { "type": "pass-previous", "targetId": "dhoni-02" },
+        "basics": [
+          {
+            "id": "b1",
+            "type": "text",
+            "title": "শব্দ কাকে বলে?",
+            "content": {
+              "definition": "এক বা একাধিক ধ্বনি মিলে যখন কোনো নির্দিষ্ট অর্থ প্রকাশ করে, তখন তাকে শব্দ বলে।",
+              "explanation": "যেমন, 'ব', 'ই', 'ব' ধ্বনিগুলো একত্রিত হয়ে যদি 'বই' শব্দটি তৈরি করে, যা একটি অর্থ প্রকাশ করে, তবেই তা শব্দ।",
+              "image": {
+                "url": "/banglaImages/shobdo/MeaningWord.png",
+                "alt": "A picture showing different letters forming a meaningful word"
+              }
+            }
+          },
+          {
+            "id": "b2",
+            "type": "text",
+            "title": "গঠনগতভাবে শব্দের প্রকারভেদ",
+            "content": {
+              "definition": "গঠনগতভাবে শব্দ দুই প্রকার: ১. মৌলিক শব্দ (যা ভাঙা যায় না, যেমন: হাত, পা) ২. সাধিত শব্দ (যা প্রত্যয় বা উপসর্গ যোগে গঠিত, যেমন: মানব, চলন্ত)।",
+              "explanation": "সাধিত শব্দ ভাঙলে একাধিক অর্থপূর্ণ অংশ পাওয়া যায়। যেমন: 'মানব' শব্দটি 'মনু + অ' থেকে এসেছে।",
+              "image": {
+                "url": "/banglaImages/shobdo/StructuralTypes.png",
+                "alt": "Flow chart showing Moolik and Sadhito words"
+              }
+            }
+          },
+          {
+            "id": "b3",
+            "type": "text",
+            "title": "অর্থগতভাবে শব্দের প্রকারভেদ",
+            "content": {
+              "definition": "অর্থগতভাবে শব্দ তিন প্রকার: ১. যৌগিক শব্দ (উৎপত্তিগত ও প্রচলিত অর্থ এক, যেমন: গায়ক) ২. রূঢ় বা রূঢ়ি শব্দ (উৎপত্তিগত অর্থ থাকলেও প্রচলিত অর্থ ভিন্ন, যেমন: তৈল) ৩. যোগরূঢ় শব্দ (সমাস দ্বারা গঠিত কিন্তু প্রচলিত অর্থ ভিন্ন, যেমন: পঙ্কজ)।",
+              "explanation": "যেমন, 'তৈল' শব্দের ব্যুৎপত্তিগত অর্থ তিল থেকে তৈরি, কিন্তু এখন যেকোনো তেল বোঝায়। এটি রূঢ় শব্দ।",
+              "image": {
+                "url": "/banglaImages/shobdo/MeaningTypes.png",
+                "alt": "Flow chart showing Jogik, Rurho, and Jogorurho words"
+              }
             }
           }
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "type": "mcq",
-          "question": "কোন বস্তু স্থিতিশীল?",
-          "options": [
-            { "id": "o1", "text": "চেয়ার এ বসে থাকা ব্যক্তি" },
-            { "id": "o2", "text": "চলন্ত বাস" },
-            { "id": "o3", "text": "উড়ন্ত পাখি" },
-            { "id": "o4", "text": "দৌড়ানো ছাগল" }
-          ],
-          "correctOptionId": "o1",
-          "marksIfCorrect": 2,
-          "penaltyIfWrong": -1,
-          "timeLimitSec": 30,
-          "explainIfWrong": "ঠিক উত্তর: কারণ চেয়ারটিকে যদি পৃথিবী সাপেক্ষে তুলনা করা হয় তাহলে চারটি স্থিতিশীল কারণ পৃথিবীর সাপেক্ষে সে তার অবস্থানে পরিবর্তন করছে না",
-          "shuffleOptions": true
-        },
-        {
-          "id": "q2",
-          "type": "drag_words",
-          "question": "গতি-এর সংজ্ঞা তৈরি করো",
-          "wordPool": ["পরিবর্তনের", "অবস্থানের", "সময়ের সাথে", "হার", "বস্তুর"],
-          "targetAnswer": "সময়ের সাথে বস্তুর অবস্থানের পরিবর্তনের হার",
-          "marksIfCorrect": 3,
-          "penaltyIfWrong": -2,
-          "hints": ["শব্দগুলো এলোমেলো আছে তা সঠিকভাবে সাজাও সাজানোর জন্য শব্দের উপরে ক্লিক কর"]
-        },
-        {
-          "id": "q3",
-          "type": "mcq",
-          "question": "একজন সাইকেল আরোহী রাস্তা দিয়ে সাইকেল চালিয়ে যাচ্ছে। রাস্তার পাশের একটি স্থির গাছকে আরোহীর সাপেক্ষে (বা কাছে) কেমন মনে হবে?",
-          "options": [
-            { "id": "o1", "text": "বলা সম্ভব নয়" },
-            { "id": "o2", "text": " গতিশীল" },
-            { "id": "o3", "text": "স্থির, কারণ গাছটি নড়ছে না" },
-            { "id": "o4", "text": "দৌড়ানো ছাগল" }
-          ],
-          "correctOptionId": "o2",
-          "marksIfCorrect": 2,
-          "penaltyIfWrong": -1,
-          "timeLimitSec": 30,
-          "explainIfWrong": "এখানে তোমার সাপেক্ষে গাছটিকে গতিশীল মনে হবে কারণ তোমার চোখ দেখছে গাছটি প্রতিনিয়ত তার অবস্থানের পরিবর্তন করছে যেমন আমরা ট্রেনের জানালা দিয়ে দেখতে পাই সব জিনিস পিছনে সরে যাচ্ছে সহজ ভাবে বললে তোমার চোখ এখানে পারিপার্শ্বিক এবং তোমার চোখের তুলনায় গাছটিকে গতিশীল মনে হচ্ছে",
-          "shuffleOptions": true
-        },
-        {
-          "id": "q4",
-          "type": "drag_words",
-          "question": "স্থিতি কাকে বলে?",
-          "wordPool": ["পরিবর্তনের", "অবস্থানের", "সময়ের সাথে", " হয়  না", "বস্তুর"],
-          "targetAnswer": "সময়ের সাথে বস্তুর অবস্থানের পরিবর্তনের হয়  না",
-          "marksIfCorrect": 3,
-          "penaltyIfWrong": -2,
-          "hints": ["শব্দগুলো এলোমেলো আছে তা সঠিকভাবে সাজাও সাজানোর জন্য শব্দের উপরে ক্লিক কর"]
-        },
-        {
-          "id": "q5",
-          "type": "image_mcq",
-          "question": "এখানে পৃথিবী গতিশীল নাকি স্থিতিশীল?",
-          "image": "/gotiImages/earthAroundSun.jpg",
-          "options": [
-            { "id": "o1", "text": "স্থিতিশীল" },
-            { "id": "o2", "text": " গতিশীল" },
-            { "id": "o3", "text": "স্থির ও গতিশীল" }
-          ],
-          "correctOptionId": "o2",
-          "marksIfCorrect": 2,
-          "penaltyIfWrong": -1,
-          "timeLimitSec": 30,
-          "explainIfWrong": "এখানে পৃথিবীর গতিশীল কারণ সূর্যকে পারপার্শ্বিক রেখে এটি প্রতিনিয়ত নিজের অবস্থানে পরিবর্তন করছে সময়ের সাথে সাথে ,তাই এটি গতিশীল",
-          "shuffleOptions": true
-        }
-      ]
-    }
-  ]}
+        ],
+        "quiz": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "question": "কোন শব্দটি একটি 'মৌলিক শব্দ'?",
+            "options": [
+              { "id": "o1", "text": "হাঁটুজল" },
+              { "id": "o2", "text": "দরজা" },
+              { "id": "o3", "text": "নীলাকাশ" },
+              { "id": "o4", "text": "মানব" }
+            ],
+            "correctOptionId": "o2",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "যে শব্দকে বিশ্লেষণ বা ভাঙা যায় না, সেটি মৌলিক শব্দ। 'দরজা' মৌলিক শব্দ।",
+            "shuffleOptions": true
+          },
+          {
+            "id": "q2",
+            "type": "drag_words",
+            "question": "শব্দের সংজ্ঞা তৈরি করো",
+            "wordPool": ["অর্থ প্রকাশ করে", "এক বা একাধিক", "ধ্বনি মিলে", "নির্দিষ্ট", "যখন কোনো"],
+            "targetAnswer": "এক বা একাধিক ধ্বনি মিলে যখন কোনো নির্দিষ্ট অর্থ প্রকাশ করে",
+            "marksIfCorrect": 3,
+            "penaltyIfWrong": -2,
+            "hints": ["সঠিকভাবে সাজাও যাতে একটি পূর্ণাঙ্গ সংজ্ঞা তৈরি হয়।"]
+          }
+        ]
+      }
+    ]
+  }
 ]
-
