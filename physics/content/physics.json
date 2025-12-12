@@ -8,7 +8,7 @@
     "levels": [
       {
         "id": "motion-01",
-        "title": "স্থিতি ও গতির",
+        "title": "স্থিতি ও গতি (Motion)",
         "order": 1,
         "estimatedTimeMin": 10,
         "passThresholdPercent": 60,
@@ -17,168 +17,267 @@
         },
         "basics": [
           {
-            "id": "b1",
+            "id": "b1-L1",
             "type": "text",
-            "title": "পারিপার্শ্বিক কাকে বলে?",
+            "title": "পারিপার্শ্বিক কী?",
             "content": {
-              "definition": "পারিপার্শ্বিক হলো সেই স্থির জিনিস, যাকে ধরে আমরা অন্য কোনো জিনিসের গতি বা স্থিতি মাপতে পারি।",
-              "explanation": "যদি তুমি প্রমাণ করতে চাও যে একটি গাড়ি চলমান, তাহলে তোমাকে এমন একটি স্থির বস্তুর সাথে তুলনা করতে হবে( যেমন গাছ ) এবং বলতে হবে যে গাড়িটি সেই গাছের সাপেক্ষে চলমান। কারণ সেই গাছ তার অবস্থান এর পরিবর্তন না করলেও সেই গাড়ি করছে । তাই ওই গাছটি পারিপার্শিক কারণ তার সাথেই তুলনা করা হয়েছে যেমন: একটি টেবিলের উপর রাখা বইটি...",
+              "definition": "পারিপার্শ্বিক হলো আশেপাশের স্থির বস্তু, যার সাপেক্ষে আমরা অন্য কিছুর গতি মাপি।",
+              "explanation": "রাস্তার পাশের গাছপালা হলো পারিপার্শ্বিক। যখন বাস চলে, তখন গাছের সাপেক্ষে বাসের অবস্থান বদলায়।",
               "image": {
                 "url": "/gotiImages/CarTreeMotion.png",
-                "alt": "car is running from a tree"
+                "alt": "Car moving past a tree"
               }
             }
           },
           {
-            "id": "b2",
+            "id": "b2-L1",
             "type": "text",
-            "title": "গতি কাকে বলে?",
+            "title": "স্থিতি ও গতি",
             "content": {
-              "definition": "যখন কোনো পারিপার্শ্বিক (যেমন একটি গাছ বা বাড়ি) এর সাপেক্ষে সময়ের সাথে সাথে কোনো বস্তুর অবস্থানের পরিবর্তন হয়, তখন সেই বস্তুকে গতিশীল বলা হয়। আর বস্তুর এই অবস্থাকেই গতি বলে।",
-              "explanation": "তুমি সাইকেলে করে যখন বাড়ি থেকে বের হও, তখন তুমি বাড়ির (পারিপার্শ্বিক) সাপেক্ষে সময়ের সাথে সাথে নিজের অবস্থার পরিবর্তন করছো। তাই তুমি গতিশীল—সেই বাড়ির সাপেক্ষে।",
+              "definition": "সময়ের সাথে যদি বস্তুর অবস্থানের পরিবর্তন না হয় তবে তা স্থিতি, আর পরিবর্তন হলে তা গতি।",
+              "explanation": "টেবিলের উপর রাখা বই স্থির (স্থিতি), কিন্তু রাস্তায় চলমান সাইকেল গতিশীল (গতি)।",
               "image": {
                 "url": "/gotiImages/catRuningFromHouse.png",
-                "alt": "catRuningFromHouse"
-              }
-            }
-          },
-          {
-            "id": "b3",
-            "type": "text",
-            "title": " কাকে বলে?",
-            "content": {
-              "definition": "যখন কোনো পারিপার্শ্বিক (যেমন একটি গাছ বা বাড়ি) এর সাপেক্ষে সময়ের সাথে সাথে কোনো বস্তুর অবস্থানের পরিবর্তন হয়, তখন সেই বস্তুকে গতিশীল বলা হয়। আর বস্তুর এই অবস্থাকেই গতি বলে।",
-              "explanation": "তুমি সাইকেলে করে যখন বাড়ি থেকে বের হও, তখন তুমি বাড়ির (পারিপার্শ্বিক) সাপেক্ষে সময়ের সাথে সাথে নিজের অবস্থার পরিবর্তন করছো। তাই তুমি গতিশীল—সেই বাড়ির সাপেক্ষে।",
-              "image": {
-                "url": "/gotiImages/catStandingGoti.png",
-                "alt": "catRuningFromHouse"
+                "alt": "Moving vs Rest"
               }
             }
           }
         ],
         "quiz": [
           {
-            "id": "q1",
+            "id": "q1-L1",
             "type": "mcq",
-            "question": "কোন বস্তু স্থিতিশীল?",
+            "question": "নিচের কোনটি পরম স্থিতিশীল?",
             "options": [
-              {
-                "id": "o1",
-                "text": "চেয়ার এ বসে থাকা ব্যক্তি"
-              },
-              {
-                "id": "o2",
-                "text": "চলন্ত বাস"
-              },
-              {
-                "id": "o3",
-                "text": "উড়ন্ত পাখি"
-              },
-              {
-                "id": "o4",
-                "text": "দৌড়ানো ছাগল"
+              { "id": "o1", "text": "পৃথিবী" },
+              { "id": "o2", "text": "সূর্য" },
+              { "id": "o3", "text": "কোনোটিই নয়" },
+              { "id": "o4", "text": "রাস্তার পাশের গাছ" }
+            ],
+            "correctOptionId": "o3",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "মহাবিশ্বের কোনো কিছুই পরম স্থিতিশীল নয়, কারণ পৃথিবী, সূর্য সবকিছুই ঘুরছে।",
+            "shuffleOptions": true
+          }
+        ]
+      },
+      {
+        "id": "motion-02",
+        "title": "দ্রুতি (Speed)",
+        "order": 2,
+        "estimatedTimeMin": 12,
+        "passThresholdPercent": 60,
+        "unlockRequirement": {
+          "type": "none"
+        },
+        "basics": [
+          {
+            "id": "b1-L2",
+            "type": "text",
+            "title": "দ্রুতি কাকে বলে?",
+            "content": {
+              "definition": "বস্তু একক সময়ে যে দূরত্ব অতিক্রম করে, তাকে দ্রুতি বলে।",
+              "explanation": "দ্রুতির কোনো নির্দিষ্ট দিক নেই। ধরো তুমি ১০ সেকেন্ডে ২০ মিটার গেলে, তাহলে তোমার দ্রুতি হলো ২০/১০ = ২ মিটার/সেকেন্ড।",
+              "image": {
+                "url": "/gotiImages/speedometer.png",
+                "alt": "Speedometer showing speed"
               }
+            }
+          },
+          {
+            "id": "b2-L2",
+            "type": "text",
+            "title": "দ্রুতির সূত্র",
+            "content": {
+              "definition": "সূত্র: দ্রুতি (v) = দূরত্ব (d) / সময় (t)",
+              "explanation": "দ্রুতির একক হলো মিটার/সেকেন্ড (m/s)। এটি একটি স্কেলার রাশি কারণ এর শুধু মান আছে, দিক নেই।",
+              "image": {
+                "url": "/gotiImages/speedFormula.png",
+                "alt": "Speed Formula"
+              }
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1-L2",
+            "type": "mcq",
+            "question": "একটি গাড়ি ৫ সেকেন্ডে ৫০ মিটার দূরত্ব অতিক্রম করলে তার দ্রুতি কত?",
+            "options": [
+              { "id": "o1", "text": "৫ m/s" },
+              { "id": "o2", "text": "১০ m/s" },
+              { "id": "o3", "text": "২৫ m/s" },
+              { "id": "o4", "text": "৫০ m/s" }
+            ],
+            "correctOptionId": "o2",
+            "marksIfCorrect": 5,
+            "penaltyIfWrong": 0,
+            "timeLimitSec": 45,
+            "explainIfWrong": "দ্রুতি = দূরত্ব / সময়। এখানে ৫০ / ৫ = ১০ m/s।",
+            "shuffleOptions": true
+          },
+          {
+            "id": "q2-L2",
+            "type": "drag_words",
+            "question": "দ্রুতির সংজ্ঞাটি সাজাও",
+            "wordPool": ["সময়ে", "অতিক্রান্ত", "একক", "দূরত্বকে", "দ্রুতি", "বলে"],
+            "targetAnswer": "একক সময়ে অতিক্রান্ত দূরত্বকে দ্রুতি বলে",
+            "marksIfCorrect": 3,
+            "penaltyIfWrong": -1,
+            "hints": ["শব্দগুলো ঠিকভাবে সাজাও"]
+          }
+        ]
+      },
+      {
+        "id": "motion-03",
+        "title": "বেগ (Velocity)",
+        "order": 3,
+        "estimatedTimeMin": 15,
+        "passThresholdPercent": 70,
+        "unlockRequirement": {
+          "type": "none"
+        },
+        "basics": [
+          {
+            "id": "b1-L3",
+            "type": "text",
+            "title": "বেগ কী?",
+            "content": {
+              "definition": "নির্দিষ্ট দিকে সময়ের সাথে বস্তুর অবস্থানের পরিবর্তনের হারকে বেগ বলে।",
+              "explanation": "দ্রুতি আর বেগের মূল পার্থক্য হলো 'দিক'। যদি বলা হয় গাড়িটি ঘণ্টায় ৫০ কিমি চলছে তবে তা দ্রুতি। কিন্তু যদি বলা হয় গাড়িটি 'উত্তরে' ঘণ্টায় ৫০ কিমি চলছে, তবে তা বেগ।",
+              "image": {
+                "url": "/gotiImages/velocityVector.png",
+                "alt": "Car moving in specific direction"
+              }
+            }
+          },
+          {
+            "id": "b2-L3",
+            "type": "text",
+            "title": "ভেক্টর রাশি",
+            "content": {
+              "definition": "বেগ একটি ভেক্টর রাশি।",
+              "explanation": "কারণ বেগের মান এবং দিক—উভয়ই আছে। বেগের এককও m/s।",
+              "image": {
+                "url": "/gotiImages/vectorArrow.png",
+                "alt": "Vector illustration"
+              }
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1-L3",
+            "type": "mcq",
+            "question": "নিচের কোনটি ভেক্টর রাশি?",
+            "options": [
+              { "id": "o1", "text": "দ্রুতি" },
+              { "id": "o2", "text": "সময়" },
+              { "id": "o3", "text": "বেগ" },
+              { "id": "o4", "text": "দূরত্ব" }
+            ],
+            "correctOptionId": "o3",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "বেগের নির্দিষ্ট দিক আছে, তাই এটি ভেক্টর রাশি। বাকিগুলোর শুধু মান আছে।",
+            "shuffleOptions": true
+          },
+          {
+            "id": "q2-L3",
+            "type": "mcq",
+            "question": "বৃত্তাকার পথে ঘুরলে বস্তুর কোনটি পরিবর্তিত হয়?",
+            "options": [
+              { "id": "o1", "text": "শুধুমাত্র দ্রুতি" },
+              { "id": "o2", "text": "বেগ (দিকের কারণে)" },
+              { "id": "o3", "text": "ভর" },
+              { "id": "o4", "text": "কোনোটিই নয়" }
+            ],
+            "correctOptionId": "o2",
+            "marksIfCorrect": 3,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 40,
+            "explainIfWrong": "বৃত্তাকার পথে প্রতি মুহূর্তে দিক বদলায়, তাই বেগ পরিবর্তিত হয় যদিও দ্রুতি এক থাকতে পারে।",
+            "shuffleOptions": true
+          }
+        ]
+      },
+      {
+        "id": "motion-04",
+        "title": "ত্বরণ (Acceleration)",
+        "order": 4,
+        "estimatedTimeMin": 15,
+        "passThresholdPercent": 65,
+        "unlockRequirement": {
+          "type": "none"
+        },
+        "basics": [
+          {
+            "id": "b1-L4",
+            "type": "text",
+            "title": "ত্বরণ কাকে বলে?",
+            "content": {
+              "definition": "সময়ের সাথে বস্তুর বেগ বৃদ্ধির হারকে ত্বরণ বলে।",
+              "explanation": "তুমি যখন বাইকের এক্সিলারেটর ঘোরাও, তখন বাইকের বেগ বাড়তে থাকে। এই বেগ বাড়ার হারই হলো ত্বরণ। আর বেগ কমলে তাকে বলে মন্দন।",
+              "image": {
+                "url": "/gotiImages/accelerationBike.png",
+                "alt": "Bike accelerating"
+              }
+            }
+          },
+          {
+            "id": "b2-L4",
+            "type": "text",
+            "title": "ত্বরণের সূত্র ও একক",
+            "content": {
+              "definition": "সূত্র: a = (v - u) / t",
+              "explanation": "এখানে, v = শেষ বেগ, u = আদি বেগ, t = সময়। ত্বরণের একক হলো মিটার/সেকেন্ড² (ms⁻²)।",
+              "image": {
+                "url": "/gotiImages/accFormula.png",
+                "alt": "Acceleration Formula"
+              }
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1-L4",
+            "type": "mcq",
+            "question": "ত্বরণের একক কোনটি?",
+            "options": [
+              { "id": "o1", "text": "ms⁻¹" },
+              { "id": "o2", "text": "ms⁻²" },
+              { "id": "o3", "text": "m" },
+              { "id": "o4", "text": "s" }
+            ],
+            "correctOptionId": "o2",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "ত্বরণ মানে প্রতি সেকেন্ডে বেগের পরিবর্তন, তাই এর একক মিটার পার সেকেন্ড স্কয়ার (ms⁻²)।",
+            "shuffleOptions": true
+          },
+          {
+            "id": "q2-L4",
+            "type": "mcq",
+            "question": "একটি স্থির গাড়ি ১০ সেকেন্ডে ২০ m/s বেগ প্রাপ্ত হলো। গাড়ির ত্বরণ কত?",
+            "options": [
+              { "id": "o1", "text": "২ ms⁻²" },
+              { "id": "o2", "text": "৫ ms⁻²" },
+              { "id": "o3", "text": "১০ ms⁻²" },
+              { "id": "o4", "text": "২০ ms⁻²" }
             ],
             "correctOptionId": "o1",
-            "marksIfCorrect": 2,
+            "marksIfCorrect": 5,
             "penaltyIfWrong": -1,
-            "timeLimitSec": 30,
-            "explainIfWrong": "ঠিক উত্তর: কারণ চেয়ারটিকে যদি পৃথিবী সাপেক্ষে তুলনা করা হয় তাহলে চারটি স্থিতিশীল কারণ পৃথিবীর সাপেক্ষে সে তার অবস্থানে পরিবর্তন করছে না",
-            "shuffleOptions": true
-          },
-          {
-            "id": "q2",
-            "type": "drag_words",
-            "question": "গতি-এর সংজ্ঞা তৈরি করো",
-            "wordPool": [
-              "পরিবর্তনের",
-              "অবস্থানের",
-              "সময়ের সাথে",
-              "হার",
-              "বস্তুর"
-            ],
-            "targetAnswer": "সময়ের সাথে বস্তুর অবস্থানের পরিবর্তনের হার",
-            "marksIfCorrect": 3,
-            "penaltyIfWrong": -2,
-            "hints": [
-              "শব্দগুলো এলোমেলো আছে তা সঠিকভাবে সাজাও সাজানোর জন্য শব্দের উপরে ক্লিক কর"
-            ]
-          },
-          {
-            "id": "q3",
-            "type": "mcq",
-            "question": "একজন সাইকেল আরোহী রাস্তা দিয়ে সাইকেল চালিয়ে যাচ্ছে। রাস্তার পাশের একটি স্থির গাছকে আরোহীর সাপেক্ষে (বা কাছে) কেমন মনে হবে?",
-            "options": [
-              {
-                "id": "o1",
-                "text": "বলা সম্ভব নয়"
-              },
-              {
-                "id": "o2",
-                "text": " গতিশীল"
-              },
-              {
-                "id": "o3",
-                "text": "স্থির, কারণ গাছটি নড়ছে না"
-              },
-              {
-                "id": "o4",
-                "text": "দৌড়ানো ছাগল"
-              }
-            ],
-            "correctOptionId": "o2",
-            "marksIfCorrect": 2,
-            "penaltyIfWrong": -1,
-            "timeLimitSec": 30,
-            "explainIfWrong": "এখানে তোমার সাপেক্ষে গাছটিকে গতিশীল মনে হবে কারণ তোমার চোখ দেখছে গাছটি প্রতিনিয়ত তার অবস্থানের পরিবর্তন করছে যেমন আমরা ট্রেনের জানালা দিয়ে দেখতে পাই সব জিনিস পিছনে সরে যাচ্ছে সহজ ভাবে বললে তোমার চোখ এখানে পারিপার্শ্বিক এবং তোমার চোখের তুলনায় গাছটিকে গতিশীল মনে হচ্ছে",
-            "shuffleOptions": true
-          },
-          {
-            "id": "q4",
-            "type": "drag_words",
-            "question": "স্থিতি কাকে বলে?",
-            "wordPool": [
-              "পরিবর্তনের",
-              "অবস্থানের",
-              "সময়ের সাথে",
-              " হয়  না",
-              "বস্তুর"
-            ],
-            "targetAnswer": "সময়ের সাথে বস্তুর অবস্থানের পরিবর্তনের হয়  না",
-            "marksIfCorrect": 3,
-            "penaltyIfWrong": -2,
-            "hints": [
-              "শব্দগুলো এলোমেলো আছে তা সঠিকভাবে সাজাও সাজানোর জন্য শব্দের উপরে ক্লিক কর"
-            ]
-          },
-          {
-            "id": "q5", 
-            "type": "image_mcq",
-            "question": "এখানে পৃথিবী গতিশীল নাকি স্থিতিশীল?",
-            "image": "/gotiImages/earthAroundSun.jpg",
-            "options": [
-              {
-                "id": "o1",
-                "text": "স্থিতিশীল"
-              },
-              {
-                "id": "o2",
-                "text": " গতিশীল"
-              },
-              {
-                "id": "o3",
-                "text": "স্থির ও গতিশীল"
-              }
-            ],
-            "correctOptionId": "o2",
-            "marksIfCorrect": 2,
-            "penaltyIfWrong": -1,
-            "timeLimitSec": 30,
-            "explainIfWrong": "এখানে পৃথিবীর গতিশীল কারণ সূর্যকে পারপার্শ্বিক রেখে এটি প্রতিনিয়ত নিজের অবস্থানে পরিবর্তন করছে সময়ের সাথে সাথে ,তাই এটি গতিশীল",
+            "timeLimitSec": 60,
+            "explainIfWrong": "ত্বরণ = (শেষ বেগ - আদি বেগ) / সময় = (২০ - ০) / ১০ = ২ ms⁻²।",
             "shuffleOptions": true
           }
         ]
       }
     ]
-  }]
-  
+  }
+]
