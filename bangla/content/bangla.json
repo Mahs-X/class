@@ -550,7 +550,628 @@
         ]
       }
     ]
-}]
+},
+{
+    "id": "স্বsordhoni-basics",
+    "name": "স্বরধ্বনি ও তার প্রকারভেদ",
+    "color": "#04bf26",
+    "order": 2,
+    "version": 3,
+    "levels":[
+
+        {
+      "id": "dhoni-05",
+      "title": "স্বরধ্বনির শ্রেণিকরণ ও প্রকারভেদ",
+      "order": 5,
+      "estimatedTimeMin": 15,
+      "passThresholdPercent": 60,
+      "unlockRequirement": "dhoni-04",
+      "basics": [
+        {
+          "id": "b10",
+          "type": "text",
+          "title": "জিভের উচ্চতা ও অবস্থান",
+          "content": {
+            "definition": "জিভের উচ্চতা অনুসারে স্বরধ্বনি ৪ প্রকার: উচ্চ (ই, উ), নিম্ন (আ), উচ্চ-মধ্য (এ, ও), নিম্ন-মধ্য (অ, অ্যা)। জিভের অবস্থান (সামনে/পেছনে) অনুসারে ৩ প্রকার: সম্মুখ (ই, এ), পশ্চাৎ (অ, আ, উ), কেন্দ্রীয় (আ - কোনো কোনো মতে)।",
+            "explanation": "উচ্চারণের সময় জিভ কতটা উপরে উঠছে বা সামনে/পেছনে যাচ্ছে তার ওপর ভিত্তি করে এই ভাগ করা হয়। যেমন 'ই' উচ্চারণে জিভ উঁচুতে এবং সামনে থাকে।",
+            "image": {
+              "url": "/banglaImages/dhoni/TonguePosition.png",
+              "alt": "Chart of vowel classification based on tongue height"
+            }
+          }
+        },
+        {
+          "id": "b11",
+          "type": "text",
+          "title": "ঠোঁটের অবস্থা (উন্মুক্তি)",
+          "content": {
+            "definition": "ঠোঁটের খোলা বা বন্ধ থাকার ওপর ভিত্তি করে স্বরধ্বনি ২ প্রকার: সংবৃত (Closed - ই, উ) এবং বিবৃত (Open - আ)। ঠোঁটের আকৃতি অনুসারে: প্রসরিত (ই, এ) এবং গোলাকৃত (উ, ও, অ)।",
+            "explanation": "'উ' উচ্চারণে ঠোঁট গোল হয়, কিন্তু 'ই' উচ্চারণে ঠোঁট হাসির মতো প্রসারিত হয়। 'আ' উচ্চারণে মুখ সবচেয়ে বেশি হাঁ করতে হয় (বিবৃত)।",
+            "image": {
+              "url": "/banglaImages/dhoni/LipShape.png",
+              "alt": "Diagram showing lip shapes for different vowels"
+            }
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q18",
+          "type": "mcq",
+          "question": "জিভের উচ্চতা অনুযায়ী 'ই' কোন ধরনের স্বরধ্বনি?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "নিম্ন স্বরধ্বনি"
+            },
+            {
+              "id": "o2",
+              "text": "উচ্চ স্বরধ্বনি"
+            },
+            {
+              "id": "o3",
+              "text": "নিম্ন-মধ্য স্বরধ্বনি"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 3,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "'ই' উচ্চারণের সময় জিভ সবচেয়ে উঁচুতে অবস্থান করে।"
+        },
+        {
+          "id": "q19",
+          "type": "mcq",
+          "question": "ঠোঁটের আকৃতি অনুযায়ী 'উ' ধ্বনিটি কেমন?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "প্রসারিত"
+            },
+            {
+              "id": "o2",
+              "text": "গোলাকৃত"
+            },
+            {
+              "id": "o3",
+              "text": "বিবৃত"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 3,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "'উ' উচ্চারণ করার সময় ঠোঁট গোল হয়ে যায়।"
+        },
+        {
+          "id": "q20",
+          "type": "mcq",
+          "question": "কোনটি একটি 'নিম্ন' স্বরধ্বনি?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "আ"
+            },
+            {
+              "id": "o2",
+              "text": "ই"
+            },
+            {
+              "id": "o3",
+              "text": "এ"
+            }
+          ],
+          "correctOptionId": "o1",
+          "marksIfCorrect": 3,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "'আ' উচ্চারণের সময় জিভ সবচেয়ে নিচে থাকে।"
+        },
+        {
+          "id": "q21",
+          "type": "mcq",
+          "question": "জিভের সম্মুখ ও পশ্চাৎ অবস্থান অনুযায়ী স্বরধ্বনি কত প্রকার?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "২ প্রকার"
+            },
+            {
+              "id": "o2",
+              "text": "৩ প্রকার"
+            },
+            {
+              "id": "o3",
+              "text": "৪ প্রকার"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "তিন প্রকার: সম্মুখ, মধ্য (বা কেন্দ্রীয়) এবং পশ্চাৎ।"
+        },
+        {
+          "id": "q22",
+          "type": "mcq",
+          "question": "কোন স্বরধ্বনি উচ্চারণে মুখগহ্বর সবচেয়ে বেশি উন্মুক্ত থাকে?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "ই"
+            },
+            {
+              "id": "o2",
+              "text": "উ"
+            },
+            {
+              "id": "o3",
+              "text": "আ"
+            }
+          ],
+          "correctOptionId": "o3",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "'আ' হলো বিবৃত স্বরধ্বনি, যাতে মুখ সবচেয়ে বেশি খোলে।"
+        },
+        {
+          "id": "q23",
+          "type": "mcq",
+          "question": "'এ' ধ্বনিটি জিভের অবস্থান অনুযায়ী কোন শ্রেণীর?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "সম্মুখ স্বরধ্বনি"
+            },
+            {
+              "id": "o2",
+              "text": "পশ্চাৎ স্বরধ্বনি"
+            },
+            {
+              "id": "o3",
+              "text": "কেন্দ্রীয় স্বরধ্বনি"
+            }
+          ],
+          "correctOptionId": "o1",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "'এ' উচ্চারণে জিভ সামনের দিকে এগিয়ে আসে।"
+        },
+        {
+          "id": "q24",
+          "type": "mcq",
+          "question": "স্বরধ্বনির উচ্চারণের প্রকৃতি বিচার করার মূল মাপকাঠি কয়টি?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "২টি"
+            },
+            {
+              "id": "o2",
+              "text": "৩টি"
+            },
+            {
+              "id": "o3",
+              "text": "৪টি"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "মূলত ৩টি: ১. জিভের উচ্চতা, ২. জিভের অবস্থান, ৩. ঠোঁটের আকৃতি।"
+        }
+      ]
+    },
+    {
+      "id": "dhoni-06",
+      "title": "অনুনাসিক স্বরধ্বনি",
+      "order": 6,
+      "estimatedTimeMin": 10,
+      "passThresholdPercent": 60,
+      "unlockRequirement": "dhoni-05",
+      "basics": [
+        {
+          "id": "b12",
+          "type": "text",
+          "title": "অনুনাসিক স্বরধ্বনি কী?",
+          "content": {
+            "definition": "যেসব স্বরধ্বনি উচ্চারণের সময় বাতাস শুধু মুখ দিয়ে বের না হয়ে খানিকটা নাক দিয়েও বের হয়, তাদের অনুনাসিক স্বরধ্বনি বলে।",
+            "explanation": "বাংলায় স্বরধ্বনির অনুনাসিকতা বোঝাতে বর্ণের ওপর চন্দ্রবিন্দু (ঁ) ব্যবহৃত হয়। যেমন: 'ই' (মৌলিক) -> 'ইঁ' (অনুনাসিক)।",
+            "image": {
+              "url": "/banglaImages/dhoni/NasalVowel.png",
+              "alt": "Diagram showing airflow through nose for nasal sounds"
+            }
+          }
+        },
+        {
+          "id": "b13",
+          "type": "text",
+          "title": "অর্থের পার্থক্য",
+          "content": {
+            "definition": "অনুনাসিকতার কারণে শব্দের অর্থের আমূল পরিবর্তন হতে পারে।",
+            "explanation": "উদাহরণ: 'বাস' (গাড়ি/বসবাস) কিন্তু 'বাঁশ' (গাছ বিশেষ)। 'কাদা' (মাটি) কিন্তু 'কাঁদা' (কান্নাকাটি করা)।",
+            "image": {
+              "url": "/banglaImages/dhoni/NasalMeaningChange.png",
+              "alt": "Comparison between normal and nasal words"
+            }
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q25",
+          "type": "mcq",
+          "question": "লেখার সময় স্বরধ্বনির অনুনাসিকতা বোঝাতে কোন চিহ্ন ব্যবহার করা হয়?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "অনুস্বার (ং)"
+            },
+            {
+              "id": "o2",
+              "text": "বিসর্গ (ঃ)"
+            },
+            {
+              "id": "o3",
+              "text": "চন্দ্রবিন্দু (ঁ)"
+            }
+          ],
+          "correctOptionId": "o3",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -2,
+          "timeLimitSec": 30,
+          "explainIfWrong": "চন্দ্রবিন্দু (ঁ) হলো অনুনাসিকতার প্রতীক।"
+        },
+        {
+          "id": "q26",
+          "type": "mcq",
+          "question": "'বাধা' এবং 'বাঁধা' - শব্দ দুটির মধ্যে মূল পার্থক্য কী?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "বানান ভুল"
+            },
+            {
+              "id": "o2",
+              "text": "অনুনাসিকতা ও অর্থ"
+            },
+            {
+              "id": "o3",
+              "text": "উচ্চারণ একই"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -2,
+          "timeLimitSec": 30,
+          "explainIfWrong": "চন্দ্রবিন্দুর কারণে ধ্বনিটি অনুনাসিক হয়েছে এবং অর্থ বদলে গেছে।"
+        },
+        {
+          "id": "q27",
+          "type": "mcq",
+          "question": "অনুনাসিক স্বরধ্বনি উচ্চারণের সময় বাতাস কোথা দিয়ে বের হয়?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "শুধু মুখ দিয়ে"
+            },
+            {
+              "id": "o2",
+              "text": "নাক ও মুখ উভয় দিয়ে"
+            },
+            {
+              "id": "o3",
+              "text": "শুধু কান দিয়ে"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -2,
+          "timeLimitSec": 30,
+          "explainIfWrong": "অনুনাসিক ধ্বনিতে বাতাস নাক এবং মুখ উভয় পথ দিয়েই বের হয়।"
+        },
+        {
+          "id": "q28",
+          "type": "mcq",
+          "question": "বাংলা মৌলিক স্বরধ্বনি ৭টি, এদের প্রত্যেকেরই কী রূপ আছে?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "অনুনাসিক রূপ"
+            },
+            {
+              "id": "o2",
+              "text": "যুক্ত রূপ"
+            },
+            {
+              "id": "o3",
+              "text": "ফলা রূপ"
+            }
+          ],
+          "correctOptionId": "o1",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -2,
+          "timeLimitSec": 30,
+          "explainIfWrong": "প্রতিটি মৌলিক স্বরধ্বনিরই একটি করে অনুনাসিক রূপ (চন্দ্রবিন্দুযুক্ত) আছে।"
+        }
+      ]
+    },
+    {
+      "id": "dhoni-07",
+      "title": "অর্ধ-স্বরধ্বনি (Semi-vowels)",
+      "order": 7,
+      "estimatedTimeMin": 10,
+      "passThresholdPercent": 60,
+      "unlockRequirement": "dhoni-06",
+      "basics": [
+        {
+          "id": "b14",
+          "type": "text",
+          "title": "অর্ধ-স্বরধ্বনি কাকে বলে?",
+          "content": {
+            "definition": "যেসব স্বরধ্বনি পুরোপুরি স্বরধ্বনির মতো উচ্চারিত হয় না এবং একা কোনো দল (syllable) গঠন করতে পারে না, তাদের অর্ধ-স্বরধ্বনি বলে।",
+            "explanation": "এরা সাধারণত পূর্ণ স্বরধ্বনির পাশে বসে উচ্চারিত হয়। ইংরেজিতে এদের 'Semi-vowel' বা 'Glide' বলা হয়।",
+            "image": {
+              "url": "/banglaImages/dhoni/SemiVowel.png",
+              "alt": "Concept of Semi-vowels"
+            }
+          }
+        },
+        {
+          "id": "b15",
+          "type": "text",
+          "title": "বাংলায় অর্ধ-স্বরধ্বনি কয়টি?",
+          "content": {
+            "definition": "বাংলা ভাষায় অর্ধ-স্বরধ্বনি ৪টি: ই, উ, এ, ও।",
+            "explanation": "উদাহরণ: 'চাই' (চা+ই) এখানে 'ই' অর্ধ-স্বর। 'লাউ' (লা+উ) এখানে 'উ' অর্ধ-স্বর। এরা পূর্ণ শ্বাসে উচ্চারিত হয় না।",
+            "image": {
+              "url": "/banglaImages/dhoni/SemiVowelList.png",
+              "alt": "List of 4 semi-vowels in Bengali"
+            }
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q29",
+          "type": "mcq",
+          "question": "বাংলা ভাষায় মোট অর্ধ-স্বরধ্বনি কয়টি?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "২টি"
+            },
+            {
+              "id": "o2",
+              "text": "৩টি"
+            },
+            {
+              "id": "o3",
+              "text": "৪টি"
+            }
+          ],
+          "correctOptionId": "o3",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "বাংলায় ৪টি অর্ধ-স্বরধ্বনি আছে: ই, উ, এ, ও।"
+        },
+        {
+          "id": "q30",
+          "type": "mcq",
+          "question": "'চাই' শব্দের 'ই' ধ্বনিটি কোন প্রকৃতির?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "পূর্ণ স্বরধ্বনি"
+            },
+            {
+              "id": "o2",
+              "text": "অর্ধ-স্বরধ্বনি"
+            },
+            {
+              "id": "o3",
+              "text": "ব্যঞ্জনধ্বনি"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "এখানে 'ই' পুরোপুরি উচ্চারিত হয় না এবং 'আ'-এর সাথে মিলে উচ্চারিত হয়, তাই এটি অর্ধ-স্বর।"
+        },
+        {
+          "id": "q31",
+          "type": "mcq",
+          "question": "অর্ধ-স্বরধ্বনির অপর নাম কী?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "যৌগিক স্বর"
+            },
+            {
+              "id": "o2",
+              "text": "তারণজাত ধ্বনি"
+            },
+            {
+              "id": "o3",
+              "text": "Glide বা সরণ ধ্বনি"
+            }
+          ],
+          "correctOptionId": "o3",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "ইংরেজিতে একে Semi-vowel বা Glide বলে।"
+        },
+        {
+          "id": "q32",
+          "type": "mcq",
+          "question": "নিচের কোন শব্দে অর্ধ-স্বরধ্বনি 'উ' আছে?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "উটের"
+            },
+            {
+              "id": "o2",
+              "text": "বউ"
+            },
+            {
+              "id": "o3",
+              "text": "উম"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "'বউ' (ব+উ) শব্দে 'উ' অন্য স্বরের শেষে বসেছে এবং অর্ধ-স্বর হিসেবে উচ্চারিত হচ্ছে।"
+        }
+      ]
+    },
+    {
+      "id": "dhoni-08",
+      "title": "দ্বি-স্বরধ্বনি বা যৌগিক স্বর",
+      "order": 8,
+      "estimatedTimeMin": 10,
+      "passThresholdPercent": 60,
+      "unlockRequirement": "dhoni-07",
+      "basics": [
+        {
+          "id": "b16",
+          "type": "text",
+          "title": "দ্বি-স্বরধ্বনি বা যৌগিক স্বর কী?",
+          "content": {
+            "definition": "একটি পূর্ণ স্বরধ্বনি ও একটি অর্ধ-স্বরধ্বনি একত্রে মিলে যখন একটি ধ্বনির মতো উচ্চারিত হয়, তখন তাকে দ্বি-স্বরধ্বনি বা যৌগিক স্বরধ্বনি বলে।",
+            "explanation": "যেমন: 'ঐ' = ও + ই। এখানে দুটি স্বর মিলে এক হয়ে গেছে। একে 'সান্ধ্যক্ষর'ও বলা হয়।",
+            "image": {
+              "url": "/banglaImages/dhoni/Diphthong.png",
+              "alt": "Diagram showing combination of two vowels"
+            }
+          }
+        },
+        {
+          "id": "b17",
+          "type": "text",
+          "title": "সংখ্যা ও বর্ণ",
+          "content": {
+            "definition": "বাংলা বর্ণমালায় যৌগিক স্বরজ্ঞাপক বর্ণ মাত্র ২টি: ঐ এবং ঔ। কিন্তু বাংলা ভাষায় উচ্চারিত যৌগিক স্বরধ্বনির সংখ্যা মোট ২৫টি।",
+            "explanation": "'ঐ' এবং 'ঔ' ছাড়া বাকি যৌগিক স্বরগুলোর জন্য আলাদা কোনো বর্ণ নেই, সেগুলো পাশাপাশি দুটি বর্ণ লিখে প্রকাশ করা হয় (যেমন: আউ, এই)।",
+            "image": {
+              "url": "/banglaImages/dhoni/DiphthongCount.png",
+              "alt": "Chart of Diphthongs"
+            }
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q33",
+          "type": "mcq",
+          "question": "বাংলা ভাষায় যৌগিক স্বরধ্বনির মোট সংখ্যা কয়টি?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "২টি"
+            },
+            {
+              "id": "o2",
+              "text": "১১টি"
+            },
+            {
+              "id": "o3",
+              "text": "২৫টি"
+            }
+          ],
+          "correctOptionId": "o3",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "বর্ণমালায় ২টি থাকলেও, উচ্চারণের দিক থেকে বাংলায় মোট ২৫টি যৌগিক স্বরধ্বনি আছে।"
+        },
+        {
+          "id": "q34",
+          "type": "mcq",
+          "question": "'ঐ' বর্ণটি বিশ্লেষণ করলে কোন দুটি ধ্বনি পাওয়া যায়?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "অ + ই"
+            },
+            {
+              "id": "o2",
+              "text": "ও + ই"
+            },
+            {
+              "id": "o3",
+              "text": "আ + ই"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "আধুনিক নিয়ম অনুযায়ী 'ঐ' হলো 'ও + ই' (বা অ + ই)-এর মিলিত রূপ।"
+        },
+        {
+          "id": "q35",
+          "type": "mcq",
+          "question": "যৌগিক স্বরধ্বনির অপর নাম কী?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "মৌলিক স্বর"
+            },
+            {
+              "id": "o2",
+              "text": "সান্ধ্যক্ষর"
+            },
+            {
+              "id": "o3",
+              "text": "অনুনাসিক স্বর"
+            }
+          ],
+          "correctOptionId": "o2",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "যৌগিক স্বরধ্বনিকে ব্যাকরণে 'সান্ধ্যক্ষর'ও বলা হয়।"
+        },
+        {
+          "id": "q36",
+          "type": "mcq",
+          "question": "বাংলা বর্ণমালায় যৌগিক স্বর নির্দেশে কয়টি বর্ণ আছে?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "২টি"
+            },
+            {
+              "id": "o2",
+              "text": "২৫টি"
+            },
+            {
+              "id": "o3",
+              "text": "৪টি"
+            }
+          ],
+          "correctOptionId": "o1",
+          "marksIfCorrect": 2,
+          "penaltyIfWrong": -1,
+          "timeLimitSec": 30,
+          "explainIfWrong": "শুধুমাত্র 'ঐ' এবং 'ঔ' - এই ২টি বর্ণের নিজস্ব লিখিত রূপ আছে।"
+        }
+      ]
+    }
+    ]
+}
+
+]
+
 
 
 
