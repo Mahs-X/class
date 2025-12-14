@@ -12,10 +12,7 @@
         "order": 1,
         "estimatedTimeMin": 10,
         "passThresholdPercent": 60,
-        "unlockRequirement": {
-          "type": "none",
-          "targetId": "none"
-        },
+        "unlockRequirement": "none",
         "basics": [
           {
             "id": "b1-L1",
@@ -70,7 +67,7 @@
         "order": 2,
         "estimatedTimeMin": 12,
         "passThresholdPercent": 60,
-        "unlockRequirement": "motion-02",
+        "unlockRequirement": "motion-01",
         "basics": [
           {
             "id": "b1-L2",
@@ -135,10 +132,7 @@
         "order": 3,
         "estimatedTimeMin": 15,
         "passThresholdPercent": 70,
-        "unlockRequirement": {
-          "type": "pass-previous",
-          "targetId": "dhoni-02"
-        },
+        "unlockRequirement": "motion-02",
         "basics": [
           {
             "id": "b1-L3",
@@ -210,10 +204,7 @@
         "order": 4,
         "estimatedTimeMin": 15,
         "passThresholdPercent": 65,
-        "unlockRequirement": {
-          "type": "pass-previous",
-          "targetId": "motion-03"
-        },
+        "unlockRequirement": "motion-03",
         "basics": [
           {
             "id": "b1-L4",
