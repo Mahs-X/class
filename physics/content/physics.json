@@ -13,7 +13,8 @@
         "estimatedTimeMin": 10,
         "passThresholdPercent": 60,
         "unlockRequirement": {
-          "type": "none"
+          "type": "none",
+          "targetId": "none"
         },
         "basics": [
           {
@@ -70,7 +71,8 @@
         "estimatedTimeMin": 12,
         "passThresholdPercent": 60,
         "unlockRequirement": {
-          "type": "none"
+          "type": "pass-previous",
+          "targetId": "motion-02"
         },
         "basics": [
           {
@@ -137,7 +139,8 @@
         "estimatedTimeMin": 15,
         "passThresholdPercent": 70,
         "unlockRequirement": {
-          "type": "none"
+          "type": "pass-previous",
+          "targetId": "dhoni-02"
         },
         "basics": [
           {
@@ -211,7 +214,8 @@
         "estimatedTimeMin": 15,
         "passThresholdPercent": 65,
         "unlockRequirement": {
-          "type": "none"
+          "type": "pass-previous",
+          "targetId": "motion-03"
         },
         "basics": [
           {
