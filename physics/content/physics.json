@@ -70,10 +70,7 @@
         "order": 2,
         "estimatedTimeMin": 12,
         "passThresholdPercent": 60,
-        "unlockRequirement": {
-          "type": "pass-previous",
-          "targetId": "motion-02"
-        },
+        "unlockRequirement":"motion-02",
         "basics": [
           {
             "id": "b1-L2",
