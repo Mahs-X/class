@@ -1,18 +1,20 @@
 [
-  {
+    {
     "id": "dhonitotto-basic",
     "name": "ধ্বনিতত্ত্ব: মৌলিক ধারণা",
     "color": "#00A86B",
     "order": 1,
-    "version": 1,
+    "version": 3,
     "levels": [
       {
         "id": "dhoni-01",
-        "title": "ধ্বনি ও বর্ণ পরিচয়",
+        "title": "ধ্বনি ও বর্ণ পরিচিতি",
         "order": 1,
         "estimatedTimeMin": 10,
         "passThresholdPercent": 60,
-        "unlockRequirement": { "type": "none" },
+        "unlockRequirement": {
+          "type": "none"
+        },
         "basics": [
           {
             "id": "b1",
@@ -20,7 +22,7 @@
             "title": "ধ্বনি কাকে বলে?",
             "content": {
               "definition": "মানুষের মুখনিঃসৃত বাতাসের সাহায্যে তৈরি আওয়াজ বা শব্দকে ব্যাকরণের ভাষায় 'ধ্বনি' বলে। এটি ভাষার সবচেয়ে ক্ষুদ্রতম একক।",
-              "explanation": "আমরা মুখ দিয়ে যা উচ্চারণ করি, তাই ধ্বনি। যেমন— 'ক', 'আ', 'ব' ইত্যাদি। ধ্বনির কোনো লিখিত রূপ নেই, এটি শ্রুতিগ্রাহ্য (শোনা যায়)।",
+              "explanation": "আমরা মুখ দিয়ে যা উচ্চারণ করি, তাই ধ্বনি। যেমন— 'ক', 'আ', 'ব' ইত্যাদি। ধ্বনির কোনো লিখিত রূপ নেই, এটি শ্রুতিগ্রাহ্য (কেবল শোনা যায়)।",
               "image": {
                 "url": "/banglaImages/dhoni/MouthSound.png",
                 "alt": "A diagram showing sound coming out of a human mouth"
@@ -45,8 +47,8 @@
             "type": "text",
             "title": "স্বরধ্বনি ও ব্যঞ্জনধ্বনি",
             "content": {
-              "definition": "স্বরধ্বনি হলো সেই ধ্বনি যা অন্য ধ্বনির সাহায্য ছাড়াই নিজে নিজে উচ্চারিত হতে পারে (যেমন: অ, আ)। আর ব্যঞ্জনধ্বনি স্বরধ্বনির সাহায্য ছাড়া উচ্চারিত হতে পারে না (যেমন: ক, খ)।",
-              "explanation": "ব্যঞ্জনধ্বনি উচ্চারণ করার সময় শ্বাসবায়ু মুখ বা নাসিকার কোথাও না কোথাও বাধা পায়। বাংলায় মোট ১১টি স্বরধ্বনি ও ৩৯টি ব্যঞ্জনধ্বনি (মোট ৫০টি বর্ণ) আছে।",
+              "definition": "স্বরধ্বনি: যে ধ্বনি অন্য ধ্বনির সাহায্য ছাড়াই নিজে নিজে উচ্চারিত হতে পারে (যেমন: অ, আ)। ব্যঞ্জনধ্বনি: যে ধ্বনি স্বরধ্বনির সাহায্য ছাড়া উচ্চারিত হতে পারে না এবং মুখগহ্বরে বাধা পায় (যেমন: ক, খ)।",
+              "explanation": "বাংলায় মোট ১১টি স্বরধ্বনি (স্বরবর্ণ) এবং ৩৯টি ব্যঞ্জনধ্বনি (ব্যঞ্জনবর্ণ) আছে। 'ক' উচ্চারণ করার সময় স্বরধ্বনির সাহায্য লাগে (`ক্ + অ`)।",
               "image": {
                 "url": "/banglaImages/dhoni/VowelConsonant.png",
                 "alt": "Chart showing categories of Bengali Vowels and Consonants"
@@ -60,32 +62,503 @@
             "type": "mcq",
             "question": "ভাষার সবচেয়ে ক্ষুদ্রতম একক কোনটি?",
             "options": [
-              { "id": "o1", "text": "বর্ণ" },
-              { "id": "o2", "text": "শব্দ" },
-              { "id": "o3", "text": "ধ্বনি" },
-              { "id": "o4", "text": "বাক্য" }
+              {
+                "id": "o1",
+                "text": "বর্ণ"
+              },
+              {
+                "id": "o2",
+                "text": "শব্দ"
+              },
+              {
+                "id": "o3",
+                "text": "ধ্বনি"
+              },
+              {
+                "id": "o4",
+                "text": "বাক্য"
+              }
             ],
             "correctOptionId": "o3",
             "marksIfCorrect": 2,
             "penaltyIfWrong": -1,
             "timeLimitSec": 30,
-            "explainIfWrong": "ধ্বনি হলো ভাষার মূল ভিত্তি, যা মানুষের মুখনিঃসৃত আওয়াজ। এটিই ভাষার সবচেয়ে ক্ষুদ্রতম একক।",
-            "shuffleOptions": true
+            "explainIfWrong": "ধ্বনি হলো ভাষার মূল ভিত্তি, যা মানুষের মুখনিঃসৃত আওয়াজ। এটিই ভাষার সবচেয়ে ক্ষুদ্রতম একক।"
           },
           {
             "id": "q2",
             "type": "drag_words",
             "question": "বর্ণ-এর সংজ্ঞা তৈরি করো",
-            "wordPool": ["লিখিত", "ধ্বনির", "সাংকেতিক", "রূপকে", "বলে"],
+            "wordPool": [
+              "লিখিত",
+              "ধ্বনির",
+              "সাংকেতিক",
+              "রূপকে",
+              "বলে",
+              "বা"
+            ],
             "targetAnswer": "ধ্বনির লিখিত বা সাংকেতিক রূপকে বলে",
             "marksIfCorrect": 3,
             "penaltyIfWrong": -2,
-            "hints": ["শব্দগুলো সঠিক ক্রমে সাজাও"]
+            "hints": [
+              "সঠিকভাবে সাজাও যাতে একটি পূর্ণাঙ্গ সংজ্ঞা তৈরি হয়।"
+            ]
+          },
+          {
+            "id": "q3",
+            "type": "mcq",
+            "question": "বাংলা ধ্বনিকে প্রধানত কয় ভাগে ভাগ করা যায়?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "এক ভাগে"
+              },
+              {
+                "id": "o2",
+                "text": "দুই ভাগে"
+              },
+              {
+                "id": "o3",
+                "text": "তিন ভাগে"
+              },
+              {
+                "id": "o4",
+                "text": "চার ভাগে"
+              }
+            ],
+            "correctOptionId": "o2",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "বাংলা ধ্বনিকে স্বরধ্বনি এবং ব্যঞ্জনধ্বনি— এই দুই প্রধান ভাগে ভাগ করা হয়।"
+          },
+          {
+            "id": "q4",
+            "type": "mcq",
+            "question": "নিচের কোন ধ্বনিটি উচ্চারণের জন্য অন্য ধ্বনির (যেমন স্বরধ্বনি) সাহায্যের প্রয়োজন হয় না?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "গ"
+              },
+              {
+                "id": "o2",
+                "text": "আ"
+              },
+              {
+                "id": "o3",
+                "text": "খ"
+              }
+            ],
+            "correctOptionId": "o2",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "'আ' একটি স্বরধ্বনি, যা নিজে নিজেই পূর্ণভাবে উচ্চারিত হতে পারে।"
+          },
+          {
+            "id": "q5",
+            "type": "mcq",
+            "question": "যদি কোনো ধ্বনি উচ্চারণের সময় মুখগহ্বরে বাধা পায়, তবে সেটি কোন ধরনের ধ্বনি?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "স্বরধ্বনি"
+              },
+              {
+                "id": "o2",
+                "text": "ব্যঞ্জনধ্বনি"
+              },
+              {
+                "id": "o3",
+                "text": "যৌগিক ধ্বনি"
+              }
+            ],
+            "correctOptionId": "o2",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "যে ধ্বনি উচ্চারণের সময় মুখগহ্বরের কোথাও বাধা পায়, তা হলো ব্যঞ্জনধ্বনি।"
+          }
+        ]
+      },
+      {
+        "id": "dhoni-02",
+        "title": "কার বর্ণ ও তার প্রকারভেদ",
+        "order": 2,
+        "estimatedTimeMin": 10,
+        "passThresholdPercent": 60,
+        "unlockRequirement": {
+          "type": "pass-previous",
+          "targetId": "dhoni-01"
+        },
+        "basics": [
+          {
+            "id": "b4",
+            "type": "text",
+            "title": "কার বর্ণ কাকে বলে?",
+            "content": {
+              "definition": "স্বরধ্বনি যখন ব্যঞ্জনধ্বনির সাথে যুক্ত হয়ে সংক্ষিপ্ত আকারে ব্যবহৃত হয়, তখন ঐ সংক্ষিপ্ত রূপকে কার বা কার চিহ্ন বলে।",
+              "explanation": "বাংলা স্বরবর্ণ মোট ১১টি। এর মধ্যে কেবল 'অ' স্বরবর্ণ ছাড়া বাকি ১০টি স্বরবর্ণের কার চিহ্ন আছে। যেমন: আ-এর জন্য 'া', ই-এর জন্য 'ি', ইত্যাদি।",
+              "image": {
+                "url": "/banglaImages/dhoni/KarBornoDefinition.png",
+                "alt": "Table showing Swarabarna and Kar Barna"
+              }
+            }
+          },
+          {
+            "id": "b5",
+            "type": "text",
+            "title": "কার বর্ণের প্রকার ও উদাহরণ",
+            "content": {
+              "definition": "কার বর্ণ মোট ১০টি। এগুলো হলো: া, ি, ী, ু, ূ, ৃ, ে, ৈ, ো, ৌ।",
+              "explanation": "ব্যঞ্জনবর্ণের আগে বা পরে যুক্ত হয়ে এরা শব্দের অর্থ গঠনে সাহায্য করে। যেমন: 'ক' এর সাথে 'া' যোগ হয়ে 'কা' হয়। কা + ল = কাল।",
+              "image": {
+                "url": "/banglaImages/dhoni/KarBornoChart.png",
+                "alt": "Chart showing all 10 Kar Barnas"
+              }
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q6",
+            "type": "mcq",
+            "question": "স্বরধ্বনির সংক্ষিপ্ত রূপকে কী বলা হয়?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ফলা"
+              },
+              {
+                "id": "o2",
+                "text": "কার"
+              },
+              {
+                "id": "o3",
+                "text": "যৌগিক ধ্বনি"
+              }
+            ],
+            "correctOptionId": "o2",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "স্বরধ্বনির সংক্ষিপ্ত রূপকে কার বলে।"
+          },
+          {
+            "id": "q7",
+            "type": "mcq",
+            "question": "বাংলা ভাষায় মোট কয়টি কার চিহ্ন প্রচলিত?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "৯টি"
+              },
+              {
+                "id": "o2",
+                "text": "১১টি"
+              },
+              {
+                "id": "o3",
+                "text": "১০টি"
+              }
+            ],
+            "correctOptionId": "o3",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "'অ' ছাড়া বাকি ১০টি স্বরবর্ণের কার চিহ্ন আছে।"
+          },
+          {
+            "id": "q8",
+            "type": "text_input",
+            "question": "'ঋ' স্বরবর্ণের কার চিহ্ন কী?",
+            "targetAnswer": "ৃ",
+            "marksIfCorrect": 3,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 40,
+            "hints": [
+              "এটি দেখতে ইংরেজী 'C' এর মতো।"
+            ]
+          },
+          {
+            "id": "q9",
+            "type": "mcq",
+            "question": "কোন স্বরবর্ণটির কোনো কার চিহ্ন নেই?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "অ"
+              },
+              {
+                "id": "o2",
+                "text": "আ"
+              },
+              {
+                "id": "o3",
+                "text": "ই"
+              }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "'অ' স্বরবর্ণের কোনো সংক্ষিপ্ত বা কার রূপ নেই।"
+          }
+        ]
+      },
+      {
+        "id": "dhoni-03",
+        "title": "ফলা (অনুবর্ণ) ও তার ব্যবহার",
+        "order": 3,
+        "estimatedTimeMin": 10,
+        "passThresholdPercent": 60,
+        "unlockRequirement": {
+          "type": "pass-previous",
+          "targetId": "dhoni-02"
+        },
+        "basics": [
+          {
+            "id": "b6",
+            "type": "text",
+            "title": "ফলা (অনুবর্ণ) কাকে বলে?",
+            "content": {
+              "definition": "ব্যঞ্জনধ্বনি যখন অন্য ব্যঞ্জনধ্বনির সাথে যুক্ত হয়ে সংক্ষিপ্ত আকারে ব্যবহৃত হয়, তখন ঐ সংক্ষিপ্ত রূপকে ফলা বা অনুবর্ণ বলে।",
+              "explanation": "বাংলায় ফলা মোট ৬টি: ন-ফলা, ব-ফলা, ম-ফলা, য-ফলা, র-ফলা এবং ল-ফলা। এটি শব্দের উচ্চারণ এবং অর্থ পরিবর্তন করে।",
+              "image": {
+                "url": "/banglaImages/dhoni/FolaDefinition.png",
+                "alt": "Diagram showing how a consonant is shortened into Fola"
+              }
+            }
+          },
+          {
+            "id": "b7",
+            "type": "text",
+            "title": "ফলার প্রকারভেদ ও উদাহরণ",
+            "content": {
+              "definition": "৬টি ফলা এবং তাদের প্রতীক: ন-ফলা (্ন), ব-ফলা (্ব), ম-ফলা (্ম), য-ফলা (্য), র-ফলা (্র), ল-ফলা (্ল)।",
+              "explanation": "যেমন: 'ক' এর সাথে য-ফলা যোগ হয়ে 'ক্য' হয়। এটি 'বক্য' বা 'সভ্য' শব্দে ব্যবহৃত হয়। প্রতিটি ফলার উচ্চারণে ভিন্নতা আসে।",
+              "image": {
+                "url": "/banglaImages/dhoni/FolaChart.png",
+                "alt": "Chart showing all 6 Fola Barnas"
+              }
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q10",
+            "type": "mcq",
+            "question": "ব্যঞ্জনধ্বনির সংক্ষিপ্ত রূপকে কী বলা হয়?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "কার"
+              },
+              {
+                "id": "o2",
+                "text": "স্বর"
+              },
+              {
+                "id": "o3",
+                "text": "ফলা"
+              }
+            ],
+            "correctOptionId": "o3",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "ব্যঞ্জনধ্বনির সংক্ষিপ্ত রূপকে ফলা বলে।"
+          },
+          {
+            "id": "q11",
+            "type": "mcq",
+            "question": "বাংলা ভাষায় মোট কয়টি ফলা প্রচলিত?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "৭টি"
+              },
+              {
+                "id": "o2",
+                "text": "৫টি"
+              },
+              {
+                "id": "o3",
+                "text": "৬টি"
+              }
+            ],
+            "correctOptionId": "o3",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "বাংলায় মোট ৬টি ফলা (ন, ব, ম, য, র, ল-ফলা) রয়েছে।"
+          },
+          {
+            "id": "q12",
+            "type": "text_input",
+            "question": "'পদ্ম' শব্দটিতে কোন ফলা ব্যবহৃত হয়েছে? (ফলার নাম লেখো)",
+            "targetAnswer": "ম-ফলা",
+            "marksIfCorrect": 3,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 40,
+            "hints": [
+              "দ্বিতীয় বর্ণের সাথে যুক্ত ফলাটি দেখো।"
+            ]
+          },
+          {
+            "id": "q13",
+            "type": "mcq",
+            "question": "নিচের কোনটি ফলা নয়?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "য়-ফলা"
+              },
+              {
+                "id": "o2",
+                "text": "ব-ফলা"
+              },
+              {
+                "id": "o3",
+                "text": "র-ফলা"
+              }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "আসল ৬টি ফলার মধ্যে 'য়-ফলা' নেই। এটি য-ফলার আরেকটি নাম, কিন্তু মূল ৬টির মধ্যে শুধু য-ফলা আছে।"
+          }
+        ]
+      },
+      {
+        "id": "dhoni-04",
+        "title": "যুক্ত বর্ণ (Jukto Borno) পরিচিতি",
+        "order": 4,
+        "estimatedTimeMin": 10,
+        "passThresholdPercent": 60,
+        "unlockRequirement": {
+          "type": "pass-previous",
+          "targetId": "dhoni-03"
+        },
+        "basics": [
+          {
+            "id": "b8",
+            "type": "text",
+            "title": "যুক্ত বর্ণ কাকে বলে?",
+            "content": {
+              "definition": "দুই বা ততোধিক ব্যঞ্জনবর্ণ একসাথে যুক্ত হয়ে যে বিশেষ বর্ণ বা বর্ণগুচ্ছ তৈরি করে, তাকে যুক্ত বর্ণ বলে।",
+              "explanation": "যুক্ত বর্ণের নিজস্ব রূপ অনেক সময় এর উপাদান বর্ণগুলো থেকে সম্পূর্ণ আলাদা হয়। যেমন: 'ক্ষ' (`ক + ষ`)-এর উচ্চারণ 'খ' বা 'ক্খ'-এর মতো হয়। এটি বাংলা লেখায় খুব গুরুত্বপূর্ণ।",
+              "image": {
+                "url": "/banglaImages/dhoni/JuktoBornoDefinition.png",
+                "alt": "Diagram showing combination of two consonants into a Jukto Borno"
+              }
+            }
+          },
+          {
+            "id": "b9",
+            "type": "text",
+            "title": "যুক্ত বর্ণের প্রকারভেদ",
+            "content": {
+              "definition": "গঠনগতভাবে যুক্ত বর্ণ প্রধানত দুই প্রকার: ১. স্বচ্ছ বা দৃশ্যমান (যেখানে উপাদান বর্ণগুলো চেনা যায়, যেমন: ন্ত = ন + ত) ২. অস্বচ্ছ বা রূপান্তরিত (যেখানে উপাদান বর্ণগুলো চেনা যায় না, যেমন: ক্ষ = ক + ষ, ঞ + চ = ঞ্চ)।",
+              "explanation": "আধুনিক বানানে সাধারণত স্বচ্ছ যুক্ত বর্ণ ব্যবহারের প্রবণতা বেড়েছে। যেমন: 'বিদ্বান' (দ + ব), 'বিজ্ঞান' (জ + ঞ)।",
+              "image": {
+                "url": "/banglaImages/dhoni/JuktoBornoTypes.png",
+                "alt": "Chart showing transparent and opaque Jukto Barnas"
+              }
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q14",
+            "type": "mcq",
+            "question": "যুক্ত বর্ণ গঠনের জন্য কমপক্ষে কয়টি ব্যঞ্জনবর্ণের প্রয়োজন?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "একটি"
+              },
+              {
+                "id": "o2",
+                "text": "দুটি"
+              },
+              {
+                "id": "o3",
+                "text": "তিনটি"
+              }
+            ],
+            "correctOptionId": "o2",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "দুই বা ততোধিক ব্যঞ্জনবর্ণ যুক্ত হয়ে যুক্ত বর্ণ তৈরি করে।"
+          },
+          {
+            "id": "q15",
+            "type": "mcq",
+            "question": "কোন যুক্ত বর্ণটির উপাদান বর্ণগুলো সহজে চেনা যায় না?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "ঙ্গ (ঙ + গ)"
+              },
+              {
+                "id": "o2",
+                "text": "ক্ত (ক + ত)"
+              },
+              {
+                "id": "o3",
+                "text": "ক্ষ (ক + ষ)"
+              }
+            ],
+            "correctOptionId": "o3",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "'ক্ষ' একটি রূপান্তরিত (অস্বচ্ছ) যুক্ত বর্ণ।"
+          },
+          {
+            "id": "q16",
+            "type": "text_input",
+            "question": "'জ্ঞ' যুক্ত বর্ণটি ভাঙলে কোন দুটি বর্ণ পাওয়া যায়? (বর্ণ দুটি + চিহ্ন ছাড়া কমা দিয়ে লেখো)",
+            "targetAnswer": "জ, ঞ",
+            "marksIfCorrect": 3,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 40,
+            "hints": [
+              "এর উচ্চারণ 'গঁ-গঁ'-এর মতো শোনায়।"
+            ]
+          },
+          {
+            "id": "q17",
+            "type": "mcq",
+            "question": "আধুনিক বানানে কোন ধরনের যুক্ত বর্ণ ব্যবহারের প্রবণতা বেড়েছে?",
+            "options": [
+              {
+                "id": "o1",
+                "text": "স্বচ্ছ (দৃশ্যমান)"
+              },
+              {
+                "id": "o2",
+                "text": "অস্বচ্ছ (রূপান্তরিত)"
+              },
+              {
+                "id": "o3",
+                "text": "যৌগিক"
+              }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 2,
+            "penaltyIfWrong": -1,
+            "timeLimitSec": 30,
+            "explainIfWrong": "বানানের সরলীকরণের জন্য স্বচ্ছ বা দৃশ্যমান যুক্ত বর্ণ এখন বেশি ব্যবহৃত হয়।"
           }
         ]
       }
     ]
-  },
+  }
   {
     "id": "dhonitotto-classification",
     "name": "ধ্বনিতত্ত্ব: ধ্বনির শ্রেণিবিভাগ",
@@ -268,3 +741,4 @@
     ]
   }
 ]
+
