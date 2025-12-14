@@ -95,9 +95,10 @@
               "সাংকেতিক",
               "রূপকে",
               "বলে",
-              "বা"
+              "বা",
+                "বর্ণ"
             ],
-            "targetAnswer": "ধ্বনির লিখিত বা সাংকেতিক রূপকে বলে",
+            "targetAnswer": "ধ্বনির লিখিত বা সাংকেতিক রূপকে বর্ণ বলে",
             "marksIfCorrect": 3,
             "penaltyIfWrong": -2,
             "hints": [
@@ -188,10 +189,7 @@
         "order": 2,
         "estimatedTimeMin": 10,
         "passThresholdPercent": 60,
-        "unlockRequirement": {
-          "type": "pass-previous",
-          "targetId": "dhoni-01"
-        },
+        "unlockRequirement": "dhoni-01",
         "basics": [
           {
             "id": "b4",
@@ -313,10 +311,7 @@
         "order": 3,
         "estimatedTimeMin": 10,
         "passThresholdPercent": 60,
-        "unlockRequirement": {
-          "type": "pass-previous",
-          "targetId": "dhoni-02"
-        },
+        "unlockRequirement": "dhoni-02",
         "basics": [
           {
             "id": "b6",
@@ -438,10 +433,7 @@
         "order": 4,
         "estimatedTimeMin": 10,
         "passThresholdPercent": 60,
-        "unlockRequirement": {
-          "type": "pass-previous",
-          "targetId": "dhoni-03"
-        },
+        "unlockRequirement": "dhoni-03",
         "basics": [
           {
             "id": "b8",
@@ -559,6 +551,7 @@
       }
     ]
 }]
+
 
 
 
