@@ -156,7 +156,7 @@
     {
       "id": "q1-L2",
       "type": "image_mcq",
-      "image" : " https://cdn.jsdelivr.net/gh/Mahs-X/class/physics/gotiImages/vSitingOnAChair.png"
+      "image" : " https://cdn.jsdelivr.net/gh/Mahs-X/class/physics/gotiImages/vSitingOnAChair.png",
       "question": "তুমি চেয়ারে বসে আছো। চেয়ারটা তোমার সাপেক্ষে কেমন?",
       "options": [
         { "id": "o1", "text": "গতিশীল" },
