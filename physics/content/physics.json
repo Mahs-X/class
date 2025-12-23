@@ -66,7 +66,7 @@
     {
       "id": "q2-L1",
       "type": "image_mcq",
-      "image" : "https://cdn.jsdelivr.net/gh/Mahs-X/class/physics/gotiImages/rolandoMessieTalking%20(1).png"
+      "image" : "https://cdn.jsdelivr.net/gh/Mahs-X/class/physics/gotiImages/rolandoMessieTalking%20(1).png",
       "question": "বাসের ভেতরে বসে তোমার পাশের বন্ধুকে কেমন মনে হবে?",
       "options": [
         { "id": "o1", "text": "গতিশীল" },
