@@ -6,61 +6,120 @@
     "order": 1,
     "version": 2,
     "levels": [
-      {
-        "id": "motion-01",
-        "title": "স্থিতি ও গতি (Motion)",
-        "order": 1,
-        "estimatedTimeMin": 10,
-        "passThresholdPercent": 60,
-        "unlockRequirement": "none",
-        "basics": [
-          {
-            "id": "b1-L1",
-            "type": "text",
-            "title": "পারিপার্শ্বিক কী?",
-            "content": {
-              "definition": "পারিপার্শ্বিক হলো আশেপাশের স্থির বস্তু, যার সাপেক্ষে আমরা অন্য কিছুর গতি মাপি।",
-              "explanation": "রাস্তার পাশের গাছপালা হলো পারিপার্শ্বিক। যখন বাস চলে, তখন গাছের সাপেক্ষে বাসের অবস্থান বদলায়।",
-              "image": {
-                "url": "/gotiImages/CarTreeMotion.png",
-                "alt": "Car moving past a tree"
+    {
+  "id": "motion-01",
+  "title": "পারিপার্শ্বিক (কার সাপেক্ষে?)",
+  "order": 1,
+  "estimatedTimeMin": 8,
+  "passThresholdPercent": 60,
+  "unlockRequirement": "none",
+  "basics": [
+    {
+      "id": "b1-L1",
+      "type": "text",
+      "title": "আগে ভাবি",
+      "content": {
+        "definition": "কোনো কিছু চলছে না থেমে আছে—এটা বুঝতে হলে আগে দেখতে হয়, আমরা কাকে দেখে এটি বিচার করছি।",
+        "explanation": "তুমি যদি বাসে বসে থাকো, তাহলে তোমার পাশে বসা  বন্ধুকে স্থির মনে হবে। কিন্তু রাস্তার পাশের গাছের দিকে তাকালে দেখবে বাসটা চলছে। তাই একই বস্তু এক জায়গায় স্থির, আরেক জায়গায় চলমান হতে পারে।"
+      }
+    },
+    {
+      "id": "b2-L1",
+      "type": "text",
+      "title": "পারিপার্শ্বিক মানে কী?",
+      "content": {
+        "definition": "যার দিকে তাকিয়ে আমরা গতি বা স্থিতি বিচার করি, তাকেই পারিপার্শ্বিক বলে।",
+        "explanation": "বাস চলছে কিনা বোঝার জন্য আমরা সাধারণত রাস্তার গাছ, খুঁটি বা বাড়ির দিকে তাকাই। এগুলোকেই আমরা পারিপার্শ্বিক ধরি। কারণ এর মাধ্যমেই আমরা বুঝতে পারি আমাদের বাস টা চলছে ।"
+        "image": {
+        "url": "https://cdn.jsdelivr.net/gh/Mahs-X/class/physics/gotiImages/narutoLookingOutSide.png",
+         "alt": "OFFLINE: naruto looking outside the windo.."
               }
-            }
-          },
-          {
-            "id": "b2-L1",
-            "type": "text",
-            "title": "স্থিতি ও গতি",
-            "content": {
-              "definition": "সময়ের সাথে যদি বস্তুর অবস্থানের পরিবর্তন না হয় তবে তা স্থিতি, আর পরিবর্তন হলে তা গতি।",
-              "explanation": "টেবিলের উপর রাখা বই স্থির (স্থিতি), কিন্তু রাস্তায় চলমান সাইকেল গতিশীল (গতি)।",
-              "image": {
-                "url": "/gotiImages/catRuningFromHouse.png",
-                "alt": "Moving vs Rest"
-              }
-            }
-          }
-        ],
-        "quiz": [
-          {
-            "id": "q1-L1",
-            "type": "mcq",
-            "question": "নিচের কোনটি পরম স্থিতিশীল?",
-            "options": [
-              { "id": "o1", "text": "পৃথিবী" },
-              { "id": "o2", "text": "সূর্য" },
-              { "id": "o3", "text": "কোনোটিই নয়" },
-              { "id": "o4", "text": "রাস্তার পাশের গাছ" }
-            ],
-            "correctOptionId": "o3",
-            "marksIfCorrect": 2,
-            "penaltyIfWrong": -1,
-            "timeLimitSec": 30,
-            "explainIfWrong": "মহাবিশ্বের কোনো কিছুই পরম স্থিতিশীল নয়, কারণ পৃথিবী, সূর্য সবকিছুই ঘুরছে।",
-            "shuffleOptions": true
-          }
-        ]
-      },
+      }
+    },
+    {
+      "id": "b3-L1",
+      "type": "text",
+      "title": "একটা গুরুত্বপূর্ণ কথা",
+      "content": {
+        "definition": "মহাবিশ্বে কোনো কিছুই একেবারে স্থির নয়।",
+        "explanation": "পৃথিবী ঘুরছে, পৃথিবীর সাথে গাছও ঘুরছে। তাই পরম স্থির বলে কিছু নেই। সব কিছুই কিছুর সাপেক্ষে স্থির বা গতিশীল।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L1",
+      "type": "mcq",
+      "question": "বাস চলছে কিনা বোঝার জন্য আমরা সাধারণত কোনটার দিকে তাকাই?",
+      "options": [
+        { "id": "o1", "text": "বাসের সিট" },
+        { "id": "o2", "text": "বাসের ভেতরের যাত্রী" },
+        { "id": "o3", "text": "রাস্তার পাশের গাছ" },
+        { "id": "o4", "text": "ড্রাইভারের হাত" }
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "রাস্তার গাছ বা খুঁটি সাধারণত স্থির থাকে, তাই সেগুলোর সাপেক্ষে আমরা গতি বিচার করি।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q2-L1",
+      "type": "image_mcq",
+      "image" : "https://cdn.jsdelivr.net/gh/Mahs-X/class/physics/gotiImages/rolandoMessieTalking%20(1).png"
+      "question": "বাসের ভেতরে বসে তোমার পাশের বন্ধুকে কেমন মনে হবে?",
+      "options": [
+        { "id": "o1", "text": "গতিশীল" },
+        { "id": "o2", "text": "স্থিতিশীল" }
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "তোমার সাপেক্ষে বন্ধু জায়গা বদলাচ্ছে না, তাই সে স্থির।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q3-L1",
+      "type": "mcq",
+      "question": "নিচের কোনটি পরমভাবে স্থির?",
+      "options": [
+        { "id": "o1", "text": "পৃথিবী" },
+        { "id": "o2", "text": "সূর্য" },
+        { "id": "o3", "text": "গাছ" },
+        { "id": "o4", "text": "কোনোটিই নয়" }
+      ],
+      "correctOptionId": "o4",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "সব কিছুই কোনো না কোনো কিছুর সাপেক্ষে চলমান, তাই পরম স্থির বলে কিছু নেই।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q4-L1",
+      "type": "drag_words",
+      "question": "পারিপার্শিক কাকে বলেই ?",
+      "wordPool": ["সাপেক্ষে", "গতি", "বা", "বিচার",  "স্থিতি", "করা", "হয়","যার"],
+      "targetAnswer": "যার সাপেক্ষে গতি বা স্থিতি বিচার করা হয়",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "hints": ["গতি বলার আগে কী ভাবতে হয়?"]
+    },
+    {
+      "id": "q5-L1",
+      "type": "mcq",
+      "question": "একই বস্তু কি একসাথে স্থির ও গতিশীল হতে পারে?",
+      "options": [
+        { "id": "o1", "text": "না, কখনো না" },
+        { "id": "o2", "text": "হ্যাঁ, পারিপার্শ্বিক বদলালে" }
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "পারিপার্শ্বিক বদলালে গতি বা স্থিতির ধারণাও বদলে যায়। যেমন তোমার সাথে চলন্ত  বাস এ  বসে থাকা বন্ধু  তোমার কাছে স্থিতিশীল  মনে   হলেও রাস্তায় দাঁড়িয়ে থাকা মানুষ এর  কাছে সে  গতিশীল| ",
+      "shuffleOptions": true
+    }
+  ]
+},
       {
         "id": "motion-02",
         "title": "দ্রুতি (Speed)",
