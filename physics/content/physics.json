@@ -158,14 +158,18 @@
   "quiz": [
     {
       "id": "q1-L2",
-      "type": "mcq",
+      "type": "image_mcq",
+      "image" : " https://cdn.jsdelivr.net/gh/Mahs-X/class/physics/gotiImages/vSitingOnAChair.png",
       "question": "তুমি চেয়ারে বসে আছো। চেয়ারটা তোমার সাপেক্ষে কেমন?",
       "options": [
         { "id": "o1", "text": "গতিশীল" },
         { "id": "o2", "text": "স্থিতিশীল" }
       ],
       "correctOptionId": "o2",
-      "explainIfWrong": "তোমার সাপেক্ষে চেয়ার জায়গা বদলাচ্ছে না, তাই সেটা স্থির।"
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "তোমার সাপেক্ষে চেয়ার জায়গা বদলাচ্ছে না, তাই সেটা স্থির।",
+      "shuffleOptions": true
     },
     {
       "id": "q2-L2",
@@ -176,7 +180,10 @@
         { "id": "o2", "text": "গতিশীল" }
       ],
       "correctOptionId": "o1",
-      "explainIfWrong": "বাসের ভেতরে যাত্রীর অবস্থান বদলাচ্ছে না।"
+            "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "বাসের ভেতরে যাত্রীর অবস্থান বদলাচ্ছে না।",
+      "shuffleOptions": true
     },
     {
       "id": "q3-L2",
@@ -187,7 +194,10 @@
         { "id": "o2", "text": "হ্যাঁ" }
       ],
       "correctOptionId": "o2",
-      "explainIfWrong": "পারিপার্শ্বিক বদলালে স্থিতি বা গতি বদলাতে পারে।"
+            "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "পারিপার্শ্বিক বদলালে স্থিতি বা গতি বদলাতে পারে।",
+      "shuffleOptions": true
     },
     {
       "id": "q4-L2",
@@ -198,7 +208,10 @@
         { "id": "o2", "text": "স্থিতি মানে কিছুর সাপেক্ষে জায়গা না বদলানো" }
       ],
       "correctOptionId": "o2",
-      "explainIfWrong": "স্থিতি সবসময় পারিপার্শ্বিকের উপর নির্ভর করে।"
+            "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "স্থিতি সবসময় পারিপার্শ্বিকের উপর নির্ভর করে।",
+      "shuffleOptions": true
     },
      {
       "id": "q5-L2",
@@ -209,7 +222,10 @@
         { "id": "o2", "text": "স্থিতি মানে কিছুর সাপেক্ষে জায়গা না বদলানো" }
       ],
       "correctOptionId": "o2",
-      "explainIfWrong": "স্থিতি সবসময় কোনো পারিপার্শ্বিকের সাপেক্ষে বলা হয়।"
+             "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "স্থিতি সবসময় কোনো পারিপার্শ্বিকের সাপেক্ষে বলা হয়।",
+       "shuffleOptions": true
     },
     {
       "id": "q6-L2",
@@ -217,6 +233,8 @@
       "question": "স্থিতি কাকে বলে ?",
       "wordPool": ["বস্তু", "হয়", "জায়গা", "না", "বদলালে", "স্থিতি"],
       "targetAnswer": "বস্তু জায়গা না বদলালে স্থিতি হয়",
+            "marksIfCorrect": 4,
+      "penaltyIfWrong": -1,
       "hints": ["স্থিতির সহজ নিয়মটা মনে করো"]
     }
   ]
