@@ -595,7 +595,146 @@
       "hints": ["লাইন বরাবর চলার কথা ভাবো"]
     }
   ]
+},
+      {
+  "id": "motion-06",
+  "title": "ঘূর্ণন গতি (এক জায়গায় ঘোরা)",
+  "order": 6,
+  "estimatedTimeMin": 10,
+  "passThresholdPercent": 60,
+  "unlockRequirement": "motion-05",
+  "basics": [
+    {
+      "id": "b1-L6",
+      "type": "text",
+      "title": "আগে একটা প্রশ্ন করি",
+      "content": {
+                 "image": {
+        "url": "https://cdn.jsdelivr.net/gh/Mahs-X/class@master/physics/gotiImages/clockOrbiting.png",
+         "alt": "OFFLINE: Clock is orbiitng.."
+              },
+        "definition": "ঘড়ির কাঁটা কি সামনে এগিয়ে যাচ্ছে, নাকি এক জায়গায় ঘুরছে?",
+        "explanation": "ঘড়ির কাঁটা সামনে এগোয় না। এটা এক জায়গায় দাঁড়িয়ে ঘড়ির মাঝে থাকা বিন্দু কে কেন্দ্র করে ঘুরে। এই ধরনের গতি-কেই ঘূর্ণন গতি বলে।"
+      }
+    },
+    {
+      "id": "b2-L6",
+      "type": "text",
+      "title": "ঘূর্ণন গতি মানে কী?",
+      "content": {
+        "definition": "যখন কোনো বস্তু একটি নির্দিষ্ট বিন্দু বা রেখার চারদিকে ঘোরে, তখন তাকে ঘূর্ণন গতি বলে।",
+        "explanation": "এই গতি হলে বস্তুটি ঘোরে, কিন্তু তার কেন্দ্র সাধারণত জায়গা বদলায় না।"
+      }
+    },
+    {
+      "id": "b3-L6",
+      "type": "text",
+      "title": "অক্ষ (Axis) কী?",
+      "content": {
+                 "image": {
+        "url": "https://cdn.jsdelivr.net/gh/Mahs-X/class@master/physics/gotiImages/Axis.png",
+         "alt": "OFFLINE: rolando is runing.."
+              },
+        "definition": "যে কাল্পনিক রেখার চারদিকে কোনো বস্তু ঘোরে, তাকে অক্ষ বলে।",
+        "explanation": "ফ্যানের মাঝখানের দণ্ড বা চাকার মাঝের দণ্ড—এইগুলোকেই অক্ষ ধরা হয়। বস্তুটি এই অক্ষকে কেন্দ্র করে ঘোরে।"
+      }
+    },
+    {
+      "id": "b4-L6",
+      "type": "text",
+      "title": "সহজ উদাহরণ দিয়ে বুঝি",
+      "content": {
+        "definition": "ঘূর্ণন গতি বোঝার জন্য চারপাশের জিনিস দেখলেই হয়।",
+        "explanation": "ফ্যানের পাখা, ঘড়ির কাঁটা, সাইকেলের চাকা, পৃথিবীর নিজের চারদিকে ঘোরা—সবই ঘূর্ণন গতির উদাহরণ।"
+      }
+    },
+    {
+      "id": "b5-L6",
+      "type": "text",
+      "title": "মনে রাখার ট্রিক",
+      "content": {
+        "definition": "ঘূর্ণন গতি চিনতে একটা প্রশ্নই যথেষ্ট।",
+        "explanation": "নিজেকে জিজ্ঞেস করো—এটা কি এক জায়গায় দাঁড়িয়ে ঘুরছে? উত্তর যদি হ্যাঁ হয়, তাহলে সেটা ঘূর্ণন গতি।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L6",
+      "type": "mcq",
+      "question": "নিচের কোনটি ঘূর্ণন গতির উদাহরণ?",
+      "options": [
+        { "id": "o1", "text": "সোজা রাস্তায় চলা বাস" },
+        { "id": "o2", "text": "লিফট উপরে ওঠা" },
+        { "id": "o3", "text": "ফ্যানের পাখা ঘোরা" },
+        { "id": "o4", "text": "সোজা পথে হাঁটা মানুষ" }
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "ঘূর্ণন গতি হলে বস্তুটি এক জায়গায় দাঁড়িয়ে ঘোরে।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q2-L6",
+      "type": "image_mcq",
+      "image" : "https://cdn.jsdelivr.net/gh/Mahs-X/class@master/physics/gotiImages/Axis.png",
+      "question": "ঘূর্ণন গতিতে বস্তুটি সাধারণত কিসের চারদিকে ঘোরে?",
+      "options": [
+        { "id": "o1", "text": "পথ" },
+        { "id": "o2", "text": "অক্ষ" },
+        { "id": "o3", "text": "ভর" },
+        { "id": "o4", "text": "সময়" }
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "ঘূর্ণন গতি সবসময় একটি অক্ষের চারদিকে ঘটে।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q3-L6",
+      "type": "mcq",
+      "question": "নিচের কোনটি ঘূর্ণন গতি নয়?",
+      "options": [
+        { "id": "o1", "text": "ঘড়ির কাঁটা" },
+        { "id": "o2", "text": "ফ্যানের পাখা" },
+        { "id": "o3", "text": "সোজা পথে চলা ট্রেন" },
+        { "id": "o4", "text": "চাকার ঘোরা" }
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "সোজা পথে চলা ট্রেন সরল গতি করে, ঘূর্ণন গতি নয়।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q4-L6",
+      "type": "drag_words",
+      "question": "যে রেখার চারদিকে কোনো বস্তু ঘোরে, তাকে ___ বলে।",
+      "wordPool": ["পথ", "অক্ষ", "গতি", "কেন্দ্র"],
+      "targetAnswer": "অক্ষ",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "hints": ["ফ্যানের মাঝখানের দণ্ডটার কথা ভাবো"]
+    },
+    {
+      "id": "q5-L6",
+      "type": "mcq",
+      "question": "ঘূর্ণন গতি চিনতে সবচেয়ে গুরুত্বপূর্ণ বিষয় কোনটি?",
+      "options": [
+        { "id": "o1", "text": "বস্তুটি দ্রুত চলছে কিনা" },
+        { "id": "o2", "text": "বস্তুটি এক জায়গায় দাঁড়িয়ে ঘুরছে কিনা" }
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "ঘূর্ণন গতি হলে বস্তুটি সামনে না গিয়ে এক জায়গায় ঘোরে।",
+      "shuffleOptions": true
+    }
+  ]
 }
+
 
 
 
