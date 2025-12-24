@@ -1117,8 +1117,8 @@
       "id": "q4-L9",
       "type": "drag_words",
       "question": "শব্দগুলো সাজিয়ে সঠিক বাক্য বানাও",
-      "wordPool": ["নির্দিষ্ট", "সময়", "পর", "একই", "অবস্থার", "পুনরাবৃত্তি"],
-      "targetAnswer": "নির্দিষ্ট সময় পর একই অবস্থার পুনরাবৃত্তি",
+      "wordPool": ["অবস্থার", "নির্দিষ্ট", "সময়","একই", "পর","পর",   "পুনরাবৃত্তি"],
+      "targetAnswer": "নির্দিষ্ট সময় পর পর একই অবস্থার পুনরাবৃত্তি",
       "marksIfCorrect": 3,
       "penaltyIfWrong": -1,
       "hints": ["পর্যায়বৃত্ত গতির সংজ্ঞাটা মনে করো"]
@@ -1129,9 +1129,9 @@
       "question": "নিচের কোনটি পর্যায়বৃত্ত গতি নয়?",
       "image" : "https://cdn.jsdelivr.net/gh/Mahs-X/class@master/physics/gotiImages/rockPendulam.png",
       "options": [
-        { "id": "o1", "text": "দোলনার গতি" },
-        { "id": "o2", "text": "পৃথিবীর ঘূর্ণন" },
-        { "id": "o3", "text": "একবার ছোড়া পাথর" }
+        { "id": "o1", "text": "A.দোলনার গতি" },
+        { "id": "o2", "text": "B.পৃথিবীর ঘূর্ণন" },
+        { "id": "o3", "text": "C.একবার ছোড়া পাথর" }
       ],
       "correctOptionId": "o3",
       "marksIfCorrect": 3,
