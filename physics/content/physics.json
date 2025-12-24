@@ -733,7 +733,145 @@
       "shuffleOptions": true
     }
   ]
+},
+      {
+  "id": "motion-07",
+  "title": "মিশ্র গতি (একসাথে একাধিক গতি)",
+  "order": 7,
+  "estimatedTimeMin": 12,
+  "passThresholdPercent": 60,
+  "unlockRequirement": "motion-06",
+  "basics": [
+    {
+      "id": "b1-L7",
+      "type": "text",
+      "title": "আগে একটা প্রশ্ন করি",
+      "content": {
+                 "image": {
+        "url": "https://cdn.jsdelivr.net/gh/Mahs-X/class@master/physics/gotiImages/busTire.png",
+         "alt": "OFFLINE: bus is runing forward.."
+              },
+        "definition": "চলন্ত বাসের চাকা কি শুধু ঘুরছে, নাকি সামনে এগোচ্ছেও?",
+        "explanation": "চলন্ত বাসের চাকা একসাথে দুই কাজ করে—এটা ঘোরে আবার সামনে এগোয়। তাই এই গতি শুধু সরল বা শুধু ঘূর্ণন নয়।"
+      }
+    },
+    {
+      "id": "b2-L7",
+      "type": "text",
+      "title": "মিশ্র গতি মানে কী?",
+      "content": {
+        "definition": "যখন কোনো বস্তুতে একসাথে একাধিক গতি থাকে, তখন তাকে মিশ্র গতি বলে।",
+        "explanation": "সাধারণত মিশ্র গতিতে সরল গতি ও ঘূর্ণন গতি একসাথে থাকে।"
+      }
+    },
+    {
+      "id": "b3-L7",
+      "type": "text",
+      "title": "চাকার উদাহরণ দিয়ে বুঝি",
+      "content": {
+                         "image": {
+        "url": "https://cdn.jsdelivr.net/gh/Mahs-X/class@master/physics/gotiImages/busTire.png",
+         "alt": "OFFLINE: bus is runing forward..."
+              },
+        "definition": "একটা চলন্ত চাকা মিশ্র গতির সবচেয়ে ভালো উদাহরণ।",
+        "explanation": "চাকার মাঝখানের অংশ (অক্ষ) সামনে এগোয়—এটা সরল গতি। আর চাকার ধার ঘোরে—এটা ঘূর্ণন গতি। দুইটা একসাথে থাকায় একে মিশ্র গতি বলে।"
+      }
+    },
+    {
+      "id": "b4-L7",
+      "type": "text",
+      "title": "আরও সহজ উদাহরণ",
+      "content": {
+        "definition": "মিশ্র গতি শুধু গাড়ির চাকাতেই হয় না।",
+        "explanation": "চলন্ত সাইকেলের চাকা, মেঝেতে গড়িয়ে যাওয়া বল—সবগুলোতেই ঘোরা এবং সামনে যাওয়া একসাথে ঘটে।"
+      }
+    },
+    {
+      "id": "b5-L7",
+      "type": "text",
+      "title": "মনে রাখার ট্রিক",
+      "content": {
+        "definition": "মিশ্র গতি চিনতে একটা প্রশ্নই যথেষ্ট।",
+        "explanation": "নিজেকে জিজ্ঞেস করো—এটা কি ঘুরছে এবং একই সাথে সামনে এগোচ্ছে? উত্তর যদি হ্যাঁ হয়, তাহলে সেটা মিশ্র গতি।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L7",
+      "type": "mcq",
+      "question": "চলন্ত গাড়ির চাকা কোন ধরনের গতি করে?",
+      "options": [
+        { "id": "o1", "text": "সরল গতি" },
+        { "id": "o2", "text": "ঘূর্ণন গতি" },
+        { "id": "o3", "text": "মিশ্র গতি" },
+        { "id": "o4", "text": "কোনোটাই নয়" }
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "চাকার মাঝে সরল গতি আর ধার ঘূর্ণন গতি করে—দুটো একসাথে থাকায় এটা মিশ্র গতি।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q2-L7",
+      "type": "mcq",
+      "question": "মিশ্র গতিতে সাধারণত কোন কোন গতি একসাথে থাকে?",
+      "options": [
+        { "id": "o1", "text": "সরল ও ঘূর্ণন গতি" },
+        { "id": "o2", "text": "সরল ও দোলন গতি" },
+        { "id": "o3", "text": "ঘূর্ণন ও দোলন গতি" },
+        { "id": "o4", "text": "শুধু সরল গতি" }
+      ],
+      "correctOptionId": "o1",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "মিশ্র গতিতে সাধারণত সরল ও ঘূর্ণন গতি একসাথে থাকে।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q3-L7",
+      "type": "mcq",
+      "question": "কোন অবস্থায় একটি চাকা শুধুই ঘূর্ণন গতি করে?",
+      "options": [
+        { "id": "o1", "text": "চাকা সামনে এগোলে" },
+        { "id": "o2", "text": "চাকা এক জায়গায় দাঁড়িয়ে ঘুরলে" },
+        { "id": "o3", "text": "চাকা দ্রুত চললে" },
+        { "id": "o4", "text": "চাকা ভারী হলে" }
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "এক জায়গায় দাঁড়িয়ে ঘুরলে চাকা শুধু ঘূর্ণন গতি করে।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q4-L7",
+      "type": "drag_words",
+      "question": "সঠিক ভাবে সাজাও ",
+      "wordPool": ["চলন্ত", "গতি করে", "ধার ঘূর্ণন","এবং ধার", "ঘূর্ণন"," অক্ষ সরল","গতি কর", "চাকার ক্ষেত্রে"],
+      "targetAnswer": "চলন্ত চাকার ক্ষেত্রে অক্ষ সরল গতি করে এবং ধার ঘূর্ণন গতি করে",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "hints": ["মাঝখান সামনে যায়, ধার ঘোরে"]
+    },
+    {
+      "id": "q5-L7",
+      "type": "mcq",
+      "question": "মিশ্র গতি চিনতে সবচেয়ে গুরুত্বপূর্ণ প্রশ্ন কোনটি?",
+      "options": [
+        { "id": "o1", "text": "বস্তুটি দ্রুত চলছে কিনা" },
+        { "id": "o2", "text": "বস্তুটি ঘুরছে এবং সামনে এগোচ্ছে কিনা" }
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "ঘোরা এবং সামনে যাওয়া একসাথে থাকলেই মিশ্র গতি হয়।",
+      "shuffleOptions": true
+    }
+  ]
 }
+
 
 
 
