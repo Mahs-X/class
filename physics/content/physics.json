@@ -2958,6 +2958,181 @@
       "shuffleOptions": true
     }
   ]
+}, {
+  "id": "force-6",
+  "title": "স্থিতি ও গতি ঘর্ষণ",
+  "order": 21,
+  "estimatedTimeMin": 6,
+  "passThresholdPercent": 42,
+  "unlockRequirement": "none",
+  "basics": [
+    {
+      "id": "b-1766672967001-l5r4b5jc3",
+      "type": "text",
+      "title": "স্থিতি ঘর্ষণ কাকে বলে?",
+      "content": {
+        "definition": "একটি স্থির বস্তুকে ধাক্কা দেওয়া সত্ত্বেও যতক্ষণ সেটি নড়াচড়া শুরু না করে, ততক্ষণ যে ঘর্ষণ বল কাজ করে তাকে স্থিতি ঘর্ষণ বলে।",
+        "explanation": "মনে করো, উঁচু রাস্তায় একটা গাড়ি দাঁড়িয়ে আছে। ড্রাইভার ব্রেক চেপে রাখেনি, তবুও গাড়িটা গড়িয়ে নিচে পড়ছে না।<BR>\nকেন? কারণ টায়ার আর রাস্তার মাঝখানে স্থিতি ঘর্ষণ কাজ করছে। এই ঘর্ষণ বলটিই গাড়িটাকে তার জায়গায় 'কামড়ে' ধরে রেখেছে।"
+      }
+    },
+    {
+      "id": "b-1766673082704-4rdy0135q",
+      "type": "text",
+      "title": "গতি ঘর্ষণ কাকে বলে?",
+      "content": {
+        "definition": "একটি বস্তু যখন অন্য একটি বস্তুর ওপর দিয়ে চলতে বা পিছলে যেতে শুরু করে, তখন যে ঘর্ষণ বল তাকে বাধা দেয়, তাকে গতি ঘর্ষণ বলে।<BR> অর্থাৎ গতির বিরুদ্ধে যে ঘর্ষণ কাজ করে তাকে গতি ঘর্ষণ বলে ",
+        "explanation": "তুমি সাইকেল চালাচ্ছ। প্যাডেল মারা বন্ধ করে দিলে সাইকেলটা কি সারাজীবন চলতেই থাকবে? না, কিছুদূর গিয়ে থেমে যাবে।\n<BR>\nকেন? কারণ টায়ার আর রাস্তার মাঝখানে গতি ঘর্ষণ আছে, যা সাইকেলটাকে টেনে থামিয়ে দিচ্ছে।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1766673527889-0e1sh8b7v",
+      "type": "mcq",
+      "question": "গাড়ি যখন রাস্তায় চলতে থাকে, তখন চাকা ও রাস্তার মাঝে কোন ঘর্ষণ কাজ করে?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "স্থিতি ঘর্ষণ"
+        },
+        {
+          "id": "o2",
+          "text": "গতি ঘর্ষণ"
+        },
+        {
+          "id": "o3",
+          "text": "উড়ন্ত ঘর্ষণ"
+        }
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "গতি ঘর্ষণ",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q-1766673610552-kfi9g8s2g",
+      "type": "drag_words",
+      "question": "গতি ঘর্ষণ কখন তৈরি হয়?",
+      "options": [
+        {
+          "id": "o1",
+          "text": ""
+        },
+        {
+          "id": "o2",
+          "text": ""
+        }
+      ],
+      "correctOptionId": "",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -2,
+      "explainIfWrong": "বস্তু চলতে শুরু  করলে গতি ঘর্ষণ হয়",
+      "shuffleOptions": true,
+      "targetAnswer": "বস্তু চলতে শুরু  করলে গতি ঘর্ষণ হয়",
+      "wordPool": [
+        "ঘর্ষণ হয়",
+        "চলতে শুরু",
+        "বস্তু",
+        "গতি",
+        "করলে"
+      ]
+    },
+    {
+      "id": "q-1766673712448-kyul6up9s",
+      "type": "mcq",
+      "question": "স্থিতি ঘর্ষণ কখন কাজ করে?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "যখন বস্তু দৌড়ায়"
+        },
+        {
+          "id": "o2",
+          "text": "যখন বস্তু স্থির থাকে"
+        },
+        {
+          "id": "o3",
+          "text": "যখন বস্তু উড়ে যায়"
+        }
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "যখন বস্তু স্থির থাকে",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q-1766673759288-z3hc2ccbq",
+      "type": "drag_words",
+      "question": "স্থিতি ঘর্ষণের কাজ কী?",
+      "options": [
+        {
+          "id": "o1",
+          "text": ""
+        },
+        {
+          "id": "o2",
+          "text": ""
+        }
+      ],
+      "correctOptionId": "",
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "স্থির বস্তুকে আটকে রাখা হলো এর কাজ",
+      "shuffleOptions": true,
+      "targetAnswer": "স্থির বস্তুকে আটকে রাখা ",
+      "wordPool": [
+        "বস্তুকে",
+        "স্থির",
+        "আটকে রাখা"
+      ]
+    },
+    {
+      "id": "q-1766673925945-8dknabgyx",
+      "type": "mcq",
+      "question": "তুমি চেয়ারে বসে আছো এটা কোন ঘর্ষণ এর উদাহরণ?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "গতি ঘর্ষণ"
+        },
+        {
+          "id": "o2",
+          "text": "স্থিতি ঘর্ষণ"
+        },
+        {
+          "id": "o3",
+          "text": "আবর্ত ঘর্ষণ"
+        }
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "স্থিতি ঘর্ষণ",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q-1766673987200-fzb4aa7bq",
+      "type": "mcq",
+      "question": "",
+      "options": [
+        {
+          "id": "o1",
+          "text": ""
+        },
+        {
+          "id": "o2",
+          "text": ""
+        }
+      ],
+      "correctOptionId": "",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "",
+      "shuffleOptions": true
+    }
+  ]
 }
 
 
