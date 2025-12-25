@@ -3724,7 +3724,7 @@
 
    {
   "id": "work-02",
-  "name": "শক্তি (কাজ করার জাদুকরী ক্ষমতা)",
+  "title": "শক্তি (কাজ করার জাদুকরী ক্ষমতা)",
   "order": 26,
   "estimatedTimeMin": 12,
   "passThresholdPercent": 70,
@@ -3841,7 +3841,7 @@
       
 {
   "id": "work-03",
-  "name": "বিভব শক্তি (শক্তি যখন জমা থাকে)",
+  "title": "বিভব শক্তি (শক্তি যখন জমা থাকে)",
   "order": 27,
   "estimatedTimeMin": 15,
   "passThresholdPercent": 75,
@@ -3979,7 +3979,7 @@
       
       {
   "id": "work-04",
-  "name": "গতিশক্তি (ছুটে চলার শক্তি)",
+  "title": "গতিশক্তি (ছুটে চলার শক্তি)",
   "order": 28,
   "estimatedTimeMin": 8,
   "passThresholdPercent": 75,
@@ -4115,7 +4115,7 @@
       
       {
   "id": "work-05",
-  "name": "কাজ বনাম শক্তি (পার্থক্য ও মিল)",
+  "title": "কাজ বনাম শক্তি (পার্থক্য ও মিল)",
   "order": 29,
           "estimatedTimeMin": 6,
   "passThresholdPercent": 60,
@@ -4240,7 +4240,7 @@
       
    {
   "id": "work-06",
-  "name": "বিভব শক্তি বনাম গতিশক্তি (চিনবে কীভাবে?)",
+  "title": "বিভব শক্তি বনাম গতিশক্তি (চিনবে কীভাবে?)",
   "order": 30,
        "estimatedTimeMin": 6,
   "passThresholdPercent": 60,
@@ -4348,7 +4348,7 @@
       
       {
   "id": "work-7",
-  "name": "ক্ষমতা (কাজের গতি বা স্পিড)",
+  "title": "ক্ষমতা (কাজের গতি বা স্পিড)",
   "order": 31,
   "estimatedTimeMin": 15,
   "passThresholdPercent": 75,
@@ -4481,7 +4481,7 @@
       
       {
   "id": "work-8",
-  "name": "কর্মদক্ষতা (আসল কাজের হিসাব)",
+  "title": "কর্মদক্ষতা (আসল কাজের হিসাব)",
   "order": 32,
   "estimatedTimeMin": 15,
   "passThresholdPercent": 75,
@@ -4603,7 +4603,7 @@
     
       {
   "id": "work-09",
-  "name": "মাস্টার চ্যালেঞ্জ: কাজ, শক্তি ও ক্ষমতা",
+  "title": "মাস্টার চ্যালেঞ্জ: কাজ, শক্তি ও ক্ষমতা",
   "order": 33,
   "estimatedTimeMin": 20,
   "passThresholdPercent": 80,
