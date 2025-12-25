@@ -1477,7 +1477,7 @@
   "order": 12,
   "estimatedTimeMin": 8,
   "passThresholdPercent": 60,
-  "unlockRequirement": "none",
+  "unlockRequirement": "motion-11",
   "basics": [
     {
       "id": "b-1766638033294-wp1no6337",
@@ -1684,7 +1684,7 @@
   "order": 13,
   "estimatedTimeMin": 4,
   "passThresholdPercent": 50,
-  "unlockRequirement": "none",
+  "unlockRequirement": "motion-12",
   "basics": [
     {
       "id": "b-1766637607182-inkovkh9o",
@@ -1849,7 +1849,7 @@
   "order": 14,
   "estimatedTimeMin": 10,
   "passThresholdPercent": 60,
-  "unlockRequirement": "none",
+  "unlockRequirement": "motion-13",
   "basics": [
     {
       "id": "b-1766641376654-hwlooceov",
