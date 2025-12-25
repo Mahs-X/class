@@ -3611,9 +3611,9 @@
   
   {
 
-"id": "Work",
+    "id": "Work",
     "name": "কাজ ক্ষমতা ও শক্তি অধ্যায়",
-    "color": "#36e0db",
+   "color": "#2d6bcf",
     "order": 3,
     "version": 2,
     "levels": [
