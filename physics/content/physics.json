@@ -4736,7 +4736,7 @@
   {
     "id": "rasi",
     "name": "ভৌত রাশি ও তার পরিমাপ অধ্যায়",
-    "color": "##590fa3",
+    "color": "#590fa3",
     "order": 34,
     "version": 2,
     "levels": [
@@ -4848,7 +4848,7 @@
   "estimatedTimeMin": 8,
   "passThresholdPercent": 60,
   "unlockRequirement": "none",
-  "basics": 
+  "basics": [
     {
       "id": "b2-physical-quantity",
       "type": "text",
