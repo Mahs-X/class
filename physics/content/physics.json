@@ -3455,7 +3455,7 @@
       "penaltyIfWrong": -1,
       "explainIfWrong": "স্থিতি ঘর্ষণ",
       "shuffleOptions": true
-    },
+    }
 
   ]
 },
