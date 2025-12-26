@@ -5079,7 +5079,7 @@
   {
   "id": "pq-03",
   "title": "মাত্রা (Dimension)",
-  "order": 3,
+  "order": 37,
   "estimatedTimeMin": 12,
   "passThresholdPercent": 60,
   "unlockRequirement": "pq-02",
@@ -5218,7 +5218,7 @@
   {
   "id": "pq-04",
   "title": "মিটার স্কেল (Meter Scale)",
-  "order": 37,
+  "order": 38,
   "estimatedTimeMin": 10,
   "passThresholdPercent": 60,
   "unlockRequirement": "pq-03",
@@ -5357,7 +5357,7 @@
   {
   "id": "pq-05",
   "title": "স্লাইড ক্যালিপার্স (Slide Calipers)",
-  "order": 38,
+  "order": 39,
   "estimatedTimeMin": 14,
   "passThresholdPercent": 60,
   "unlockRequirement": "pq-04",
@@ -5493,7 +5493,7 @@
   {
   "id": "pq-06",
   "title": "স্ক্রু গজ (Screw Gauge)",
-  "order": 39,
+  "order": 40,
   "estimatedTimeMin": 14,
   "passThresholdPercent": 60,
   "unlockRequirement": "pq-05",
@@ -5611,7 +5611,7 @@
   {
   "id": "pq-07",
   "title": "শূন্য ত্রুটি (Zero Error)",
-  "order": 40,
+  "order": 41,
   "estimatedTimeMin": 12,
   "passThresholdPercent": 60,
   "unlockRequirement": "pq-06",
@@ -5718,7 +5718,7 @@
   {
   "id": "pq-40",
   "title": "একক ও রূপান্তর (Units & Conversion)",
-  "order": 41,
+  "order": 42,
   "estimatedTimeMin": 14,
   "passThresholdPercent": 60,
   "unlockRequirement": "pq-07",
@@ -5818,7 +5818,7 @@
   {
   "id": "pq-41",
   "title": "পরিমাপের ত্রুটি (Measurement Error)",
-  "order": 42,
+  "order": 43,
   "estimatedTimeMin": 13,
   "passThresholdPercent": 60,
   "unlockRequirement": "pq-40",
@@ -5918,7 +5918,7 @@
   {
   "id": "pq-08",
   "title": "৭টি মৌলিক রাশি",
-  "order": 43,
+  "order": 44,
   "estimatedTimeMin": 15,
   "passThresholdPercent": 60,
   "unlockRequirement": "pq-02",
