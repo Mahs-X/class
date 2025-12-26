@@ -3417,17 +3417,8 @@
       "id": "q-1766673759288-z3hc2ccbq",
       "type": "drag_words",
       "question": "স্থিতি ঘর্ষণের কাজ কী?",
-      "options": [
-        {
-          "id": "o1",
-          "text": ""
-        },
-        {
-          "id": "o2",
-          "text": ""
-        }
-      ],
-      "correctOptionId": "",
+
+ 
       "marksIfCorrect": 4,
       "penaltyIfWrong": -1,
       "explainIfWrong": "স্থির বস্তুকে আটকে রাখা হলো এর কাজ",
@@ -3435,8 +3426,10 @@
       "targetAnswer": "স্থির বস্তুকে আটকে রাখা ",
       "wordPool": [
         "বস্তুকে",
-        "স্থির",
-        "আটকে রাখা"
+        "রাখা",
+        "আটকে",
+        "স্থির"
+        
       ]
     },
     {
@@ -3463,26 +3456,7 @@
       "explainIfWrong": "স্থিতি ঘর্ষণ",
       "shuffleOptions": true
     },
-    {
-      "id": "q-1766673987200-fzb4aa7bq",
-      "type": "mcq",
-      "question": "",
-      "options": [
-        {
-          "id": "o1",
-          "text": ""
-        },
-        {
-          "id": "o2",
-          "text": ""
-        }
-      ],
-      "correctOptionId": "",
-      "marksIfCorrect": 2,
-      "penaltyIfWrong": -1,
-      "explainIfWrong": "",
-      "shuffleOptions": true
-    }
+
   ]
 },
 
