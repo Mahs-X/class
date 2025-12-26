@@ -3790,7 +3790,7 @@
     },
     {
       "id": "d1-energy",
-      "type": "drag_sentence",
+      "type": "drag_words",
       "question": "শক্তির মূল কথাটি সাজাও:",
       "wordPool": ["সামর্থ্যকে", "কাজ", "শক্তি", "করার", "বলে"],
       "targetAnswer": "কাজ করার সামর্থ্যকে শক্তি বলে",
@@ -3799,7 +3799,7 @@
     },
     {
       "id": "d2-energy",
-      "type": "drag_sentence",
+      "type": "drag_words",
       "question": "কাজ ও শক্তির সম্পর্ক সাজাও:",
       "wordPool": ["হলে", "কাজ", "খরচ", "হয়", "শক্তি"],
       "targetAnswer": "কাজ হলে শক্তি খরচ হয়",
