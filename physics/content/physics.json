@@ -4737,13 +4737,13 @@
     "id": "rasi",
     "name": "ভৌত রাশি ও তার পরিমাপ অধ্যায়",
     "color": "#590fa3",
-    "order": 34,
+    "order": 4,
     "version": 2,
     "levels": [
         {
   "id": "scalar-vector-basics",
   "title": "রাশি: স্কেলার ও ভেক্টর",
-  "order": 13,
+  "order": 34,
   "estimatedTimeMin": 10,
   "passThresholdPercent": 60,
   "unlockRequirement": "motion-12",
