@@ -40,11 +40,8 @@
             "title": "স্বরধ্বনি ও ব্যঞ্জনধ্বনি",
             "content": {
               "definition": "বাংলা ধ্বনি প্রধানত <f-b>২ প্রকার</f>।\n১. <f-b>স্বরধ্বনি:</f> যা নিজে নিজে উচ্চারিত হয় (যেমন: অ, আ)।\n২. <f-b>ব্যঞ্জনধ্বনি:</f> যা স্বরধ্বনির সাহায্য ছাড়া উচ্চারিত হতে পারে না (যেমন: ক, খ)।",
-              "explanation": "বাংলায় মোট স্বরবর্ণ <bg-#e5e7eb><c-#16a34a><pl-4px><pr-4px><r-4px>১১টি</r></pl></pr></c></bg> এবং ব্যঞ্জনবর্ণ <bg-#e5e7eb><c-#2563eb><pl-4px><pr-4px><r-4px>৩৯টি</r></pl></pr></c></bg>।\nমনে রাখবে, 'ক' বলতে গেলে শেষে একটা 'অ' আসে (ক্ + অ)।",
-              "image": {
-                "url": "/banglaImages/dhoni/VowelConsonant.png",
-                "alt": "Chart showing categories of Bengali Vowels and Consonants"
-              }
+              "explanation": "বাংলায় মোট স্বরবর্ণ <bg-#e5e7eb><c-#16a34a><pl-4px><pr-4px><r-4px>১১টি</r></pl></pr></c></bg> এবং ব্যঞ্জনবর্ণ <bg-#e5e7eb><c-#2563eb><pl-4px><pr-4px><r-4px>৩৯টি</r></pl></pr></c></bg>।\nমনে রাখবে, 'ক' বলতে গেলে শেষে একটা 'অ' আসে (ক্ + অ)।"
+
             }
           }
         ],
@@ -137,11 +134,8 @@
             "title": "কার বর্ণ কী?",
             "content": {
               "definition": "স্বরবর্ণ যখন ব্যঞ্জনবর্ণের সাথে যুক্ত হয়, তখন তার চেহারা ছোট হয়ে যায়। স্বরবর্ণের এই <f-b>সংক্ষিপ্ত রূপকে</f> <c-#dc2626>কার</c> বলে।",
-              "explanation": "যেমন: 'মা' লিখতে 'ম'-এর সাথে 'আ' যোগ হয়। কিন্তু আমরা 'মআ' লিখি না, লিখি <bg-#e5e7eb><pl-5px><pr-5px><r-4px>'মা' (ম + া)</r></pl></pr></bg>। এখানে 'া' হলো কার চিহ্ন।",
-              "image": {
-                "url": "/banglaImages/dhoni/KarBornoDefinition.png",
-                "alt": "Table showing Swarabarna and Kar Barna"
-              }
+              "explanation": "যেমন: 'মা' লিখতে 'ম'-এর সাথে 'আ' যোগ হয়। কিন্তু আমরা 'মআ' লিখি না, লিখি <bg-#e5e7eb><pl-5px><pr-5px><r-4px>'মা' (ম + া)</r></pl></pr></bg>। এখানে 'া' হলো কার চিহ্ন।"
+
             }
           },
           {
@@ -150,11 +144,8 @@
             "title": "কার বর্ণ কয়টি?",
             "content": {
               "definition": "বাংলায় কার বর্ণ মোট <f-b><s-18px>১০টি</s-18px></f>।\nএগুলো হলো: <bg-#f3f4f6><pl-10px><pr-10px><r-6px><f-b>া, ি, ী, u, ূ, ৃ, ে, ৈ, ো, ৌ</f></r></pl></pr></bg>",
-              "explanation": "মনে রাখবে, ১১টি স্বরবর্ণের মধ্যে কেবল <f-b><c-#dc2626>'অ'</c></f> বর্ণের কোনো কার চিহ্ন বা সংক্ষিপ্ত রূপ নেই। একে 'নীলীন বর্ণ'ও বলা হয়।",
-              "image": {
-                "url": "/banglaImages/dhoni/KarBornoChart.png",
-                "alt": "Chart showing all 10 Kar Barnas"
-              }
+              "explanation": "মনে রাখবে, ১১টি স্বরবর্ণের মধ্যে কেবল <f-b><c-#dc2626>'অ'</c></f> বর্ণের কোনো কার চিহ্ন বা সংক্ষিপ্ত রূপ নেই। একে 'নীলীন বর্ণ'ও বলা হয়।"
+
             }
           }
         ],
@@ -215,11 +206,8 @@
             "title": "ফলা কী?",
             "content": {
               "definition": "ব্যঞ্জনবর্ণ যখন অন্য ব্যঞ্জনবর্ণের সাথে যুক্ত হয়ে ছোট হয়ে যায়, তখন সেই <f-b>সংক্ষিপ্ত রূপকে</f> <c-#9333ea>ফলা</c> বলে।",
-              "explanation": "সহজ কথায়: <bg-#f3f4f6><pl-5px><pr-5px><r-4px>ব্যঞ্জনবর্ণের সংক্ষিপ্ত রূপ = ফলা।</r></pl></pr></bg>\nযেমন: জ + ব-ফলা = 'জ্ব' (জ্বালা)।",
-              "image": {
-                "url": "/banglaImages/dhoni/FolaDefinition.png",
-                "alt": "Diagram showing how a consonant is shortened into Fola"
-              }
+              "explanation": "সহজ কথায়: <bg-#f3f4f6><pl-5px><pr-5px><r-4px>ব্যঞ্জনবর্ণের সংক্ষিপ্ত রূপ = ফলা।</r></pl></pr></bg>\nযেমন: জ + ব-ফলা = 'জ্ব' (জ্বালা)।"
+
             }
           },
           {
@@ -228,11 +216,8 @@
             "title": "ফলা কয়টি?",
             "content": {
               "definition": "বাংলায় ফলা মোট <f-b><s-18px>৬টি</s-18px></f>।\n<bg-#e5e7eb><pl-6px><pr-6px><r-4px>ন, ব, ম, য, র, ল</r></pl></pr></bg> — এই বর্ণগুলোর ফলা হয়।",
-              "explanation": "মনে রাখার কৌশল: <f-b>“মনে রবে ল?”</f> (ম, ন, র, ব, ল + য)।\nপ্রতীক: ন-ফলা (্ন), ব-ফলা (্ব), ম-ফলা (্ম), য-ফলা (্য), র-ফলা (্র), ল-ফলা (্ল)।",
-              "image": {
-                "url": "/banglaImages/dhoni/FolaChart.png",
-                "alt": "Chart showing all 6 Fola Barnas"
-              }
+              "explanation": "মনে রাখার কৌশল: <f-b>“মনে রবে ল?”</f> (ম, ন, র, ব, ল + য)।\nপ্রতীক: ন-ফলা (্ন), ব-ফলা (্ব), ম-ফলা (্ম), য-ফলা (্য), র-ফলা (্র), ল-ফলা (্ল)।"
+
             }
           }
         ],
@@ -293,11 +278,8 @@
             "title": "যুক্ত বর্ণ কী?",
             "content": {
               "definition": "যখন দুই বা তার বেশি ব্যঞ্জনবর্ণ একে অপরের সাথে <f-b>জড়িয়ে</f> একটি নতুন রূপ নেয়, তখন তাকে <c-#78350f>যুক্ত বর্ণ</c> বলে।",
-              "explanation": "অনেকটা দুধে পানি মেশানোর মতো।\nযেমন: <bg-#e5e7eb><pl-5px><pr-5px><r-4px>ক + ষ = ক্ষ</r></pl></pr></bg>। এখানে ক এবং ষ মিলে 'ক্ষ' হয়েছে।",
-              "image": {
-                "url": "/banglaImages/dhoni/JuktoBornoDefinition.png",
-                "alt": "Diagram showing combination of two consonants into a Jukto Borno"
-              }
+              "explanation": "অনেকটা দুধে পানি মেশানোর মতো।\nযেমন: <bg-#e5e7eb><pl-5px><pr-5px><r-4px>ক + ষ = ক্ষ</r></pl></pr></bg>। এখানে ক এবং ষ মিলে 'ক্ষ' হয়েছে।"
+
             }
           },
           {
@@ -306,11 +288,8 @@
             "title": "স্বচ্ছ ও অস্বচ্ছ যুক্ত বর্ণ",
             "content": {
               "definition": "যুক্ত বর্ণ ২ রকমের হতে পারে:\n১. <f-b>স্বচ্ছ:</f> চেনা যায় কে কে আছে। যেমন: <bg-#f3f4f6><pl-5px><pr-5px><r-4px>ন্ত (ন + ত)</r></pl></pr></bg>\n২. <f-b>অস্বচ্ছ:</f> চেনা যায় না, রূপ বদলে যায়। যেমন: <bg-#f3f4f6><pl-5px><pr-5px><r-4px>জ্ঞ (জ + ঞ)</r></pl></pr></bg>",
-              "explanation": "আধুনিক বাংলায় স্বচ্ছ যুক্তবর্ণ বেশি ব্যবহার করার চেষ্টা করা হয় যাতে পড়তে সুবিধা হয়।",
-              "image": {
-                "url": "/banglaImages/dhoni/JuktoBornoTypes.png",
-                "alt": "Chart showing transparent and opaque Jukto Barnas"
-              }
+              "explanation": "আধুনিক বাংলায় স্বচ্ছ যুক্তবর্ণ বেশি ব্যবহার করার চেষ্টা করা হয় যাতে পড়তে সুবিধা হয়।"
+
             }
           }
         ],
@@ -380,11 +359,8 @@
             "title": "জিভের অবস্থান (Tongue Position)",
             "content": {
               "definition": "উচ্চারণের সময় জিভ কোথায় থাকে তার ওপর ভিত্তি করে ভাগ করা হয়:\n<bg-#e5e7eb><pl-5px><pr-5px><r-4px>সামনে (সম্মুখ): ই, এ</r></pl></pr></bg>\n<bg-#e5e7eb><pl-5px><pr-5px><r-4px>পেছনে (পশ্চাৎ): অ, আ, উ</r></pl></pr></bg>",
-              "explanation": "'ই' বললে জিভ দাঁতের কাছে আসে, আর 'উ' বললে জিভ গলার দিকে পিছিয়ে যায়। আবার জিভ উঁচুতে উঠলে 'উচ্চ' (ই, উ) এবং নিচে নামলে 'নিম্ন' (আ) ধ্বনি হয়।",
-              "image": {
-                "url": "/banglaImages/dhoni/TonguePosition.png",
-                "alt": "Chart of vowel classification based on tongue height"
-              }
+              "explanation": "'ই' বললে জিভ দাঁতের কাছে আসে, আর 'উ' বললে জিভ গলার দিকে পিছিয়ে যায়। আবার জিভ উঁচুতে উঠলে 'উচ্চ' (ই, উ) এবং নিচে নামলে 'নিম্ন' (আ) ধ্বনি হয়।"
+
             }
           },
           {
@@ -393,11 +369,8 @@
             "title": "ঠোঁটের অবস্থা (Lip Shape)",
             "content": {
               "definition": "ঠোঁট কেমন থাকে?\n১. <f-b>গোলাকৃত:</f> ঠোঁট গোল হয়ে যায়। যেমন: <bg-#e5e7eb><pl-4px><pr-4px><r-4px>উ, ও</r></pl></pr></bg>\n২. <f-b>প্রসারিত:</f> ঠোঁট হাসির মতো ছড়িয়ে যায়। যেমন: <bg-#e5e7eb><pl-4px><pr-4px><r-4px>ই, এ</r></pl></pr></bg>",
-              "explanation": "আর মুখ কতটা খোলে তার ওপর ভিত্তি করে: 'আ' হলো <f-b>বিবৃত</f> (সবচেয়ে বেশি হাঁ), আর 'ই/উ' হলো <f-b>সংবৃত</f> (মুখ প্রায় বন্ধ)।",
-              "image": {
-                "url": "/banglaImages/dhoni/LipShape.png",
-                "alt": "Diagram showing lip shapes for different vowels"
-              }
+              "explanation": "আর মুখ কতটা খোলে তার ওপর ভিত্তি করে: 'আ' হলো <f-b>বিবৃত</f> (সবচেয়ে বেশি হাঁ), আর 'ই/উ' হলো <f-b>সংবৃত</f> (মুখ প্রায় বন্ধ)।"
+
             }
           }
         ],
@@ -472,11 +445,8 @@
             "title": "অর্থের পরিবর্তন",
             "content": {
               "definition": "চন্দ্রবিন্দু থাকলে শব্দের অর্থ বদলে যেতে পারে।",
-              "explanation": "যেমন:\n<bg-#f3f4f6><pl-5px><pr-5px><r-4px>বাধা (আটকানো)</r></pl></pr></bg> vs <bg-#e5e7eb><pl-5px><pr-5px><r-4px>বাঁধা (বন্ধন)</r></pl></pr></bg>\n<bg-#f3f4f6><pl-5px><pr-5px><r-4px>কাঁটা (মাছের কাঁটা)</r></pl></pr></bg> vs <bg-#e5e7eb><pl-5px><pr-5px><r-4px>কাটা (কেটে ফেলা)</r></pl></pr></bg>",
-              "image": {
-                "url": "/banglaImages/dhoni/NasalMeaningChange.png",
-                "alt": "Comparison between normal and nasal words"
-              }
+              "explanation": "যেমন:\n<bg-#f3f4f6><pl-5px><pr-5px><r-4px>বাধা (আটকানো)</r></pl></pr></bg> vs <bg-#e5e7eb><pl-5px><pr-5px><r-4px>বাঁধা (বন্ধন)</r></pl></pr></bg>\n<bg-#f3f4f6><pl-5px><pr-5px><r-4px>কাঁটা (মাছের কাঁটা)</r></pl></pr></bg> vs <bg-#e5e7eb><pl-5px><pr-5px><r-4px>কাটা (কেটে ফেলা)</r></pl></pr></bg>"
+
             }
           }
         ],
@@ -635,3 +605,4 @@
     ]
   }
 ]
+
