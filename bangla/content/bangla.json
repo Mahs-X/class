@@ -891,9 +891,10 @@
     },
     {
       "id": "q63",
-      "type": "text_input",
-      "question": "'চলা' শব্দের প্রকৃতি কী? (শুধু প্রকৃতি লেখো)",
-      "targetAnswer": "চল্",
+      "type": "drag_words",
+      "question": "'চলা' শব্দের প্রকৃতি কী? (মূল কি?)",
+       "wordPool": ["ক্রিয়া", "ক্রিয়াপদ", "তৈরি", "চল্"],
+      "targetAnswer": "চল্" ,
       "marksIfCorrect": 3,
       "penaltyIfWrong": -1,
       "timeLimitSec": 40,
@@ -963,6 +964,7 @@
 
   
 ]
+
 
 
 
