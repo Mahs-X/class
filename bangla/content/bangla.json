@@ -787,8 +787,8 @@
   {
     "id": "sobdototto",
     "name": "শব্দ ও পদের গঠন",
-    "color": "#c6c908",
-    "order": 2,
+    "color": "#800ac4",
+    "order": 3,
     "version": 6,
     "levels": [
       {
@@ -2080,7 +2080,7 @@
 
 "id": "somas",
     "name": "সমাস প্রক্রিয়ায় শব্দ গঠন",
-    "color": "#26fce0",
+    "color": "#0acfb5",
     "order": 4,
     "version": 6,
     "levels":[
@@ -3085,6 +3085,7 @@
 
 
 ]
+
 
 
 
