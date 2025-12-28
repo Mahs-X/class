@@ -1676,7 +1676,7 @@
       "id": "chemistry-ch2-states",
   "name": "পদার্থের অবস্থা: তিন রূপের খেলা",
   "color": "#06b6d4",
-  "order": 2,
+  "order": 9,
   "version": 1,
   "levels":[
      {
@@ -1872,7 +1872,7 @@
     {
       "id": "chem2-02",
       "title": "তিন রকম পদার্থ!",
-      "order": 2,
+      "order": 10,
       "estimatedTimeMin": 12,
       "passThresholdPercent": 70,
       "unlockRequirement": "chem2-01",
@@ -2067,7 +2067,7 @@
     {
       "id": "chem2-03",
       "title": "কণাতত্ত্বের রহস্য",
-      "order": 3,
+      "order": 11,
       "estimatedTimeMin": 12,
       "passThresholdPercent": 65,
       "unlockRequirement": "chem2-02",
@@ -2253,7 +2253,7 @@
     {
       "id": "chem2-04",
       "title": "ব্যাপন: কণার ছড়িয়ে পড়া",
-      "order": 4,
+      "order": 12,
       "estimatedTimeMin": 13,
       "passThresholdPercent": 60,
       "unlockRequirement": "chem2-03",
@@ -2449,7 +2449,7 @@
     {
       "id": "chem2-05",
       "title": "নিঃসরণ: জীবনের ছাঁকনি",
-      "order": 5,
+      "order": 13,
       "estimatedTimeMin": 14,
       "passThresholdPercent": 60,
       "unlockRequirement": "chem2-04",
@@ -2649,7 +2649,7 @@
  {
       "id": "chem2-06",
       "title": "তাপমাত্রা ও চাপের খেলা",
-      "order": 6,
+      "order": 14,
       "estimatedTimeMin": 14,
       "passThresholdPercent": 60,
       "unlockRequirement": "chem2-05",
@@ -2848,7 +2848,7 @@
     {
       "id": "chem2-07",
       "title": "গলন ও জমাট বাঁধা",
-      "order": 7,
+      "order": 15,
       "estimatedTimeMin": 15,
       "passThresholdPercent": 55,
       "unlockRequirement": "chem2-06",
@@ -3045,7 +3045,7 @@
     {
       "id": "chem2-08",
       "title": "স্ফুটন ও ঘনীভবন",
-      "order": 8,
+      "order": 16,
       "estimatedTimeMin": 16,
       "passThresholdPercent": 55,
       "unlockRequirement": "chem2-07",
@@ -3244,7 +3244,7 @@
     {
       "id": "chem2-09",
       "title": "ঊর্ধ্বপাতন: সরাসরি লাফ!",
-      "order": 9,
+      "order": 17,
       "estimatedTimeMin": 14,
       "passThresholdPercent": 50,
       "unlockRequirement": "chem2-08",
@@ -3443,7 +3443,7 @@
     {
       "id": "chem2-10",
       "title": "তোমার চারপাশে পদার্থের খেলা!",
-      "order": 10,
+      "order": 18,
       "estimatedTimeMin": 18,
       "passThresholdPercent": 50,
       "unlockRequirement": "chem2-09",
@@ -3640,3 +3640,4 @@
 
 
 ]   
+
