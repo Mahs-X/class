@@ -897,6 +897,7 @@
       "id": "q36",
       "type": "text_input",
       "question": "অক্সিজেন গ্যাসের রাসায়নিক সংকেত কী? (ইংরেজিতে লেখো, যেমন: H2O)",
+       
       "targetAnswer": "O2",
       "marksIfCorrect": 3,
       "penaltyIfWrong": -1,
@@ -3634,6 +3635,7 @@
 
   ]
   }
+
 
 
 
