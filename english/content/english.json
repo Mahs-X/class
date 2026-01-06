@@ -424,6 +424,429 @@
       "explainIfWrong": "She is = statement (.)। Is she = question (?)।"
     }
   ]
+},
+
+
+
+
+{
+  "id": "punctuation-04",
+  "title": "Exclamation Mark (!) - আবেগ দেখানোর চিহ্ন",
+  "order": 4,
+  "estimatedTimeMin": 9,
+  "passThresholdPercent": 60,
+  "unlockRequirement": "punctuation-03",
+  "basics": [
+    {
+      "id": "b1-L4",
+      "type": "text",
+      "title": "Exclamation Mark কী?",
+      "content": {
+        "definition": "<f-b>Exclamation Mark (!)</f> হলো <c-#dc2626>জোর বা আবেগ</c> দেখানোর চিহ্ন। খুশি, রাগ, অবাক - সব আবেগে ব্যবহার হয়।",
+        "explanation": "Normal: I am happy. (সাধারণ)\nExcited: I am so happy! (জোর!)\n\nউদাহরণ:\n• Wow! What a beautiful day!\n• Stop! Don't go there!\n• Hurray! We won the match!\n\nপার্থক্য দেখো:\nPeriod = শান্ত।\n! = জোরালো।"
+      }
+    },
+    {
+      "id": "b2-L4",
+      "type": "text",
+      "title": "কোন বাক্যে Exclamation Mark?",
+      "content": {
+        "definition": "<f-b>তিন ধরনের বাক্যে</f> Exclamation Mark বসে: আদেশ, আবেগ, অবাক হওয়া।",
+        "explanation": "১. আদেশ (Command):\nStop! Sit down! Come here!\n\n২. আবেগ (Emotion):\nI love it! How sad! Amazing!\n\n৩. অবাক (Surprise):\nWhat! Really! Oh no!\n\n<c-#dc2626>ট্রিক</c>: জোরে বললে ! ব্যবহার করো।"
+      }
+    },
+    {
+      "id": "b3-L4",
+      "type": "text",
+      "title": "কখন Period, কখন !",
+      "content": {
+        "definition": "একই কথা শান্তভাবে বললে Period, জোরে বললে Exclamation Mark।",
+        "explanation": "তুলনা:\n\n<f-b>Calm:</f>\nIt is beautiful. (শান্ত)\n\n<f-b>Excited:</f>\nIt is beautiful! (উত্তেজিত)\n\n<f-b>Very excited:</f>\nHow beautiful! (খুব উত্তেজিত)\n\nমনে রাখো: বেশি ! ব্যবহার করো না। জোরালো জায়গায় দাও।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L4",
+      "type": "mcq",
+      "question": "কোন বাক্যে Exclamation Mark দরকার?",
+      "options": [
+        {"id": "o1", "text": "I am happy"},
+        {"id": "o2", "text": "Stop now"},
+        {"id": "o3", "text": "She reads books"},
+        {"id": "o4", "text": "We play games"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 25,
+      "explainIfWrong": "Stop now = আদেশ। জোরালো কথা। Correct: Stop now!",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q2-L4",
+      "type": "mcq",
+      "question": "Exclamation Mark কী বোঝায়?",
+      "options": [
+        {"id": "o1", "text": "প্রশ্ন"},
+        {"id": "o2", "text": "জোর বা আবেগ"},
+        {"id": "o3", "text": "শান্ত কথা"},
+        {"id": "o4", "text": "তালিকা"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 20,
+      "explainIfWrong": "Exclamation Mark (!) = জোর, আবেগ, উত্তেজনা!",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q3-L4",
+      "type": "drag_words_dash",
+      "question": "সঠিক চিহ্ন বসাও:",
+      "text": "Wow[[!]] What a goal[[!]] I am happy[[.]]",
+      "options": ["!", "!", ".", "?"],
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 35,
+      "explainIfWrong": "Wow, What a goal = উত্তেজনা (!)। I am happy = সাধারণ (.)।"
+    },
+    {
+      "id": "q4-L4",
+      "type": "mcq",
+      "question": "কোনটি আদেশ (Command)?",
+      "options": [
+        {"id": "o1", "text": "I like it"},
+        {"id": "o2", "text": "Do you like it"},
+        {"id": "o3", "text": "Come here"},
+        {"id": "o4", "text": "She is happy"}
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "Come here = আদেশ। আদেশে ! বসে। Correct: Come here!",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q5-L4",
+      "type": "drag_words",
+      "question": "উত্তেজিত বাক্য তৈরি করো:",
+      "wordPool": ["Amazing", "!", "What", "a", "view"],
+      "targetAnswer": "What a view !",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "hints": ["What দিয়ে শুরু। শেষে !"]
+    },
+    {
+      "id": "q6-L4",
+      "type": "mcq",
+      "question": "It is good - কে জোরালো করো:",
+      "options": [
+        {"id": "o1", "text": "It is good?"},
+        {"id": "o2", "text": "It is good!"},
+        {"id": "o3", "text": "Is it good!"},
+        {"id": "o4", "text": "It is good,"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "জোরালো = ! দাও। It is good! (খুব ভালো!)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q7-L4",
+      "type": "drag_words_dash",
+      "question": "তিন ধরনের বাক্য আলাদা করো:",
+      "text": "Stop[[!]] Are you happy[[?]] I am fine[[.]]",
+      "options": ["!", "?", ".", ","],
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -2,
+      "timeLimitSec": 40,
+      "explainIfWrong": "Stop = আদেশ (!)। Are you = প্রশ্ন (?)। I am = statement (.)।"
+    }
+  ]
+},
+
+
+{
+  "id": "punctuation-05",
+  "title": "Comma (,) - তালিকা ও বিরতির চিহ্ন",
+  "order": 5,
+  "estimatedTimeMin": 11,
+  "passThresholdPercent": 55,
+  "unlockRequirement": "punctuation-04",
+  "basics": [
+    {
+      "id": "b1-L5",
+      "type": "text",
+      "title": "Comma কী?",
+      "content": {
+        "definition": "<f-b>Comma (,)</f> হলো বাক্যের মাঝে <c-#dc2626>ছোট বিরতির</c> চিহ্ন। পড়ার সময় শ্বাস নেওয়ার জায়গা।",
+        "explanation": "Period = পুরো থামো।\nComma = একটু থামো।\n\nউদাহরণ:\n• I like apples, mangoes, and bananas.\n• She went to school, bought books, and came home.\n\nComma না থাকলে পড়তে কষ্ট। শ্বাস নিতে পারবে না!"
+      }
+    },
+    {
+      "id": "b2-L5",
+      "type": "text",
+      "title": "কোথায় Comma বসে?",
+      "content": {
+        "definition": "<f-b>চারটি প্রধান জায়গায়</f> Comma বসে: তালিকা, দুই বাক্য জোড়া, শুরুতে শব্দ, নাম ডাকা।",
+        "explanation": "১. তালিকায় (List):\napples, bananas, mangoes\n\n২. দুই বাক্য জোড়া:\nI eat, and she drinks.\n\n৩. শুরুতে শব্দ:\nYes, I agree.\n\n৪. নাম ডাকা:\nRahim, come here.\n\n<c-#dc2626>নিয়ম</c>: তালিকার শেষ জিনিসের আগে and থাকলে comma optional।"
+      }
+    },
+    {
+      "id": "b3-L5",
+      "type": "text",
+      "title": "Comma ভুল করো না",
+      "content": {
+        "definition": "Comma শুধু দরকারি জায়গায় দাও। <c-#dc2626>বেশি বা কম</c> দিলে অর্থ বদলে যায়।",
+        "explanation": "সঠিক:\nI eat rice, fish, and vegetables.\n\nভুল:\nI eat, rice fish and vegetables.\n\nভুল:\nI, eat rice fish and vegetables.\n\nমনে রাখো: তালিকার প্রতি জিনিসের পরে comma (শেষটা ছাড়া)।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L5",
+      "type": "mcq",
+      "question": "কোন বাক্যে Comma সঠিক?",
+      "options": [
+        {"id": "o1", "text": "I like apples mangoes bananas."},
+        {"id": "o2", "text": "I like apples, mangoes, bananas."},
+        {"id": "o3", "text": "I, like apples mangoes bananas."},
+        {"id": "o4", "text": "I like, apples mangoes bananas."}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "তালিকায় প্রতি জিনিসের পরে comma। I like apples, mangoes, bananas.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q2-L5",
+      "type": "mcq",
+      "question": "Comma কী বোঝায়?",
+      "options": [
+        {"id": "o1", "text": "বাক্য শেষ"},
+        {"id": "o2", "text": "ছোট বিরতি"},
+        {"id": "o3", "text": "প্রশ্ন"},
+        {"id": "o4", "text": "আবেগ"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 20,
+      "explainIfWrong": "Comma (,) = ছোট বিরতি। শ্বাস নেওয়ার জায়গা।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q3-L5",
+      "type": "drag_words_dash",
+      "question": "তালিকায় comma বসাও:",
+      "text": "I have pens[[,]] pencils[[,]] and books[[.]]",
+      "options": [",", ",", ".", "!", "?"],
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 40,
+      "explainIfWrong": "তিনটি জিনিস: pens, pencils, books। প্রতিটার পরে comma (and এর আগে optional)।"
+    },
+    {
+      "id": "q4-L5",
+      "type": "mcq",
+      "question": "Yes I agree - এতে কোথায় comma?",
+      "options": [
+        {"id": "o1", "text": "Yes, I agree"},
+        {"id": "o2", "text": "Yes I, agree"},
+        {"id": "o3", "text": "Yes I agree,"},
+        {"id": "o4", "text": "comma লাগবে না"}
+      ],
+      "correctOptionId": "o1",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "শুরুতে Yes/No থাকলে তার পরে comma। Yes, I agree.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q5-L5",
+      "type": "drag_words",
+      "question": "তালিকা তৈরি করো:",
+      "wordPool": ["I", "eat", "rice", ",", "fish", ",", "and", "eggs", "."],
+      "targetAnswer": "I eat rice , fish , and eggs .",
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -1,
+      "hints": ["তিনটি খাবার। প্রতিটার পরে comma।"]
+    },
+    {
+      "id": "q6-L5",
+      "type": "mcq",
+      "question": "Rahim come here - এতে comma কোথায়?",
+      "options": [
+        {"id": "o1", "text": "Rahim, come here"},
+        {"id": "o2", "text": "Rahim come, here"},
+        {"id": "o3", "text": "Rahim come here,"},
+        {"id": "o4", "text": "comma লাগবে না"}
+      ],
+      "correctOptionId": "o1",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "নাম ডাকলে নামের পরে comma। Rahim, come here.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q7-L5",
+      "type": "drag_words_dash",
+      "question": "দুই বাক্য জোড়ো:",
+      "text": "I study[[,]] and she plays[[.]]",
+      "options": [",", ".", "!", "?"],
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -2,
+      "timeLimitSec": 40,
+      "explainIfWrong": "and দিয়ে দুই বাক্য জোড়া দিলে and এর আগে comma। I study, and she plays."
+    }
+  ]
+},
+{
+  "id": "punctuation-06",
+  "title": "Apostrophe (') - সংক্ষিপ্ত ও মালিকানা",
+  "order": 6,
+  "estimatedTimeMin": 12,
+  "passThresholdPercent": 55,
+  "unlockRequirement": "punctuation-05",
+  "basics": [
+    {
+      "id": "b1-L6",
+      "type": "text",
+      "title": "Apostrophe কী?",
+      "content": {
+        "definition": "<f-b>Apostrophe (')</f> এর <c-#dc2626>দুটি কাজ</c>: শব্দ সংক্ষিপ্ত করা এবং মালিকানা দেখানো।",
+        "explanation": "১. সংক্ষিপ্ত (Contraction):\ndo not → don't\nI am → I'm\n\n২. মালিকানা (Possession):\nRahim's book (রহিমের বই)\nThe cat's tail (বিড়ালের লেজ)\n\nদুটোই apostrophe (') ব্যবহার করে কিন্তু উদ্দেশ্য আলাদা।"
+      }
+    },
+    {
+      "id": "b2-L6",
+      "type": "text",
+      "title": "Contraction কীভাবে তৈরি?",
+      "content": {
+        "definition": "<f-b>Contraction</f> মানে দুই শব্দ মিলিয়ে ছোট করা। যে অক্ষর বাদ যায় সেখানে <c-#dc2626>apostrophe</c> বসে।",
+        "explanation": "Common contractions:\n\n• do not → don't (o বাদ)\n• I am → I'm (a বাদ)\n• it is → it's (i বাদ)\n• cannot → can't (no বাদ)\n• will not → won't (বিশেষ)\n\n<c-#dc2626>নিয়ম</c>: যেখানে অক্ষর বাদ, সেখানে ' বসে।"
+      }
+    },
+    {
+      "id": "b3-L6",
+      "type": "text",
+      "title": "Possession কীভাবে দেখাও?",
+      "content": {
+        "definition": "মালিকানা দেখাতে নামের শেষে <f-b>'s</f> বসে। <c-#dc2626>একজনের</c> জিনিস হলে 's, <c-#dc2626>অনেকের</c> হলে শুধু '।",
+        "explanation": "একজনের (Singular):\n• Rahim's book (রহিমের বই)\n• The dog's tail (কুকুরের লেজ)\n\nঅনেকের (Plural ending in s):\n• The students' books (ছাত্রদের বই)\n• The dogs' tails (কুকুরদের লেজ)\n\n<c-#dc2626>ট্রিক</c>:\nএকজন = 's\nঅনেক (s আছে) = শুধু '"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L6",
+      "type": "mcq",
+      "question": "do not এর contraction কোনটি?",
+      "options": [
+        {"id": "o1", "text": "dont"},
+        {"id": "o2", "text": "don't"},
+        {"id": "o3", "text": "do'nt"},
+        {"id": "o4", "text": "don t"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 25,
+      "explainIfWrong": "do not → don't। o বাদ গেছে, তাই সেখানে apostrophe।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q2-L6",
+      "type": "mcq",
+      "question": "Apostrophe এর কাজ কী?",
+      "options": [
+        {"id": "o1", "text": "শুধু সংক্ষিপ্ত করা"},
+        {"id": "o2", "text": "শুধু মালিকানা দেখানো"},
+        {"id": "o3", "text": "সংক্ষিপ্ত ও মালিকানা দুটোই"},
+        {"id": "o4", "text": "প্রশ্ন করা"}
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 25,
+      "explainIfWrong": "Apostrophe দুই কাজে: contraction (don't) ও possession (Rahim's)।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q3-L6",
+      "type": "drag_words_dash",
+      "question": "Contraction তৈরি করো:",
+      "text": "I am happy → I[[']]]m happy. It is good → It[[']]]s good.",
+      "options": ["'", "'", ".", ","],
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 40,
+      "explainIfWrong": "I am → I'm (a বাদ)। It is → It's (i বাদ)। বাদ যাওয়া জায়গায় '।"
+    },
+    {
+      "id": "q4-L6",
+      "type": "mcq",
+      "question": "Rahim এর বই - ইংরেজিতে কীভাবে লিখবে?",
+      "options": [
+        {"id": "o1", "text": "Rahims book"},
+        {"id": "o2", "text": "Rahim's book"},
+        {"id": "o3", "text": "Rahims' book"},
+        {"id": "o4", "text": "Rahim book"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "একজনের মালিকানা = নামের পরে 's। Rahim's book।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q5-L6",
+      "type": "drag_words",
+      "question": "Contraction বানাও:",
+      "wordPool": ["I", "do", "n't", "like", "it", "."],
+      "targetAnswer": "I do n't like it .",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "hints": ["do not = don't। n't আলাদা word হিসেবে।"]
+    },
+    {
+      "id": "q6-L6",
+      "type": "mcq",
+      "question": "ছাত্রদের বই (students) - সঠিক কোনটি?",
+      "options": [
+        {"id": "o1", "text": "students book"},
+        {"id": "o2", "text": "student's book"},
+        {"id": "o3", "text": "students' book"},
+        {"id": "o4", "text": "students's book"}
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 35,
+      "explainIfWrong": "students (অনেক ছাত্র, s আছে) = শুধু ' দাও। students' book।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q7-L6",
+      "type": "drag_words_dash",
+      "question": "Contraction vs Possession:",
+      "text": "It[[']]]s a cat[[.]] The cat[[']]]s tail is long[[.]]",
+      "options": ["'", ".", "'", "."],
+      "marksIfCorrect": 5,
+      "penaltyIfWrong": -2,
+      "timeLimitSec": 50,
+      "explainIfWrong": "It's = It is (contraction)। cat's = মালিকানা (possession)। দুটোতে ' কিন্তু কারণ আলাদা!"
+    }
+  ]
 }
 
 
