@@ -1,0 +1,450 @@
+[
+
+{
+
+
+    "id": "englishPunCuation",
+    "name": "Punctuation Highway",
+    "color": "#00A86B",
+    "order": 1,
+    "version": 6,
+    "levels":[
+
+{
+  "id": "punctuation-01",
+  "title": "Capital Letters - কখন বড় হাতের অক্ষর?",
+  "order": 1,
+  "estimatedTimeMin": 9,
+  "passThresholdPercent": 60,
+  "unlockRequirement": {
+    "type": "none"
+  },
+  "basics": [
+    {
+      "id": "b1-L56",
+      "type": "text",
+      "title": "Capital Letter কী?",
+      "content": {
+        "definition": "<f-b>Capital Letter</f> মানে বড় হাতের অক্ষর (A, B, C...)। <c-#dc2626>বিশেষ জায়গায়</c> এগুলো ব্যবহার করতে হয়।",
+        "explanation": "Small letters: a, b, c, d...\nCapital letters: A, B, C, D...\n\nউদাহরণ:\n• My name is Rahim.\n• I live in Dhaka.\n• We play football.\n\nলক্ষ করো: Rahim, Dhaka = Capital দিয়ে শুরু।"
+      }
+    },
+    {
+      "id": "b2-L56",
+      "type": "text",
+      "title": "কোথায় Capital Letter বসে?",
+      "content": {
+        "definition": "<f-b>তিনটি প্রধান জায়গায়</f> Capital Letter বসে: বাক্যের শুরু, নাম, I শব্দ।",
+        "explanation": "১. বাক্যের শুরুতে:\nShe is happy.\n\n২. নামে (মানুষ, জায়গা):\nRahim, Dhaka, Bangladesh\n\n৩. I শব্দে (আমি):\nI am a student.\n\n<c-#dc2626>সহজ নিয়ম</c>: যা বিশেষ = Capital দাও।"
+      }
+    },
+    {
+      "id": "b3-L56",
+      "type": "text",
+      "title": "সাধারণ ভুল এড়াও",
+      "content": {
+        "definition": "মাঝের সাধারণ শব্দে Capital দিও না। শুধু <c-#16a34a>বিশেষ জায়গায়</c> দাও।",
+        "explanation": "ভুল:\nI Like to Eat Rice.\n\nসঠিক:\nI like to eat rice.\n\nকারণ: like, to, eat, rice = সাধারণ শব্দ।\n\n<f-b>মনে রাখো</f>: I সবসময় Capital। বাকি সব small (নাম ছাড়া)।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L56",
+      "type": "mcq",
+      "question": "কোন বাক্যটি সঠিক?",
+      "options": [
+        {"id": "o1", "text": "i am happy."},
+        {"id": "o2", "text": "I am happy."},
+        {"id": "o3", "text": "I Am Happy."},
+        {"id": "o4", "text": "i Am happy."}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 25,
+      "explainIfWrong": "I সবসময় Capital। বাক্য শুরুতেও Capital। am, happy = small letter।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q2-L56",
+      "type": "mcq",
+      "question": "কোনটিতে Capital Letter দরকার?",
+      "options": [
+        {"id": "o1", "text": "the"},
+        {"id": "o2", "text": "book"},
+        {"id": "o3", "text": "Dhaka"},
+        {"id": "o4", "text": "eat"}
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 20,
+      "explainIfWrong": "Dhaka একটি জায়গার নাম। নামে Capital Letter লাগে।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q3-L56",
+      "type": "drag_words_dash",
+      "question": "Capital Letter বসাও:",
+      "text": "[[M]]y name is [[R]]ahim[[.]] [[I]] live in [[D]]haka[[.]]",
+      "options": ["M", "R", ".", "I", "D", "."],
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 40,
+      "explainIfWrong": "My (শুরু), Rahim (নাম), I (আমি), Dhaka (জায়গা) = Capital। বাক্যের শেষে Period।"
+    },
+    {
+      "id": "q4-L56",
+      "type": "mcq",
+      "question": "i play football. - এই বাক্যে কী ভুল?",
+      "options": [
+        {"id": "o1", "text": "i ছোট হাতে"},
+        {"id": "o2", "text": "football Capital হবে"},
+        {"id": "o3", "text": "play Capital হবে"},
+        {"id": "o4", "text": "কোনো ভুল নেই"}
+      ],
+      "correctOptionId": "o1",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "I সবসময় Capital হবে। Correct: I play football.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q5-L56",
+      "type": "drag_words",
+      "question": "সঠিক ক্রমে সাজাও:",
+      "wordPool": ["I", "am", "a", "student", "."],
+      "targetAnswer": "I am a student .",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "hints": ["I দিয়ে শুরু করো। শেষে period।"]
+    },
+    {
+      "id": "q6-L56",
+      "type": "text_input",
+      "question": "আমি শব্দটি ইংরেজিতে কীভাবে লেখো?",
+      "targetAnswer": "I",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 20,
+      "hints": ["সবসময় বড় হাতে"]
+    },
+    {
+      "id": "q7-L56",
+      "type": "mcq",
+      "question": "কোন বাক্যে সব ঠিক আছে?",
+      "options": [
+        {"id": "o1", "text": "rahim lives in dhaka."},
+        {"id": "o2", "text": "Rahim Lives In Dhaka."},
+        {"id": "o3", "text": "Rahim lives in Dhaka."},
+        {"id": "o4", "text": "rahim Lives in Dhaka."}
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -2,
+      "timeLimitSec": 35,
+      "explainIfWrong": "Rahim (নাম), Dhaka (জায়গা) = Capital। lives, in = small। বাক্য শুরু Capital।",
+      "shuffleOptions": true
+    }
+  ]
+},
+
+{
+  "id": "punctuation-02",
+  "title": "Period (.) - বাক্যের শেষ চিহ্ন",
+  "order": 2,
+  "estimatedTimeMin": 8,
+  "passThresholdPercent": 60,
+  "unlockRequirement": "punctuation-01",
+  "basics": [
+    {
+      "id": "b1-L57",
+      "type": "text",
+      "title": "Period কী?",
+      "content": {
+        "definition": "<f-b>Period (.)</f> হলো বাক্যের শেষে বসানো <c-#dc2626>থামার চিহ্ন</c>। এটা বলে - এখানে বাক্য শেষ।",
+        "explanation": "উদাহরণ:\n• I am happy.\n• She reads books.\n• We play games.\n\nPeriod না থাকলে পাঠক বুঝবে না কোথায় থামতে হবে। সব শব্দ একসাথে মিশে যাবে!"
+      }
+    },
+    {
+      "id": "b2-L57",
+      "type": "text",
+      "title": "Period কোথায় বসে?",
+      "content": {
+        "definition": "একটা <f-b>সম্পূর্ণ কথা</f> শেষ হলেই Period বসে। অসম্পূর্ণ কথায় Period দিও না।",
+        "explanation": "চেক করো:\n১. কে আছে? (subject)\n২. কী করলো? (verb)\n৩. সম্পূর্ণ অর্থ আছে?\n\nহ্যাঁ = Period দাও।\n\n<c-#dc2626>উদাহরণ:</c>\n✅ I eat rice. (সম্পূর্ণ)\n❌ I eat (অসম্পূর্ণ)"
+      }
+    },
+    {
+      "id": "b3-L57",
+      "type": "text",
+      "title": "Period এর পর কী হয়?",
+      "content": {
+        "definition": "Period এর পরে <f-b>নতুন বাক্য</f> শুরু হয়। নতুন বাক্য <c-#16a34a>Capital Letter</c> দিয়ে শুরু।",
+        "explanation": "দেখো:\nI am happy. She is sad.\n\nএখানে:\n• I am happy. → Period\n• She... → নতুন বাক্য, তাই Capital\n\n<f-b>মনে রাখো</f>: Period = শেষ। Capital = নতুন শুরু।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L57",
+      "type": "mcq",
+      "question": "কোন বাক্যটি সঠিক?",
+      "options": [
+        {"id": "o1", "text": "I am happy"},
+        {"id": "o2", "text": "I am happy."},
+        {"id": "o3", "text": "I. am happy"},
+        {"id": "o4", "text": "I am. happy"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 25,
+      "explainIfWrong": "সম্পূর্ণ বাক্যের শেষে Period বসে। I am happy সম্পূর্ণ কথা।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q2-L57",
+      "type": "mcq",
+      "question": "Period কী বোঝায়?",
+      "options": [
+        {"id": "o1", "text": "বাক্য চলছে"},
+        {"id": "o2", "text": "বাক্য শেষ"},
+        {"id": "o3", "text": "প্রশ্ন"},
+        {"id": "o4", "text": "বিস্ময়"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 20,
+      "explainIfWrong": "Period (.) মানে বাক্য শেষ। Full stop।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q3-L57",
+      "type": "drag_words_dash",
+      "question": "Period বসাও:",
+      "text": "She reads books[[.]] He plays games[[.]]",
+      "options": [".", ".", ",", "?"],
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "দুটো আলাদা বাক্য = দুটো Period চাই।"
+    },
+    {
+      "id": "q4-L57",
+      "type": "mcq",
+      "question": "কোন বাক্যে Period ভুল জায়গায়?",
+      "options": [
+        {"id": "o1", "text": "I eat rice."},
+        {"id": "o2", "text": "She. is happy"},
+        {"id": "o3", "text": "We play."},
+        {"id": "o4", "text": "He runs fast."}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "She is happy একটা সম্পূর্ণ কথা। মাঝখানে Period ভুল। Correct: She is happy.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q5-L57",
+      "type": "drag_words",
+      "question": "সঠিক বাক্য তৈরি করো:",
+      "wordPool": ["I", "like", "mangoes", "."],
+      "targetAnswer": "I like mangoes .",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "hints": ["শেষে কী বসবে?"]
+    },
+    {
+      "id": "q6-L57",
+      "type": "text_input",
+      "question": "বাক্যের শেষ চিহ্ন ইংরেজিতে কী বলে?",
+      "targetAnswer": "period",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 25,
+      "hints": ["Full stop নামেও পরিচিত"]
+    },
+    {
+      "id": "q7-L57",
+      "type": "drag_words_dash",
+      "question": "তিনটি বাক্য সম্পূর্ণ করো:",
+      "text": "I eat[[.]] You drink[[.]] We sleep[[.]]",
+      "options": [".", ".", ".", ",", "?"],
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -2,
+      "timeLimitSec": 35,
+      "explainIfWrong": "তিনটি আলাদা বাক্য = তিনটি Period!"
+    }
+  ]
+},
+
+
+
+{
+  "id": "punctuation-03",
+  "title": "Question Mark (?) - প্রশ্ন করার চিহ্ন",
+  "order": 3,
+  "estimatedTimeMin": 9,
+  "passThresholdPercent": 60,
+  "unlockRequirement": "punctuation-02",
+  "basics": [
+    {
+      "id": "b1-L58",
+      "type": "text",
+      "title": "Question Mark কী?",
+      "content": {
+        "definition": "<f-b>Question Mark (?)</f> হলো প্রশ্ন করার চিহ্ন। যখন কিছু <c-#dc2626>জানতে চাও</c>, তখন এটা ব্যবহার করো।",
+        "explanation": "Statement: I am happy. (বলা)\nQuestion: Are you happy? (জানতে চাওয়া)\n\nউদাহরণ:\n• What is your name?\n• Do you like books?\n• Where do you live?\n\nPeriod vs Question Mark:\nPeriod = জানাই।\n? = জানতে চাই।"
+      }
+    },
+    {
+      "id": "b2-L58",
+      "type": "text",
+      "title": "কোন বাক্যে Question Mark?",
+      "content": {
+        "definition": "<f-b>প্রশ্ন শব্দ</f> দিয়ে শুরু হলে বা <f-b>উত্তর চাইলে</f> Question Mark বসে।",
+        "explanation": "প্রশ্ন শব্দ (Wh-words):\n• What, Where, When, Who, Why, How\n\nDo/Does/Is/Are দিয়ে:\n• Do you play?\n• Is she happy?\n\n<c-#dc2626>সহজ ট্রিক</c>:\nYes/No উত্তর দিতে হয় = Question Mark।"
+      }
+    },
+    {
+      "id": "b3-L58",
+      "type": "text",
+      "title": "Question Mark vs Period",
+      "content": {
+        "definition": "একই শব্দ দিয়ে বলা ও জানা আলাদা। চিহ্ন দিয়ে বুঝবে।",
+        "explanation": "তুলনা:\n\n<f-b>Statement:</f>\nYou are happy. (তুমি খুশি - বলছি)\n\n<f-b>Question:</f>\nAre you happy? (তুমি খুশি? - জানতে চাইছি)\n\nশব্দ একই, কিন্তু অর্থ আলাদা!"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L58",
+      "type": "mcq",
+      "question": "কোন বাক্যটি প্রশ্ন?",
+      "options": [
+        {"id": "o1", "text": "I am happy."},
+        {"id": "o2", "text": "Are you happy?"},
+        {"id": "o3", "text": "She is sad."},
+        {"id": "o4", "text": "We play games."}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 25,
+      "explainIfWrong": "Are you happy? = প্রশ্ন করছে। উত্তর চাইছে।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q2-L58",
+      "type": "mcq",
+      "question": "What is your name - এর শেষে কী বসবে?",
+      "options": [
+        {"id": "o1", "text": "."},
+        {"id": "o2", "text": "?"},
+        {"id": "o3", "text": "!"},
+        {"id": "o4", "text": ","}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 20,
+      "explainIfWrong": "What দিয়ে শুরু = প্রশ্ন। প্রশ্নে Question Mark (?)।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q3-L58",
+      "type": "drag_words_dash",
+      "question": "সঠিক চিহ্ন বসাও:",
+      "text": "Do you like books[[?]] I like books[[.]]",
+      "options": ["?", ".", "!", ","],
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 35,
+      "explainIfWrong": "Do you... = প্রশ্ন (?)। I like... = statement (.)।"
+    },
+    {
+      "id": "q4-L58",
+      "type": "mcq",
+      "question": "কোনটি প্রশ্ন শব্দ নয়?",
+      "options": [
+        {"id": "o1", "text": "What"},
+        {"id": "o2", "text": "Where"},
+        {"id": "o3", "text": "Because"},
+        {"id": "o4", "text": "Who"}
+      ],
+      "correctOptionId": "o3",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 30,
+      "explainIfWrong": "Because = কারণ বলে। প্রশ্ন করে না। What, Where, Who = প্রশ্ন শব্দ।",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q5-L58",
+      "type": "drag_words",
+      "question": "প্রশ্ন তৈরি করো:",
+      "wordPool": ["Where", "do", "you", "live", "?"],
+      "targetAnswer": "Where do you live ?",
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1,
+      "hints": ["Where দিয়ে শুরু। শেষে ?"]
+    },
+    {
+      "id": "q6-L58",
+      "type": "mcq",
+      "question": "I eat rice. কে প্রশ্নে রূপান্তর করো:",
+      "options": [
+        {"id": "o1", "text": "I eat rice?"},
+        {"id": "o2", "text": "Do you eat rice?"},
+        {"id": "o3", "text": "Do I eat rice."},
+        {"id": "o4", "text": "You eat rice?"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -1,
+      "timeLimitSec": 35,
+      "explainIfWrong": "প্রশ্ন = Do দিয়ে শুরু + you + verb। শেষে ?",
+      "shuffleOptions": true
+    },
+    {
+      "id": "q7-L58",
+      "type": "drag_words_dash",
+      "question": "Statement ও Question আলাদা করো:",
+      "text": "She is happy[[.]] Is she happy[[?]]",
+      "options": [".", "?", ",", "!"],
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -2,
+      "timeLimitSec": 40,
+      "explainIfWrong": "She is = statement (.)। Is she = question (?)।"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+]
