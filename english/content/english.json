@@ -847,6 +847,408 @@
       "explainIfWrong": "It's = It is (contraction)। cat's = মালিকানা (possession)। দুটোতে ' কিন্তু কারণ আলাদা!"
     }
   ]
+},
+{
+  "id": "punctuation-07",
+  "title": "Quotation Marks - অন্যের কথা খাঁচায় বন্দি!",
+  "order": 7,
+  "estimatedTimeMin": 12,
+  "passThresholdPercent": 55,
+  "unlockRequirement": "punctuation-06",
+  "basics": [
+    {
+      "id": "b1-L7",
+      "type": "text",
+      "title": "Quotation Marks কী?",
+      "content": {
+        "definition": "<f-b>Quotation Marks (\" \")</f> হলো এমন এক জোড়া চিহ্ন যা অন্যের বলা কথাকে <c-#2563eb>আটকে রাখার</c> জন্য ব্যবহার করা হয়।",
+        "explanation": "দেখো বন্ধু, তুমি যখন কারো বলা কথা হুবহু বলবে, তখন সেটাকে এই চিহ্নের পেটে রাখবে।\nযেমন: He said, <f-b>\"I am fine.\"</f-b>\nএখানে 'I am fine' হলো তার মুখের কথা, তাই এটা খাঁচায় বন্দি!"
+      }
+    },
+    {
+      "id": "b2-L7",
+      "type": "text",
+      "title": "কমার সাথে বন্ধুত্ব!",
+      "content": {
+        "definition": "কোটেশন মার্ক শুরু করার ঠিক আগে একটা <f-b>Comma (,)</f> বসাতে হয়।",
+        "explanation": "খেয়াল করো: She said<c-#dc2626>,</c> \"Hello!\"\nএই কমাটা না দিলে বাক্যটা দেখতে কেমন জানি লাগে, তাই না? এটা হলো কোটেশন শুরু করার সিগন্যাল!"
+      }
+    },
+    {
+      "id": "b3-L7",
+      "type": "text",
+      "title": "বিন্দু যখন খাঁচার ভেতর!",
+      "content": {
+        "definition": "সাধারণত ফুলস্টপ বা প্রশ্নবোধক চিহ্নগুলো কোটেশনের <c-#16a34a>ভেতরেই</c> বসে।",
+        "explanation": "বন্ধু, এটা ভুল করো না! চিহ্নগুলো খাঁচার বাইরে ফেলে দিও না।\nসঠিক: \"Stop<c-#16a34a>!</c>\"\nভুল: \"Stop\"!"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L7",
+      "type": "mcq",
+      "question": "কোন বাক্যটি একদম ঠিকঠাক?",
+      "options": [
+        {"id": "o1", "text": "He said \"I am hungry.\""},
+        {"id": "o2", "text": "He said, \"I am hungry.\""},
+        {"id": "o3", "text": "He said, I am hungry."}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1,
+      "explainIfWrong": "মনে রেখো, কোটেশনের আগে একটা কমা লাগে!"
+    },
+    {
+      "id": "q2-L7",
+      "type": "drag_words_dash",
+      "question": "চিহ্নগুলো সঠিক জায়গায় বসাও:",
+      "text": "She shouted[[ ,]] [[\" ]]Help me[[! \"]]",
+      "options": [" ,", "\" ", "! \"", "?", "."],
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1
+    },
+    {
+      "id": "q3-L7",
+      "type": "drag_words",
+      "question": "সঠিকভাবে সাজাও:",
+      "wordPool": ["said", ",", "\"", "I", "love", "you", ".", "\""],
+      "targetAnswer": "said , \" I love you . \"",
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -2
+    },
+    {
+      "id": "q4-L7",
+      "type": "text_input",
+      "question": "কথা শুরু করার আগে কোন চিহ্ন দিয়ে খাঁচা বানাতে হয়?",
+      "targetAnswer": "\"",
+      "marksIfCorrect": 2,
+      "hints": ["এটি ডাবল কমার মতো দেখতে।"]
+    },
+    {
+      "id": "q5-L7",
+      "type": "mcq",
+      "question": "ফুলস্টপ কি কোটেশনের বাইরে বসে?",
+      "options": [
+        {"id": "o1", "text": "হ্যাঁ, বাইরে"},
+        {"id": "o2", "text": "না, ভেতরে"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1
+    },
+    {
+      "id": "q6-L7",
+      "type": "drag_words_dash",
+      "question": "সঠিক ফরম্যাট পূর্ণ করো:",
+      "text": "Teacher said[[,]] [[\" ]]Keep quiet[[\" ]]",
+      "options": [",", "\" ", "\" ", ".", "?"],
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1
+    }
+  ]
+},
+
+
+{
+  "id": "punctuation-08",
+  "title": "Colon & Semicolon - ট্রাফিক সিগন্যাল!",
+  "order": 8,
+  "estimatedTimeMin": 15,
+  "passThresholdPercent": 50,
+  "unlockRequirement": "punctuation-07",
+  "basics": [
+    {
+      "id": "b1-L8",
+      "type": "text",
+      "title": "Colon (:) - তালিকার শুরু!",
+      "content": {
+        "definition": "<f-b>Colon (:)</f> বসে যখন আমরা কোনো কিছুর <c-#2563eb>তালিকা বা ব্যাখ্যা</c> শুরু করি।",
+        "explanation": "বন্ধু, মনে করো তুমি বলবে তোমার ৩টা বন্ধু আছে। তখন লিখবে— I have three friends: Rahim, Karim, and Ali. এই যে কোলন দিলে, মানে হলো 'সামনে তালিকা আসছে'!"
+      }
+    },
+    {
+      "id": "b2-L8",
+      "type": "text",
+      "title": "Semicolon (;) - সুপার কমা!",
+      "content": {
+        "definition": "<f-b>Semicolon (;)</f> হলো কমার চেয়ে বড় কিন্তু ফুলস্টপের চেয়ে ছোট বিরতি।",
+        "explanation": "যখন দুইটা পূর্ণ বাক্যকে মেলাতে চাও কিন্তু ফুলস্টপ দিতে মন চাইছে না, তখন সেমিকোলন দাও।\nযেমন: I like tea; she likes coffee."
+      }
+    },
+    {
+      "id": "b3-L8",
+      "type": "text",
+      "title": "চিনবে কীভাবে?",
+      "content": {
+        "definition": "দুইটা ফোঁটা মানে <c-#dc2626>Colon</c>, আর ফোঁটার নিচে কমা মানে <c-#dc2626>Semicolon</c>।",
+        "explanation": "সহজ ট্রিক: কোলন হলো দরজার মতো, আর সেমিকোলন হলো বাক্যের সেতুর মতো!"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L8",
+      "type": "mcq",
+      "question": "লিস্ট শুরু করতে কোনটি বসাবে?",
+      "options": [
+        {"id": "o1", "text": "Colon (:)"},
+        {"id": "o2", "text": "Semicolon (;)"},
+        {"id": "o3", "text": "Comma (,)"}
+      ],
+      "correctOptionId": "o1",
+      "marksIfCorrect": 2,
+      "penaltyIfWrong": -1
+    },
+    {
+      "id": "q2-L8",
+      "type": "drag_words_dash",
+      "question": "সঠিক চিহ্ন বসাও:",
+      "text": "I have two bags[[ :]] red and blue[[.]]",
+      "options": [" :", ".", " ;", "!"],
+      "marksIfCorrect": 3,
+      "penaltyIfWrong": -1
+    },
+    {
+      "id": "q3-L8",
+      "type": "mcq",
+      "question": "দুটি বাক্যকে স্মার্টলি জুড়তে কোনটি ভালো?",
+      "options": [
+        {"id": "o1", "text": "Semicolon (;)"},
+        {"id": "o2", "text": "Period (.)"}
+      ],
+      "correctOptionId": "o1",
+      "marksIfCorrect": 2
+    },
+    {
+      "id": "q4-L8",
+      "type": "drag_words",
+      "question": "বাক্যটি ঠিক করো:",
+      "wordPool": ["She", "is", "rich", ";", "he", "is", "poor", "."],
+      "targetAnswer": "She is rich ; he is poor .",
+      "marksIfCorrect": 4,
+      "penaltyIfWrong": -2
+    },
+    {
+      "id": "q5-L8",
+      "type": "text_input",
+      "question": "লিস্টের দরজাকে কী বলে? (চিহ্নটি দাও)",
+      "targetAnswer": ":",
+      "marksIfCorrect": 3
+    },
+    {
+      "id": "q6-L8",
+      "type": "drag_words_dash",
+      "question": "গ্যাপ পূরণ করো:",
+      "text": "Call me tomorrow[[ ;]] I will tell you everything[[.]]",
+      "options": [" ;", ".", " :", ","],
+      "marksIfCorrect": 3
+    }
+  ]
+},
+
+
+{
+  "id": "punctuation-09",
+  "title": "Hyphen & Dash - ছোট বনাম বড় লাঠি!",
+  "order": 9,
+  "estimatedTimeMin": 10,
+  "passThresholdPercent": 55,
+  "unlockRequirement": "punctuation-08",
+  "basics": [
+    {
+      "id": "b1-L9",
+      "type": "text",
+      "title": "Hyphen (-) - শব্দের আঠা!",
+      "content": {
+        "definition": "<f-b>Hyphen (-)</f> হলো ছোট লাঠি যা শব্দদের <c-#16a34a>জোড়া লাগিয়ে</c> এক করে দেয়।",
+        "explanation": "যেমন: sugar-free (চিনি ছাড়া)। এখানে হাইফেন না দিলে শব্দগুলো আলাদা হয়ে যেত। এটা অনেকটা সুপার গ্লুর মতো!"
+      }
+    },
+    {
+      "id": "b2-L9",
+      "type": "text",
+      "title": "Dash (—) - বড় বিরতি!",
+      "content": {
+        "definition": "<f-b>Dash (—)</f> হলো বড় লাঠি যা বাক্যের মাঝে <c-#dc2626>হঠাৎ বিরতি</c> বা জোর দিতে বসে।",
+        "explanation": "যেমন: He is a great man — actually, he is a hero! এখানে বড় গ্যাপ দেওয়ার জন্য ড্যাশ বসেছে।"
+      }
+    },
+    {
+      "id": "b3-L9",
+      "type": "text",
+      "title": "পার্থক্য মনে রাখা",
+      "content": {
+        "definition": "হাইফেন ছোট (-), ড্যাশ বড় (—)।",
+        "explanation": "বন্ধু, মনে রেখো— শব্দ জুড়তে ছোটটা, আর বাক্যে ভাব নিতে বড়টা!"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L9",
+      "type": "mcq",
+      "question": "কোনটি হাইফেন (-) এর সঠিক ব্যবহার?",
+      "options": [
+        {"id": "o1", "text": "Ice - cream"},
+        {"id": "o2", "text": "Ice-cream"},
+        {"id": "o3", "text": "Ice — cream"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "explainIfWrong": "হাইফেন দিলে শব্দের মাঝে কোনো স্পেস থাকে না!"
+    },
+    {
+      "id": "q2-L9",
+      "type": "drag_words_dash",
+      "question": "সঠিক লাঠিটি বসাও:",
+      "text": "The cake was great[[ —]] I loved it[[.]]",
+      "options": [" —", ".", "-", "!"],
+      "marksIfCorrect": 3
+    },
+    {
+      "id": "q3-L9",
+      "type": "text_input",
+      "question": "শব্দ জোড়া দিতে কোন লাঠি (চিহ্ন) লাগে?",
+      "targetAnswer": "-",
+      "marksIfCorrect": 2
+    },
+    {
+      "id": "q4-L9",
+      "type": "mcq",
+      "question": "Dash (—) কি Hyphen এর চেয়ে বড়?",
+      "options": [
+        {"id": "o1", "text": "হ্যাঁ"},
+        {"id": "o2", "text": "না"}
+      ],
+      "correctOptionId": "o1",
+      "marksIfCorrect": 2
+    },
+    {
+      "id": "q5-L9",
+      "type": "drag_words",
+      "question": "ঠিক করে সাজাও:",
+      "wordPool": ["It", "is", "sugar", "-", "free", "."],
+      "targetAnswer": "It is sugar - free .",
+      "marksIfCorrect": 4
+    },
+    {
+      "id": "q6-L9",
+      "type": "drag_words_dash",
+      "question": "গ্যাপ পূরণ করো:",
+      "text": "My mother[[ -]] in[[ -]] law is nice[[.]]",
+      "options": [" -", " -", ".", "—"],
+      "marksIfCorrect": 4
+    }
+  ]
+},
+
+
+{
+  "id": "punctuation-10",
+  "title": "Parentheses ( ) - অতিরিক্ত তথ্য!",
+  "order": 10,
+  "estimatedTimeMin": 15,
+  "passThresholdPercent": 50,
+  "unlockRequirement": "punctuation-09",
+  "basics": [
+    {
+      "id": "b1-L10",
+      "type": "text",
+      "title": "Parentheses ( ) কী?",
+      "content": {
+        "definition": "একে আমরা <f-b>ব্র্যাকেট</f> বলি। বাক্যের মাঝে কোনো <c-#2563eb>বাড়তি তথ্য</c> লুকানোর জন্য এটি ব্যবহার হয়।",
+        "explanation": "বন্ধু, মনে করো তুমি বলবে— রহিম (আমার বন্ধু) খুব ভালো।\nইংরেজিতে: Rahim <f-b>(my friend)</f-b> is very nice."
+      }
+    },
+    {
+      "id": "b2-L10",
+      "type": "text",
+      "title": "কেন ব্যবহার করবে?",
+      "content": {
+        "definition": "যখন কোনো তথ্য না দিলেও বাক্য চলে, কিন্তু দিলে ভালো হয়—তখন এটি বসাবে।",
+        "explanation": "যেমন: He gave me 500 taka (which was enough). এখানে ব্র্যাকেটের অংশটুকু না দিলেও বোঝা যেত সে টাকা দিয়েছে।"
+      }
+    },
+    {
+      "id": "b3-L10",
+      "type": "text",
+      "title": "সবকিছুর রিভিশন!",
+      "content": {
+        "definition": "অভিনন্দন আলামিন! তুমি পাংচুয়েশনের একদম শেষে চলে এসেছো।",
+        "explanation": "এখন আগের সব কিছু (Comma, Period, Colon, Parentheses) ঝালিয়ে নেওয়ার পালা। তুমি পারবে!"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L10",
+      "type": "mcq",
+      "question": "বাড়তি তথ্য দিতে কোন চিহ্ন ব্যবহার হয়?",
+      "options": [
+        {"id": "o1", "text": "Parentheses ( )"},
+        {"id": "o2", "text": "Comma (,)"},
+        {"id": "o3", "text": "Question Mark (?)"}
+      ],
+      "correctOptionId": "o1",
+      "marksIfCorrect": 2
+    },
+    {
+      "id": "q2-L10",
+      "type": "drag_words_dash",
+      "question": "সঠিক ব্র্যাকেট বসাও:",
+      "text": "I live in Dhaka[[ (]]capital[[ )]].",
+      "options": [" (", " )", ".", "!"],
+      "marksIfCorrect": 3
+    },
+    {
+      "id": "q3-L10",
+      "type": "mcq",
+      "question": "কোন বাক্যটি নিখুঁত?",
+      "options": [
+        {"id": "o1", "text": "he said, \"hello\"?"},
+        {"id": "o2", "text": "He said, \"Hello!\""},
+        {"id": "o3", "text": "he Said \"hello!\""}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 5,
+      "explainIfWrong": "শুরুতে Capital, কোটেশনের আগে Comma এবং খাঁচার ভেতরে !—সব চেক করো!"
+    },
+    {
+      "id": "q4-L10",
+      "type": "drag_words",
+      "question": "সঠিকভাবে সাজাও:",
+      "wordPool": ["I", "need", ":", "milk", ",", "eggs", "."],
+      "targetAnswer": "I need : milk , eggs .",
+      "marksIfCorrect": 4
+    },
+    {
+      "id": "q5-L10",
+      "type": "text_input",
+      "question": "বাক্য শেষ করতে কোন চিহ্নটি সবচেয়ে বেশি ব্যবহার হয়?",
+      "targetAnswer": ".",
+      "marksIfCorrect": 2
+    },
+    {
+      "id": "q6-L10",
+      "type": "mcq",
+      "question": "মালিকানা বুঝাতে রহিম'স (Rahim's) এ কোন চিহ্ন বসেছে?",
+      "options": [
+        {"id": "o1", "text": "Apostrophe"},
+        {"id": "o2", "text": "Comma"}
+      ],
+      "correctOptionId": "o1",
+      "marksIfCorrect": 3
+    },
+    {
+      "id": "q7-L10",
+      "type": "drag_words_dash",
+      "question": "শেষবার ট্রাই করো:",
+      "text": "Wow[[!]] It is sugar[[-]]free[[.]]",
+      "options": ["!", "-", ".", "?"],
+      "marksIfCorrect": 4
+    }
+  ]
 }
 
 
