@@ -74,7 +74,7 @@
       "type": "drag_words_dash",
       "question": "বড় অক্ষরগুলো সঠিক জায়গায় বসাও:",
       "text": "[[M]]y best friend is [[A]]kash[[.]]",
-      "options": ["M", "A", ".", "m", "a"],
+      "options": [ "A","M", "m",".",  "a"],
       "marksIfCorrect": 3
     },
     {
@@ -99,7 +99,7 @@
       "id": "q5-L1",
       "type": "drag_words",
       "question": "সঠিকভাবে সাজাও:",
-      "wordPool": ["I", "love", "my", "country", "Bangladesh"],
+      "wordPool": ["Bangladesh","I",  "country","my",  "love"],
       "targetAnswer": "I love my country Bangladesh",
       "marksIfCorrect": 5
     }
@@ -160,7 +160,7 @@
       "type": "drag_words_dash",
       "question": "সঠিক জায়গায় পিরিয়ড বসাও:",
       "text": "The cat is black[[.]] It likes milk[[.]]",
-      "options": [".", ".", ",", "?"],
+      "options": ["?",".", ",", "."],
       "marksIfCorrect": 4
     },
     {
@@ -248,7 +248,7 @@
       "id": "q3-L3",
       "type": "drag_words",
       "question": "প্রশ্নটি সাজাও:",
-      "wordPool": ["What", "is", "your", "name", "?"],
+      "wordPool": ["What","?","your",  "is", "name" ],
       "targetAnswer": "What is your name ?",
       "marksIfCorrect": 5
     },
@@ -329,7 +329,7 @@
       "type": "drag_words_dash",
       "question": "আবেগ প্রকাশ করো:",
       "text": "Hurrah[[!]] We won the match[[!]]",
-      "options": ["!", "!", "?", "."],
+      "options": ["?", "!", "!", "."],
       "marksIfCorrect": 4
     },
     {
@@ -357,7 +357,7 @@
       "type": "drag_words_dash",
       "question": "সঠিক জায়গায় বসাও:",
       "text": "Help[[!]] Someone save me[[!]]",
-      "options": ["!", "!", ".", "?"],
+      "options": [".", "!", "!", "?"],
       "marksIfCorrect": 4
     }
   ]
@@ -427,7 +427,7 @@
       "type": "drag_words_dash",
       "question": "সঠিক জায়গায় কমা বসাও:",
       "text": "No[[,]] I do not like fish[[.]]",
-      "options": [",", ".", "!", "?"],
+      "options": [",", ",", "?", "!", "."],
       "marksIfCorrect": 4
     },
     {
@@ -445,7 +445,7 @@
       "id": "q4-L5",
       "type": "drag_words",
       "question": "সঠিক তালিকাটি বানাও:",
-      "wordPool": ["Rice", ",", "bread", ",", "and", "milk"],
+      "wordPool": ["Rice", "and", ",", ",", "bread", "milk"],
       "targetAnswer": "Rice , bread , and milk",
       "marksIfCorrect": 5
     },
@@ -531,7 +531,7 @@
       "type": "drag_words_dash",
       "question": "ছোট শব্দ বা Contraction পূর্ণ করো:",
       "text": "I [[don't]] know if [[it's]] raining[[.]]",
-      "options": ["don't", "it's", ".", "doesnt", "its"],
+      "options": [ "it's", "don't", "doesnt",".", "its"],
       "marksIfCorrect": 4
     },
     {
@@ -556,7 +556,7 @@
       "id": "q5-L6",
       "type": "drag_words",
       "question": "সঠিকভাবে সাজাও:",
-      "wordPool": ["This", "is", "my", "mother", "'s", "car"],
+      "wordPool": ["car", "This", "'s", "my", "mother", "is"],
       "targetAnswer": "This is my mother 's car",
       "marksIfCorrect": 5
     },
@@ -577,7 +577,7 @@
       "type": "drag_words_dash",
       "question": "গ্যাপ পূরণ করো:",
       "text": "[[I'm]] happy because [[it's]] my birthday[[!]]",
-      "options": ["I'm", "it's", "!", "Im", "its"],
+      "options": [ "it's","Im","I'm", "!",  "its"],
       "marksIfCorrect": 5
     }
   ]
@@ -638,7 +638,7 @@
       "type": "drag_words_dash",
       "question": "চিহ্নগুলো সঠিক জায়গায় বসাও:",
       "text": "She shouted[[ ,]] [[\" ]]Help me[[! \"]]",
-      "options": [" ,", "\" ", "! \"", "?", "."],
+      "options": [  "?","\" ", "! \""," ,", "."],
       "marksIfCorrect": 3,
       "penaltyIfWrong": -1
     },
@@ -646,8 +646,8 @@
       "id": "q3-L7",
       "type": "drag_words",
       "question": "সঠিকভাবে সাজাও:",
-      "wordPool": ["said", ",", "\"", "I", "love", "you", ".", "\""],
-      "targetAnswer": "said , \" I love you . \"",
+      "wordPool": ["said", "hero Alom", "love", "you", ",", "\"", "I",  ".", "\""],
+      "targetAnswer": "said , \" I love you hero Alom. \"",
       "marksIfCorrect": 4,
       "penaltyIfWrong": -2
     },
@@ -837,7 +837,7 @@
       "type": "drag_words_dash",
       "question": "সঠিক লাঠিটি বসাও:",
       "text": "The cake was great[[ —]] I loved it[[.]]",
-      "options": [" —", ".", "-", "!"],
+      "options": [  "-", "."," —","!"],
       "marksIfCorrect": 3
     },
     {
@@ -871,7 +871,7 @@
       "type": "drag_words_dash",
       "question": "গ্যাপ পূরণ করো:",
       "text": "My mother[[ -]] in[[ -]] law is nice[[.]]",
-      "options": [" -", " -", ".", "—"],
+      "options": [ " -"," -", ".", "—"],
       "marksIfCorrect": 4
     }
   ]
@@ -932,7 +932,7 @@
       "type": "drag_words_dash",
       "question": "সঠিক ব্র্যাকেট বসাও:",
       "text": "I live in Dhaka[[ (]]capital[[ )]].",
-      "options": [" (", " )", ".", "!"],
+      "options": [ ".", " )", " (", "!"],
       "marksIfCorrect": 3
     },
     {
@@ -952,7 +952,7 @@
       "id": "q4-L10",
       "type": "drag_words",
       "question": "সঠিকভাবে সাজাও:",
-      "wordPool": ["I", "need", ":", "milk", ",", "eggs", "."],
+      "wordPool": ["I","milk","eggs",  ":",  ",", "need", "."],
       "targetAnswer": "I need : milk , eggs .",
       "marksIfCorrect": 4
     },
@@ -988,6 +988,855 @@
 
 
 
+
+
+
+
+
+
+    ]
+},
+
+{
+   "id": "englishPunCuation",
+    "name": "Word Magic (Suffix & Prefix)",
+    "color": "#a111ba",
+    "order": 1,
+    "version": 6,
+    "levels":[
+
+
+{
+  "id": "suffix-prefix-11",
+  "title": "Root Word - শব্দের মূল শেকড়!",
+  "order": 11,
+  "estimatedTimeMin": 15,
+  "passThresholdPercent": 60,
+  "unlockRequirement": "punctuation-10",
+  "basics": [
+    {
+      "id": "b1-L11",
+      "type": "text",
+      "title": "Root Word কী?",
+      "content": {
+        "definition": "<f-b>Root Word</f> হলো একটি মূল শব্দ যার সাথে কোনো কিছু যোগ করার আগে এটি একদম স্বাধীন থাকে।",
+        "explanation": "যেমন: <f-b>Play</f> (খেলা)। এটি একটি মূল শব্দ। এর আগে বা পরে আমরা কিছু যোগ করে নতুন শব্দ বানাতে পারি।\n\nউদাহরণ:\n• <c-#2563eb>Re</c>play (আগে যোগ)\n• Play<c-#16a34a>er</c> (পরে যোগ)"
+      }
+    },
+    {
+      "id": "b2-L11",
+      "type": "text",
+      "title": "Magic Trick: শব্দের বদল!",
+      "content": {
+        "definition": "শব্দের আগে বা পরে কিছু যোগ করলে শব্দের <f-b>অর্থ</f> বা <f-b>ধরন</f> (যেমন: Noun থেকে Verb) বদলে যায়।",
+        "explanation": "মনে করো তোমার কাছে একটি শব্দ আছে 'Happy' (খুশি)।\n১. আগে 'Un' বসাও: <f-b>Un</f>happy (বেজার) - অর্থ উল্টে গেল!\n২. পরে 'ness' বসাও: Happy<f-b>ness</f> (সুখ) - এটি এখন একটি অনুভূতির নাম (Noun) হয়ে গেল।"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L11",
+      "type": "mcq",
+      "question": "'Player' শব্দটিতে মূল বা Root শব্দ কোনটি?",
+      "options": [
+        {"id": "o1", "text": "er"},
+        {"id": "o2", "text": "Play"},
+        {"id": "o3", "text": "Pla"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>Play</f>। কারণ 'er' এখানে পরে যোগ করা হয়েছে, মূল শব্দ ছিল Play।"
+    },
+    {
+      "id": "q2-L11",
+      "type": "mcq",
+      "question": "শব্দের অর্থ পুরোপুরি উল্টে দিতে চাইলে সাধারণত কোথায় কিছু যোগ করতে হয়?",
+      "options": [
+        {"id": "o1", "text": "শব্দের শেষে"},
+        {"id": "o2", "text": "শব্দের শুরুতে"},
+        {"id": "o3", "text": "মাঝখানে"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 3,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>শব্দের শুরুতে</f>। যেমন: Happy এর আগে Un যোগ করলে Unhappy (উল্টো অর্থ) হয়।"
+    },
+    {
+      "id": "q3-L11",
+      "type": "drag_words_dash",
+      "question": "সঠিক অংশ বসিয়ে নতুন শব্দ বানাও:",
+      "text": "[[Un]]happy, Play[[er]], [[Re]]write",
+      "options": ["er", "Un", "Re", "ing", "ness"],
+      "marksIfCorrect": 4,
+      "explainIfWrong": "সঠিক উত্তর: Un-happy, Play-er, Re-write।"
+    },
+    {
+      "id": "q4-L11",
+      "type": "text_input",
+      "question": "'Teacher' শব্দটিতে মূল শব্দ (Root) কোনটি?",
+      "targetAnswer": "Teach",
+      "marksIfCorrect": 3,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>Teach</f>। Teach মানে শেখানো, আর Teacher মানে শিক্ষক।"
+    },
+    {
+      "id": "q5-L11",
+      "type": "drag_words",
+      "question": "শব্দটি তৈরি করো (আবার দেখা অর্থে):",
+      "wordPool": ["visit", "Re", "."],
+      "targetAnswer": "Re visit .",
+      "marksIfCorrect": 4,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>Revisit</f>। Re মানে আবার, visit মানে দেখা।"
+    },
+    {
+      "id": "q6-L11",
+      "type": "mcq",
+      "question": "Root Word এর সাথে নতুন কিছু যোগ করলে কী পরিবর্তন হতে পারে?",
+      "options": [
+        {"id": "o1", "text": "শুধু বানান বদলায়"},
+        {"id": "o2", "text": "অর্থ এবং ধরন বদলাতে পারে"},
+        {"id": "o3", "text": "কিছুই বদলায় না"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 3,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>অর্থ এবং ধরন বদলাতে পারে</f>।"
+    }
+  ]
+},
+
+
+
+
+{
+  "id": "suffix-prefix-12",
+  "title": "Prefix - সামনের পাহারাদার!",
+  "order": 12,
+  "estimatedTimeMin": 15,
+  "passThresholdPercent": 60,
+  "unlockRequirement": "suffix-prefix-11",
+  "basics": [
+    {
+      "id": "b1-L12",
+      "type": "text",
+      "title": "Prefix কী?",
+      "content": {
+        "definition": "<f-b>Prefix</f> হলো সেই ছোট অংশ যা মূল শব্দের <c-#dc2626>শুরুতে</c> বসে নতুন শব্দ তৈরি করে।",
+        "explanation": "মনে রাখার ট্রিক: <f-b>P</f>refix এর <f-b>P</f> মানে <f-b>P</f>re (আগে)।\n\nউদাহরণ:\n• <c-#2563eb>Dis</c> + like = Dislike (অপছন্দ)\n• <c-#2563eb>Im</c> + possible = Impossible (অসম্ভব)"
+      }
+    },
+    {
+      "id": "b2-L12",
+      "type": "text",
+      "title": "সবচেয়ে জনপ্রিয় কিছু Prefix",
+      "content": {
+        "definition": "নিচের Prefix গুলো জানলে তুমি অনেক শব্দের অর্থ নিমিষেই বুঝে ফেলবে!",
+        "explanation": "১. <f-b>Un / Dis / Im / In</f>: এগুলো শব্দের অর্থ <c-#dc2626>উল্টো</c> করে দেয়। (যেমন: Unlucky, Disagree)\n২. <f-b>Re</f>: এর মানে হলো <c-#16a34a>আবার</c>। (যেমন: Remake - আবার বানানো)\n৩. <f-b>Pre</f>: এর মানে হলো <c-#16a34a>আগে</c>। (যেমন: Pre-order - আগে অর্ডার করা)"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1-L12",
+      "type": "mcq",
+      "question": "'Impossible' শব্দটিতে Prefix কোনটি?",
+      "options": [
+        {"id": "o1", "text": "Possible"},
+        {"id": "o2", "text": "Im"},
+        {"id": "o3", "text": "In"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>Im</f>। এটি Possible শব্দের আগে বসে অর্থ উল্টে দিয়েছে।"
+    },
+    {
+      "id": "q2-L12",
+      "type": "drag_words_dash",
+      "question": "অর্থ বুঝে সঠিক Prefix বসাও:",
+      "text": "Do it again = [[Re]]do. Not happy = [[Un]]happy. Not honest = [[Dis]]honest.",
+      "options": ["Dis", "Re", "Un", "Im", "In"],
+      "marksIfCorrect": 5,
+      "explainIfWrong": "সঠিক উত্তর: Re-do (আবার করা), Un-happy (অখুশি), Dis-honest (অসৎ)।"
+    },
+    {
+      "id": "q3-L12",
+      "type": "mcq",
+      "question": "'Mis' প্রিফিক্সটি কখন ব্যবহার হয়?",
+      "options": [
+        {"id": "o1", "text": "ভাল কিছু বুঝাতে"},
+        {"id": "o2", "text": "ভুল বা খারাপ কিছু বুঝাতে"},
+        {"id": "o3", "text": "আবার করা বুঝাতে"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 3,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>ভুল বা খারাপ</f> কিছু বুঝাতে। যেমন: Misunderstand (ভুল বোঝা)।"
+    },
+    {
+      "id": "q4-L12",
+      "type": "text_input",
+      "question": "'Again' বা 'আবার' বুঝাতে কোন Prefix টি শব্দের শুরুতে বসে?",
+      "targetAnswer": "Re",
+      "marksIfCorrect": 3,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>Re</f>। যেমন: Replay, Rewrite।"
+    },
+    {
+      "id": "q5-L12",
+      "type": "drag_words",
+      "question": "শব্দটি সাজাও (অসম্ভব বুঝাতে):",
+      "wordPool": ["Possible", "Im", "."],
+      "targetAnswer": "Im Possible .",
+      "marksIfCorrect": 4,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>Impossible</f>। এখানে Im হলো Prefix।"
+    },
+    {
+      "id": "q6-L12",
+      "type": "mcq",
+      "question": "Prefix শব্দের কোথায় বসে?",
+      "options": [
+        {"id": "o1", "text": "শেষে"},
+        {"id": "o2", "text": "শুরুতে"},
+        {"id": "o3", "text": "মাঝখানে"}
+      ],
+      "correctOptionId": "o2",
+      "marksIfCorrect": 2,
+      "explainIfWrong": "সঠিক উত্তর: <f-b>শুরুতে</f>। (P for Pre/Before)"
+    }
+  ]
+},
+  {
+    "id": "suffix-prefix-13",
+    "title": "Suffix - পেছনের লেজ! 🐕",
+    "order": 13,
+    "estimatedTimeMin": 15,
+    "passThresholdPercent": 60,
+    "unlockRequirement": "suffix-prefix-12",
+    "basics": [
+      {
+        "id": "b1-L13",
+        "type": "text",
+        "title": "Suffix কী?",
+        "content": {
+          "definition": "<f-b>Suffix</f> হলো সেই ছোট অংশ যা মূল শব্দের <c-#dc2626>শেষে</c> বসে নতুন শব্দ তৈরি করে।",
+          "explanation": "সাফিক্স সাধারণত শব্দের <f-b>পার্টস অফ স্পিচ</f> (যেমন: Verb থেকে Noun) বদলে দেয়।\n\nউদাহরণ:\n• Teach + <c-#16a34a>er</c> = Teacher (Noun)\n• slow + <c-#16a34a>ly</c> = slowly (Adverb)"
+        }
+      },
+      {
+        "id": "b2-L13",
+        "type": "text",
+        "title": "ম্যাজিক সাফিক্স: 'er' এবং 'or'",
+        "content": {
+          "definition": "কোনো কাজের শেষে <f-b>er</f> বা <f-b>or</f> যোগ করলে সেটি সেই কাজ যে করে তাকে বোঝায়।",
+          "explanation": "• <f-b>Sing</f> (গান গাওয়া) → Sing<f-b>er</f> (গায়ক)\n• <f-b>Act</f> (অভিনয় করা) → Act<f-b>or</f> (অভিনেতা)\n• <f-b>Drive</f> (চালানো) → Driv<f-b>er</f> (চালক)"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1-L13",
+        "type": "mcq",
+        "question": "'Kindness' শব্দটিতে Suffix কোনটি?",
+        "options": [
+          {"id": "o1", "text": "Kind"},
+          {"id": "o2", "text": "ness"},
+          {"id": "o3", "text": "in"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 2,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>ness</f>। মূল শব্দ Kind (দয়ালু) এর সাথে ness যোগ হয়ে এটি দয়া (Noun) হয়েছে।"
+      },
+      {
+        "id": "q2-L13",
+        "type": "drag_words_dash",
+        "question": "সঠিক সাফিক্স বসিয়ে মানুষ বা পেশা বোঝাও:",
+        "text": "One who plays = Play[[er]], One who sails = Sail[[or]], One who writes = Writ[[er]]",
+        "options": ["ly", "or", "er", "er", "ness"],
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: Player, Sailor, Writer। মানুষের পেশা বুঝাতে er/or বসে।"
+      },
+      {
+        "id": "q3-L13",
+        "type": "mcq",
+        "question": "Suffix শব্দের কোথায় বসে?",
+        "options": [
+          {"id": "o1", "text": "মাঝখানে"},
+          {"id": "o2", "text": "শেষে"},
+          {"id": "o3", "text": "শুরুতে"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 2,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>শেষে</f>। (Prefix শুরুতে, Suffix শেষে)"
+      },
+      {
+        "id": "q4-L13",
+        "type": "text_input",
+        "question": "'Work' শব্দের সাথে কোন সাফিক্স যোগ করলে 'কর্মী' বোঝাবে?",
+        "targetAnswer": "er",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>er</f>। Work + er = Worker।"
+      },
+      {
+        "id": "q5-L13",
+        "type": "drag_words",
+        "question": "শব্দটি তৈরি করো (ধীরে চলা বুঝাতে):",
+        "wordPool": ["ly", "Slow", "."],
+        "targetAnswer": "Slow ly .",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Slowly</f>। এখানে ly হলো সাফিক্স যা কাজের ধরণ বুঝায়।"
+      }
+    ]
+  },
+  {
+    "id": "suffix-prefix-14",
+    "title": "Noun Making - নাম বানানোর কারিগর! 🏗️",
+    "order": 14,
+    "estimatedTimeMin": 18,
+    "passThresholdPercent": 65,
+    "unlockRequirement": "suffix-prefix-13",
+    "basics": [
+      {
+        "id": "b1-L14",
+        "type": "text",
+        "title": "Noun কীভাবে চিনবে?",
+        "content": {
+          "definition": "শব্দের শেষে <f-b>tion, ment, ness, ity</f> থাকলে সেগুলো সাধারণত <c-#2563eb>Noun</c> হয়।",
+          "explanation": "এই সাফিক্সগুলো কোনো কাজ বা গুণকে একটি <f-b>নামে</f> পরিণত করে।\n\nউদাহরণ:\n• Educate (Verb) + <f-b>tion</f> = Education (নাম)\n• Agree (Verb) + <f-b>ment</f> = Agreement (নাম)\n• Happy (Adj) + <f-b>ness</f> = Happiness (নাম)"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1-L14",
+        "type": "mcq",
+        "question": "নিচের কোনটি একটি Noun (নাম)?",
+        "options": [
+          {"id": "o1", "text": "Move"},
+          {"id": "o2", "text": "Movement"},
+          {"id": "o3", "text": "Moving"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Movement</f>। কারণ শব্দের শেষে 'ment' থাকলে সেটি Noun হয়।"
+      },
+      {
+        "id": "q2-L14",
+        "type": "drag_words_dash",
+        "question": "শব্দগুলোকে Noun এ রূপান্তর করো:",
+        "text": "Inform → Informa[[tion]], Develop → Develop[[ment]], Dark → Dark[[ness]]",
+        "options": ["ment", "tion", "ness", "ity", "ly"],
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: Information, Development, Darkness।"
+      },
+      {
+        "id": "q3-L14",
+        "type": "mcq",
+        "question": "'Action' শব্দে 'tion' কী হিসেবে বসেছে?",
+        "options": [
+          {"id": "o1", "text": "Prefix"},
+          {"id": "o2", "text": "Suffix"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 2,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Suffix</f>। কারণ এটি মূল শব্দ Act এর শেষে বসেছে।"
+      },
+      {
+        "id": "q4-L14",
+        "type": "text_input",
+        "question": "'Improve' শব্দের সাথে কোন সাফিক্স বসালে সেটি Noun হবে?",
+        "targetAnswer": "ment",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>ment</f>। Improve + ment = Improvement।"
+      },
+      {
+        "id": "q5-L14",
+        "type": "drag_words",
+        "question": "সঠিক Noun টি সাজাও:",
+        "wordPool": ["ity", "Abil", "."],
+        "targetAnswer": "Abil ity .",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Ability</f>। Able থেকে Ability (সক্ষমতা) হয়েছে।"
+      }
+    ]
+  },
+  {
+    "id": "suffix-prefix-15",
+    "title": "Adjective - গুণের জাদুকর! ✨",
+    "order": 15,
+    "estimatedTimeMin": 15,
+    "passThresholdPercent": 65,
+    "unlockRequirement": "suffix-prefix-14",
+    "basics": [
+      {
+        "id": "b1-L15",
+        "type": "text",
+        "title": "Adjective বানানোর ট্রিকস",
+        "content": {
+          "definition": "শব্দের শেষে <f-b>ful, less, able, ive</f> যোগ করলে সেটি <c-#16a34a>Adjective</c> বা গুণবাচক শব্দ হয়ে যায়।",
+          "explanation": "• Beauty + <f-b>ful</f> = Beautiful (সুন্দর)\n• Care + <f-b>less</f> = Careless (অসতর্ক)\n• Act + <f-b>ive</f> = Active (সক্রিয়)"
+        }
+      },
+      {
+        "id": "b2-L15",
+        "type": "text",
+        "title": "ম্যাজিক সাফিক্স: 'less'",
+        "content": {
+          "definition": "<f-b>less</f> মানে হলো 'ছাড়া' বা 'নেই'। এটি শব্দের অর্থ <c-#dc2626>নেতিবাচক</c> বা অভাব বোঝাতে ব্যবহার হয়।",
+          "explanation": "• Hope (আশা) → Hopeless (আশাহীন)\n• Fear (ভয়) → Fearless (নির্ভীক/ভয়হীন)"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1-L15",
+        "type": "mcq",
+        "question": "কোন শব্দটি গুণ বা অবস্থা (Adjective) বোঝাচ্ছে?",
+        "options": [
+          {"id": "o1", "text": "Help"},
+          {"id": "o2", "text": "Helpful"},
+          {"id": "o3", "text": "Helper"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Helpful</f>। 'ful' সাফিক্সটি কোনো কিছুর গুণ বোঝায়।"
+      },
+      {
+        "id": "q2-L15",
+        "type": "drag_words_dash",
+        "question": "বিপরীত গুণ তৈরি করো (less ব্যবহার করে):",
+        "text": "No use = Use[[less]], No home = Home[[less]], No end = End[[less]]",
+        "options": ["less", "ful", "less", "ness", "less"],
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: Useless, Homeless, Endless। 'less' মানে 'নেই' বোঝায়।"
+      },
+      {
+        "id": "q3-L15",
+        "type": "mcq",
+        "question": "'Understandable' শব্দে সাফিক্স কোনটি?",
+        "options": [
+          {"id": "o1", "text": "Under"},
+          {"id": "o2", "text": "able"},
+          {"id": "o3", "text": "stand"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>able</f>। এটি শব্দের শেষে বসেছে।"
+      },
+      {
+        "id": "q4-L15",
+        "type": "text_input",
+        "question": "ভয় নেই এমন কাউকে কী বলা হয়? (Fear এর সাথে সাফিক্স বসাও)",
+        "targetAnswer": "Fearless",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Fearless</f>। Fear + less = Fearless (ভয়হীন)।"
+      }
+    ]
+  },
+
+  {
+    "id": "suffix-prefix-16",
+    "title": "Verb Making - কাজ শুরু করো! ⚙️",
+    "order": 16,
+    "estimatedTimeMin": 15,
+    "passThresholdPercent": 60,
+    "unlockRequirement": "suffix-prefix-15",
+    "basics": [
+      {
+        "id": "b1-L16",
+        "type": "text",
+        "title": "Verb বানানোর ম্যাজিক",
+        "content": {
+          "definition": "কোনো শব্দকে কাজে (Verb) রূপান্তর করতে <f-b>en, ify, ize</f> ব্যবহার করা হয়।",
+          "explanation": "ট্রিক: এগুলো শব্দের শুরুতে বা শেষে বসে সেই কাজটি <c-#2563eb>'সম্পন্ন করা'</c> বোঝায়।\n\nউদাহরণ:\n• <f-b>En</f> + able = Enable (সক্ষম করা)\n• Just + <f-b>ify</f> = Justify (ন্যায়সংগত করা)\n• Memor + <f-b>ize</f> = Memorize (মুখস্থ করা)"
+        }
+      },
+      {
+        "id": "b2-L16",
+        "type": "text",
+        "title": "'En' এর ডাবল পাওয়ার",
+        "content": {
+          "definition": "<f-b>en</f> শব্দের আগেও বসতে পারে, আবার শেষেও বসতে পারে।",
+          "explanation": "আগে: <f-b>En</f>large (বড় করা), <f-b>En</f>joy (উপভোগ করা)।\nশেষে: Short<f-b>en</f> (ছোট করা), Bright<f-b>en</f> (উজ্জ্বল করা)।"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1-L16",
+        "type": "mcq",
+        "question": "বড় করা (Large) এর Verb রূপ কোনটি?",
+        "options": [
+          {"id": "o1", "text": "Largeness"},
+          {"id": "o2", "text": "Enlarge"},
+          {"id": "o3", "text": "Largely"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Enlarge</f>। En- প্রিফিক্সটি কোনো কিছুকে বড় বা সক্ষম করার ক্ষেত্রে বসে।"
+      },
+      {
+        "id": "q2-L16",
+        "type": "drag_words_dash",
+        "question": "সঠিক অংশ বসিয়ে কাজ (Verb) বোঝাও:",
+        "text": "To make short = Short[[en]], To make real = Real[[ize]], To make pure = Pur[[ify]]",
+        "options": [ "ify","ness",  "ize","en", "ful"],
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: Shorten, Realize, Purify। এগুলো সব কাজ করা বোঝায়।"
+      },
+      {
+        "id": "q3-L16",
+        "type": "mcq",
+        "question": "কোন সাফিক্সটি সাধারণত Verb তৈরি করে?",
+        "options": [
+          {"id": "o1", "text": "tion"},
+          {"id": "o2", "text": "ize"},
+          {"id": "o3", "text": "less"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 2,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>ize</f>। যেমন: Modernize, Socialize।"
+      },
+      {
+        "id": "q4-L16",
+        "type": "text_input",
+        "question": "Joy শব্দের আগে কোন প্রিফিক্স বসালে উপভোগ করা (Verb) বোঝাবে?",
+        "targetAnswer": "En",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>En</f>। En + joy = Enjoy।"
+      },
+      {
+        "id": "q5-L16",
+        "type": "mcq",
+        "question": "নিচের কোনটি একটি কাজ (Verb)?",
+        "options": [
+          {"id": "o1", "text": "Identity (নাম)"},
+          {"id": "o2", "text": "Identify (শনাক্ত করা)"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Identify</f>। শব্দের শেষে -ify থাকলে সেটি কাজ করা বোঝায়।"
+      }
+    ]
+  },
+  {
+    "id": "suffix-prefix-17",
+    "title": "Adverb - কাজের ধরন! 🏃",
+    "order": 17,
+    "estimatedTimeMin": 15,
+    "passThresholdPercent": 60,
+    "unlockRequirement": "suffix-prefix-16",
+    "basics": [
+      {
+        "id": "b1-L17",
+        "type": "text",
+        "title": "Adverb চেনার ট্রিকস",
+        "content": {
+          "definition": "কোনো কাজ <f-b>কীভাবে</f> হচ্ছে তা বোঝাতে Adjective এর শেষে <f-b>ly</f> যোগ করা হয়।",
+          "explanation": "ম্যাজিক ফর্মুলা: <c-#16a34a>Adjective + ly = Adverb</c>\n\nউদাহরণ:\n• Quick (দ্রুত) + <f-b>ly</f> = Quickly (দ্রুততার সাথে)\n• Happy (খুশি) + <f-b>ly</f> = Happily (আনন্দের সাথে)\n• Brave (সাহসী) + <f-b>ly</f> = Bravely (সাহসের সাথে)"
+        }
+      },
+      {
+        "id": "b2-L17",
+        "type": "text",
+        "title": "স্পেলিং ট্রিক (Spelling Trick)",
+        "content": {
+          "definition": "যদি শব্দের শেষে <f-b>y</f> থাকে, তবে ly যোগ করার সময় y বদলে <f-b>i</f> হয়ে যায়।",
+          "explanation": "• Easy → Eas<f-b>ily</f>\n• Angry → Angr<f-b>ily</f>"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1-L17",
+        "type": "mcq",
+        "question": "কাজটি 'নিখুঁতভাবে' করা হয়েছে — এর ইংরেজি রূপ কোনটি?",
+        "options": [
+          {"id": "o1", "text": "Perfectness"},
+          {"id": "o2", "text": "Perfectly"},
+          {"id": "o3", "text": "Perfecter"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Perfectly</f>। কাজ কীভাবে করা হয় তা বুঝাতে ly বসে।"
+      },
+      {
+        "id": "q2-L17",
+        "type": "drag_words_dash",
+        "question": "সঠিক Adverb বসাও:",
+        "text": "Walk [[slowly]], Speak [[loudly]], Write [[neatly]]",
+        "options": ["loudly", "slowly","slow",  "neatly", "loud"],
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: Walk slowly, Speak loudly, Write neatly।"
+      },
+      {
+        "id": "q3-L17",
+        "type": "mcq",
+        "question": "নিচের কোন বানানটি সঠিক?",
+        "options": [
+          {"id": "o1", "text": "Happyly"},
+          {"id": "o2", "text": "Happily"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Happily</f>। শেষে y থাকলে তা i হয়ে যায়।"
+      },
+      {
+        "id": "q4-L17",
+        "type": "text_input",
+        "question": "'Careful' শব্দের সাথে কোন সাফিক্স বসালে তা Adverb হবে?",
+        "targetAnswer": "ly",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>ly</f>। Careful + ly = Carefully।"
+      },
+      {
+        "id": "q5-L17",
+        "type": "drag_words",
+        "question": "শব্দটি সাজাও (সহজভাবে):",
+        "wordPool": ["ily", "Eas", "."],
+        "targetAnswer": "Eas ily .",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Easily</f>। Easy থেকে Easily।"
+      }
+    ]
+  },
+  {
+    "id": "suffix-prefix-18",
+    "title": "Negative Prefix - অর্থ যখন উল্টো! 🔄",
+    "order": 18,
+    "estimatedTimeMin": 15,
+    "passThresholdPercent": 65,
+    "unlockRequirement": "suffix-prefix-17",
+    "basics": [
+      {
+        "id": "b1-L18",
+        "type": "text",
+        "title": "নেতিবাচক প্রিফিক্স",
+        "content": {
+          "definition": "শব্দের আগে <f-b>Un, Dis, In, Im, Ir, Il</f> বসিয়ে অর্থকে <c-#dc2626>না-বোধক</c> করা যায়।",
+          "explanation": "কোনটার আগে কোনটা বসবে তার ট্রিক:\n• 'P' বা 'M' দিয়ে শুরু শব্দের আগে <f-b>Im</f> (Im-possible, Im-pure)।\n• 'R' দিয়ে শুরু শব্দের আগে <f-b>Ir</f> (Ir-regular)。\n• 'L' দিয়ে শুরু শব্দের আগে <f-b>Il</f> (Il-legal)।"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1-L18",
+        "type": "mcq",
+        "question": "'Regular' এর উল্টো শব্দ কোনটি?",
+        "options": [
+          {"id": "o1", "text": "Unregular"},
+          {"id": "o2", "text": "Irregular"},
+          {"id": "o3", "text": "Disregular"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Irregular</f>। 'r' দিয়ে শুরু শব্দের আগে Ir বসে।"
+      },
+      {
+        "id": "q2-L18",
+        "type": "drag_words_dash",
+        "question": "সঠিক নেতিবাচক প্রিফিক্স বসাও:",
+        "text": "[[Un]]kind, [[Dis]]agree, [[Im]]patient, [[Il]]legal",
+        "options": [ "Im","Un","Il","Dis",  "Ir"],
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: Unkind, Disagree, Impatient, Illegal।"
+      },
+      {
+        "id": "q3-L18",
+        "type": "mcq",
+        "question": "'Visible' (দেখা যায় এমন) এর না-বোধক রূপ কী?",
+        "options": [
+          {"id": "o1", "text": "Invisible"},
+          {"id": "o2", "text": "Unvisible"}
+        ],
+        "correctOptionId": "o1",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Invisible</f>।"
+      },
+      {
+        "id": "q4-L18",
+        "type": "text_input",
+        "question": "Pure (বিশুদ্ধ) এর আগে কোন প্রিফিক্স বসবে?",
+        "targetAnswer": "Im",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Im</f>। 'p' দিয়ে শুরু হলে Im বসে।"
+      },
+      {
+        "id": "q5-L18",
+        "type": "drag_words",
+        "question": "সাজাও (অপছন্দ করা):",
+        "wordPool": ["Dis", "like", "."],
+        "targetAnswer": "Dis like .",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Dislike</f>।"
+      }
+    ]
+  },
+  {
+    "id": "suffix-prefix-19",
+    "title": "Double Trouble - দুই পাশেই ম্যাজিক! 🎭",
+    "order": 19,
+    "estimatedTimeMin": 18,
+    "passThresholdPercent": 65,
+    "unlockRequirement": "suffix-prefix-18",
+    "basics": [
+      {
+        "id": "b1-L19",
+        "type": "text",
+        "title": "একসাথে Suffix ও Prefix",
+        "content": {
+          "definition": "মাঝে মাঝে একই শব্দের <c-#2563eb>আগে</c> এবং <c-#16a34a>শেষে</c> দুই জায়গাতেই পরিবর্তন করতে হয়।",
+          "explanation": "মূল শব্দ: Comfort (আরাম)\n• Prefix যোগ করো: <f-b>Un</f>comfort\n• Suffix যোগ করো: Uncomfort<f-b>able</f>\n• Adverb বানাও: Uncomfort<f-b>ably</f>"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1-L19",
+        "type": "mcq",
+        "question": "'Unfortunately' শব্দটিতে মূল শব্দ কোনটি?",
+        "options": [
+          {"id": "o1", "text": "Fortunate"},
+          {"id": "o2", "text": "Fortune"},
+          {"id": "o3", "text": "Unfortunate"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Fortune</f> (ভাগ্য)। এর থেকেই সব তৈরি হয়েছে।"
+      },
+      {
+        "id": "q2-L19",
+        "type": "drag_words_dash",
+        "question": "দুই পাশে যোগ করো:",
+        "text": "[[Un]]happi[[ness]], [[Dis]]connect[[ed]], [[Re]]fill[[able]]",
+        "options": ["Un", "Dis", "ness","Re",  "ed", "able"],
+        "marksIfCorrect": 6,
+        "explainIfWrong": "সঠিক উত্তর: Unhappiness, Disconnected, Refillable।"
+      },
+      {
+        "id": "q3-L19",
+        "type": "mcq",
+        "question": "'Disqualification' শব্দে কয়টি সাফিক্স/প্রিফিক্স আছে?",
+        "options": [
+          {"id": "o1", "text": "শুধু একটি"},
+          {"id": "o2", "text": "দুটি (আগে ও পরে)"},
+          {"id": "o3", "text": "তিনটি বা তার বেশি"}
+        ],
+        "correctOptionId": "o3",
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>তিনটি বা তার বেশি</f>। (Dis-quali-fication)"
+      },
+      {
+        "id": "q4-L19",
+        "type": "text_input",
+        "question": "Believe (বিশ্বাস করা) এর নেতিবাচক Adjective রূপ লিখুন।",
+        "targetAnswer": "Unbelievable",
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Unbelievable</f>। (Un + Believe + able)"
+      },
+      {
+        "id": "q5-L19",
+        "type": "mcq",
+        "question": "নিচের কোনটি একটি কমপ্লিট শব্দ?",
+        "options": [
+          {"id": "o1", "text": "Success"},
+          {"id": "o2", "text": "Unsuccessfully"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Unsuccessfully</f>। এতে Prefix এবং একাধিক Suffix আছে।"
+      }
+    ]
+  },
+  {
+    "id": "suffix-prefix-20",
+    "title": "Grand Finale - শব্দের রূপান্তর! 🏆",
+    "order": 20,
+    "estimatedTimeMin": 20,
+    "passThresholdPercent": 70,
+    "unlockRequirement": "suffix-prefix-19",
+    "basics": [
+      {
+        "id": "b1-L20",
+        "type": "text",
+        "title": "এক নজর সব রূপ!",
+        "content": {
+          "definition": "একটি শব্দ কীভাবে চার রকম হতে পারে তা দেখো:",
+          "explanation": "শব্দ: <f-b>Beauty</f>\n• Noun: Beauty (সৌন্দর্য)\n• Verb: Beautify (সুন্দর করা)\n• Adjective: Beautiful (সুন্দর)\n• Adverb: Beautifully (সুন্দরভাবে)"
+        }
+      },
+      {
+        "id": "b2-L20",
+        "type": "text",
+        "title": "পরীক্ষার ট্রিক",
+        "content": {
+          "definition": "পরীক্ষায় কীভাবে সঠিক সাফিক্স/প্রিফিক্স ধরবে?",
+          "explanation": "১. যদি গ্যাপটি <f-b>কাজের ধরণ</f> বোঝায় → <c-#16a34a>Adverb (-ly)</c>\n২. যদি গ্যাপটি <f-b>দোষ/গুণ</f> বোঝায় → <c-#16a34a>Adjective (-ful, -ive)</c>\n৩. যদি গ্যাপটি <f-b>নাম</f> বোঝায় → <c-#2563eb>Noun (-tion, -ment)</c>"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1-L20",
+        "type": "mcq",
+        "question": "The flowers are very ____. (গ্যাপে কী বসবে?)",
+        "options": [
+          {"id": "o1", "text": "Beauty"},
+          {"id": "o2", "text": "Beautiful"},
+          {"id": "o3", "text": "Beautify"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Beautiful</f>। এখানে ফুলের 'গুণ' বোঝাচ্ছে, তাই Adjective হবে।"
+      },
+      {
+        "id": "q2-L20",
+        "type": "mcq",
+        "question": "He drives the car ____. (গ্যাপে কী বসবে?)",
+        "options": [
+          {"id": "o1", "text": "careful"},
+          {"id": "o2", "text": "carefully"},
+          {"id": "o3", "text": "careless"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 4,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>carefully</f>। সে গাড়ি 'কীভাবে' চালায় তা বোঝাতে Adverb (-ly) বসবে।"
+      },
+      {
+        "id": "q3-L20",
+        "type": "drag_words_dash",
+        "question": "সঠিক রূপটি বসাও:",
+        "text": "She has the [[ability]] to [[enable]] others to work [[ably]].",
+        "options": ["enable", "ably",  "able","ability", "ableness"],
+        "marksIfCorrect": 6,
+        "explainIfWrong": "সঠিক উত্তর: Ability (Noun), Enable (Verb), Ably (Adverb)।"
+      },
+      {
+        "id": "q4-L20",
+        "type": "text_input",
+        "question": "'National' শব্দের Verb রূপ কী? (ইঙ্গিত: শেষে ize বসাও)",
+        "targetAnswer": "Nationalize",
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Nationalize</f>।"
+      },
+      {
+        "id": "q5-L20",
+        "type": "mcq",
+        "question": "কোন সাফিক্সটি কোনো কিছুর 'অভাব' বোঝায়?",
+        "options": [
+          {"id": "o1", "text": "ful"},
+          {"id": "o2", "text": "less"},
+          {"id": "o3", "text": "ness"}
+        ],
+        "correctOptionId": "o2",
+        "marksIfCorrect": 3,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>less</f>। যেমন: Fearless (ভয় নেই যার)।"
+      },
+      {
+        "id": "q6-L20",
+        "type": "drag_words",
+        "question": "শব্দটি সাজাও (ভুল বোঝাবুঝি):",
+        "wordPool": ["standing", "Mis", "under", "."],
+        "targetAnswer": "Mis under standing .",
+        "marksIfCorrect": 5,
+        "explainIfWrong": "সঠিক উত্তর: <f-b>Misunderstanding</f>। এখানে Mis- প্রিফিক্স এবং -ing সাফিক্স।"
+      }
+    ]
+  }
 
 
 
