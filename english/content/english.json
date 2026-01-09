@@ -998,7 +998,7 @@
 },
 
 {
-   "id": "englishPunCuation",
+   "id": "englishSuffixPrefix",
     "name": "Word Magic (Suffix & Prefix)",
     "color": "#a111ba",
     "order": 2,
