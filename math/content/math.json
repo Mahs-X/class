@@ -1,0 +1,107 @@
+[
+    {
+        "id": "math-ch1-basics",
+        "name": "গণিতের ভিত্তি: সংখ্যা ও হিসাব",
+        "color": "#f59e0b",
+        "order": 1,
+        "version": 1,
+        "levels": [
+            {
+                "id": "math-01",
+                "title": "সংখ্যা কী?",
+                "order": 1,
+                "estimatedTimeMin": 10,
+                "passThresholdPercent": 70,
+                "unlockRequirement": {
+                    "type": "none"
+                },
+                "basics": [
+                    {
+                        "id": "b1",
+                        "type": "text",
+                        "title": "সংখ্যার ধারণা",
+                        "content": {
+                            "definition": "সংখ্যা হলো গণিতের ভাষা। আমরা যা কিছু গণনা করি, পরিমাপ করি বা হিসাব করি - সবই সংখ্যার মাধ্যমে প্রকাশ করা হয়।",
+                            "explanation": "যেমন: তোমার কাছে কয়টি কলম আছে? উত্তর হতে পারে ২, ৩ বা ৫। এই ২, ৩, ৫ হলো সংখ্যা।"
+                        }
+                    }
+                ],
+                "quiz": [
+                    {
+                        "id": "q1",
+                        "type": "mcq",
+                        "question": "সবচেয়ে ছোট স্বাভাবিক সংখ্যা কোনটি?",
+                        "options": [
+                            {
+                                "id": "o1",
+                                "text": "০"
+                            },
+                            {
+                                "id": "o2",
+                                "text": "১"
+                            },
+                            {
+                                "id": "o3",
+                                "text": "-১"
+                            },
+                            {
+                                "id": "o4",
+                                "text": "২"
+                            }
+                        ],
+                        "correctOptionId": "o2",
+                        "marksIfCorrect": 2,
+                        "penaltyIfWrong": -1,
+                        "timeLimitSec": 30,
+                        "explainIfWrong": "স্বাভাবিক সংখ্যা গণনা করার জন্য ব্যবহৃত হয়, যা ১ থেকে শুরু হয়।"
+                    },
+                    {
+                        "id": "q2",
+                        "type": "stepByStep",
+                        "question": "সমাধান করো: 2x + 5 = 15",
+                        "marksIfCorrect": 5,
+                        "penaltyIfWrong": -1,
+                        "steps": [
+                            {
+                                "step_no": 1,
+                                "goal": "+৫ কে অন্য পাশে নাও",
+                                "options": [
+                                    "2x = 15 + 5",
+                                    "2x = 15 - 5",
+                                    "x = 15 - 5",
+                                    "2x = 5 - 15"
+                                ],
+                                "correct_answer": "2x = 15 - 5",
+                                "wrong_feedback": "মনে আছে? পক্ষ পরিবর্তন করলে চিহ্ন বদলে যায়! +৫ ওপাশে গেলে -৫ হবে।"
+                            },
+                            {
+                                "step_no": 2,
+                                "goal": "সংখ্যাগুলো বিয়োগ করো",
+                                "options": [
+                                    "2x = 10",
+                                    "2x = 20",
+                                    "x = 10",
+                                    "2x = 15"
+                                ],
+                                "correct_answer": "2x = 10",
+                                "wrong_feedback": "হিসাবটা আবার করো! ১৫ থেকে ৫ বিয়োগ করলে কত থাকে?"
+                            },
+                            {
+                                "step_no": 3,
+                                "goal": "২ দিয়ে ভাগ করো",
+                                "options": [
+                                    "x = 10 / 2",
+                                    "x = 10 * 2",
+                                    "x = 10 - 2",
+                                    "x = 5"
+                                ],
+                                "correct_answer": "x = 10 / 2",
+                                "wrong_feedback": "গুণ অবস্থায় থাকলে ওপাশে গিয়ে ভাগ হয়ে যায়, মনে পড়ল?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
