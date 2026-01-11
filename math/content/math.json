@@ -1,125 +1,140 @@
 [
-{
-"id": "mathSets",
-"name": "সেটের জগত (World of Sets)",
-"color": "#4A90E2",
-"order": 1,
-"version": 1,
-"levels": [
-{
-"id": "set-01",
-"title": "সেটের ধারণা - সংজ্ঞার শুরু!",
-"order": 1,
-"estimatedTimeMin": 10,
-"passThresholdPercent": 60,
-"unlockRequirement": { "type": "none" },
-"basics": [
-{
-"id": "b1-L1",
-"type": "text",
-"title": "সেট আসলে কী?",
-"content": {
-"definition": "বাস্তব বা চিন্তা জগতের সু-সংজ্ঞায়িত বস্তুর সমাবেশকে <f-b>সেট</f-b> বলে।",
-"explanation": "সহজ কথায়, একই জাতীয় জিনিসের সংগ্রহ। যেমন: ডিনার সেট, এক সেট বই বা প্রথম ৫টি স্বাভাবিক সংখ্যার সেট।"
-}
-},
-{
-"id": "b2-L1",
-"type": "text",
-"title": "প্রকাশ করার নিয়ম",
-"content": {
-"definition": "সেটকে সাধারণত ইংরেজি বড় হাতের অক্ষর (A, B, C) দিয়ে এবং উপাদানগুলোকে <f-b>দ্বিতীয় বন্ধনী { }</f-b> দিয়ে প্রকাশ করা হয়।",
-"explanation": "যেমন: ৩টি ফলের সেট A = {আম, জাম, কলা}"
-}
-}
-],
-"questions": [
-{
-"id": "q1-L1",
-"type": "mcq",
-"question": "সেট প্রকাশের জন্য কোন বন্ধনী ব্যবহার করা বাধ্যতামূলক?",
-"options": [
-{ "id": "o1", "text": "( ) প্রথম বন্ধনী" },
-{ "id": "o2", "text": "{ } দ্বিতীয় বন্ধনী" },
-{ "id": "o3", "text": "[ ] তৃতীয় বন্ধনী" }
-],
-"correctOptionId": "o2",
-"marksIfCorrect": 5,
-"explainIfWrong": "মনে রেখো, সেট মানেই কোঁকড়া চুলের দ্বিতীয় বন্ধনী { }!"
-},
-{
-"id": "q2-L1",
-"type": "text_input",
-"question": "বাস্তব বা চিন্তা জগতের সু-সংজ্ঞায়িত সমাবেশকে কী বলে?",
-"targetAnswer": "সেট",
-"marksIfCorrect": 5,
-"explainIfWrong": "এটাই তো আমাদের অধ্যায়ের নাম—'সেট'!"
-}
-]
-},
-{
-"id": "set-02",
-"title": "সদস্যপদ ও প্রতীক - $\in$ এর খেলা!",
-"order": 2,
-"estimatedTimeMin": 15,
-"passThresholdPercent": 70,
-"unlockRequirement": { "type": "level", "id": "set-01" },
-"basics": [
-{
-"id": "b1-L2",
-"type": "text",
-"title": "সদস্য বা উপাদান (Element)",
-"content": {
-"definition": "সেটের অন্তর্ভুক্ত প্রতিটি বস্তুকে সেটের <f-b>উপাদান বা মেম্বার</f-b> বলা হয়।",
-"explanation": "যদি $a$ একটি সেট $A$ এর উপাদান হয়, তবে আমরা লিখি $a \in A$ (a belongs to A)। আর উপাদান না হলে লিখি $a \notin A$।"
-}
-}
-],
-"questions": [
-{
-"id": "q1-L2",
-"type": "mcq",
-"question": "যদি $B = \\{ 1, 2, 3 \\}$ হয়, তবে নিচের কোনটি সঠিক?",
-"options": [
-{ "id": "o1", "text": "$4 \in B$" },
-{ "id": "o2", "text": "$2 \in B$" },
-{ "id": "o3", "text": "$2 \notin B$" }
-],
-"correctOptionId": "o2",
-"marksIfCorrect": 5,
-"explainIfWrong": "সেট $B$ এর ভেতরে ২ আছে, তাই $2 \in B$ হবে সঠিক।"
-}
-]
-},
-{
-"id": "set-03",
-"title": "সেট গঠন পদ্ধতি বনাম তালিকা",
-"order": 3,
-"estimatedTimeMin": 20,
-"passThresholdPercent": 80,
-"unlockRequirement": { "type": "level", "id": "set-02" },
-"basics": [
-{
-"id": "b1-L3",
-"type": "text",
-"title": "তালিকা পদ্ধতি (Tabular Method)",
-"content": {
-"definition": "উপাদানগুলোকে সরাসরি কমা দিয়ে লিখে প্রকাশ করা।",
-"explanation": "যেমন: A = {1, 2, 3, 4, 5}"
-}
-}
-],
-"questions": [
-{
-"id": "q1-L3",
-"type": "order_sort",
-"question": "সেট $A = \\{ x : x$ হলো বিজোড় সংখ্যা এবং $1 < x < 7 \\}$ কে তালিকা পদ্ধতিতে সাজাও:",
-"options": ["3", "5", "{", "}", ","],
-"marksIfCorrect": 10,
-"explainIfWrong": "১ এর বড় এবং ৭ এর ছোট বিজোড় সংখ্যা হলো ৩ এবং ৫। সঠিক রূপ: { 3, 5 }"
-}
-]
-}
-]
-}
+    {
+        "id": "math-ch1-basics",
+        "name": "গণিতের ভিত্তি: সংখ্যা ও হিসাব",
+        "color": "#f59e0b",
+        "order": 1,
+        "version": 1,
+        "levels": [
+            {
+                "id": "math-01",
+                "title": "সংখ্যা কী?",
+                "order": 1,
+                "estimatedTimeMin": 10,
+                "passThresholdPercent": 70,
+                "unlockRequirement": {
+                    "type": "none"
+                },
+                "basics": [
+                    {
+                        "id": "b1",
+                        "type": "text",
+                        "title": "সংখ্যার ধারণা",
+                        "content": {
+                            "definition": "সংখ্যা হলো গণিতের ভাষা। আমরা যা কিছু গণনা করি, পরিমাপ করি বা হিসাব করি - সবই সংখ্যার মাধ্যমে প্রকাশ করা হয়।",
+                            "explanation": "যেমন: তোমার কাছে কয়টি কলম আছে? উত্তর হতে পারে ২, ৩ বা ৫। এই ২, ৩, ৫ হলো সংখ্যা।"
+                        }
+                    }
+                ],
+                "quiz": [
+                    {
+                        "id": "q1",
+                        "type": "mcq",
+                        "question": "সবচেয়ে ছোট স্বাভাবিক সংখ্যা কোনটি?",
+                        "options": [
+                            {
+                                "id": "o1",
+                                "text": "০"
+                            },
+                            {
+                                "id": "o2",
+                                "text": "১"
+                            },
+                            {
+                                "id": "o3",
+                                "text": "-১"
+                            },
+                            {
+                                "id": "o4",
+                                "text": "২"
+                            }
+                        ],
+                        "correctOptionId": "o2",
+                        "marksIfCorrect": 2,
+                        "penaltyIfWrong": -1,
+                        "timeLimitSec": 30,
+                        "explainIfWrong": "স্বাভাবিক সংখ্যা গণনা করার জন্য ব্যবহৃত হয়, যা ১ থেকে শুরু হয়।"
+                    },
+                    {
+                        "id": "q2",
+                        "type": "stepByStep",
+                        "question": "সমাধান করো: 2x + 5 = 15",
+                        "marksIfCorrect": 5,
+                        "penaltyIfWrong": -1,
+                        "steps": [
+                            {
+                                "step_no": 1,
+                                "goal": "+৫ কে অন্য পাশে নাও",
+                                "options": [
+                                    "2x = 15 + 5",
+                                    "2x = 15 - 5",
+                                    "x = 15 - 5",
+                                    "2x = 5 - 15"
+                                ],
+                                "correct_answer": "2x = 15 - 5",
+                                "wrong_feedback": "মনে আছে? পক্ষ পরিবর্তন করলে চিহ্ন বদলে যায়! +৫ ওপাশে গেলে -৫ হবে।"
+                            },
+                            {
+                                "step_no": 2,
+                                "goal": "সংখ্যাগুলো বিয়োগ করো",
+                                "options": [
+                                    "2x = 10",
+                                    "2x = 20",
+                                    "x = 10",
+                                    "2x = 15"
+                                ],
+                                "correct_answer": "2x = 10",
+                                "wrong_feedback": "হিসাবটা আবার করো! ১৫ থেকে ৫ বিয়োগ করলে কত থাকে?"
+                            },
+                            {
+                                "step_no": 3,
+                                "goal": "২ দিয়ে ভাগ করো",
+                                "options": [
+                                    "x = 10 / 2",
+                                    "x = 10 * 2",
+                                    "x = 10 - 2",
+                                    "x = 5"
+                                ],
+                                "correct_answer": "x = 10 / 2",
+                                "wrong_feedback": "গুণ অবস্থায় থাকলে ওপাশে গিয়ে ভাগ হয়ে যায়, মনে পড়ল?"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "q3",
+                        "type": "stepByStep",
+                        "question": "সরলীকরণ করো: $\\frac{\\sin\\theta}{\\cos\\theta}$",
+                        "marksIfCorrect": 5,
+                        "penaltyIfWrong": -1,
+                        "steps": [
+                            {
+                                "step_no": 1,
+                                "goal": "$\\frac{\\sin\\theta}{\\cos\\theta}$ কে সরল করো",
+                                "options": [
+                                    "\\tan\\theta",
+                                    "\\cot\\theta",
+                                    "\\sec\\theta",
+                                    "\\sin\\theta \\times \\cos\\theta"
+                                ],
+                                "correct_answer": "\\tan\\theta",
+                                "wrong_feedback": "মনে রাখো: $\\frac{\\sin\\theta}{\\cos\\theta} = \\tan\\theta$, কারণ ট্যান = লম্ব ÷ ভূমি!"
+                            },
+                            {
+                                "step_no": 2,
+                                "goal": "যদি $\\theta = 45°$ হয়, তবে $\\tan 45°$ এর মান কত?",
+                                "options": [
+                                    "0",
+                                    "1",
+                                    "\\frac{1}{2}",
+                                    "\\sqrt{2}"
+                                ],
+                                "correct_answer": "1",
+                                "wrong_feedback": "$45°$ কোণে লম্ব = ভূমি, তাই $\\tan 45° = \\frac{লম্ব}{ভূমি} = 1$"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 ]
