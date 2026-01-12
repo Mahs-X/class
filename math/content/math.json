@@ -1,140 +1,516 @@
 [
-    {
-        "id": "math-ch1-basics",
-        "name": "গণিতের ভিত্তি: সংখ্যা ও হিসাব",
-        "color": "#f59e0b",
+  {
+    "id": "mathSetFunction",
+    "name": "সেটের জাদুকরী জগত",
+    "color": "#6366f1",
+    "order": 2,
+    "version": 2,
+    "levels": [
+      {
+        "id": "set-01",
+        "title": "সীমানা বনাম অসীম আকাশ (সসীম ও অসীম সেট)",
         "order": 1,
-        "version": 1,
-        "levels": [
-            {
-                "id": "math-01",
-                "title": "সংখ্যা কী?",
-                "order": 1,
-                "estimatedTimeMin": 10,
-                "passThresholdPercent": 70,
-                "unlockRequirement": {
-                    "type": "none"
-                },
-                "basics": [
-                    {
-                        "id": "b1",
-                        "type": "text",
-                        "title": "সংখ্যার ধারণা",
-                        "content": {
-                            "definition": "সংখ্যা হলো গণিতের ভাষা। আমরা যা কিছু গণনা করি, পরিমাপ করি বা হিসাব করি - সবই সংখ্যার মাধ্যমে প্রকাশ করা হয়।",
-                            "explanation": "যেমন: তোমার কাছে কয়টি কলম আছে? উত্তর হতে পারে ২, ৩ বা ৫। এই ২, ৩, ৫ হলো সংখ্যা।"
-                        }
-                    }
-                ],
-                "quiz": [
-                    {
-                        "id": "q1",
-                        "type": "mcq",
-                        "question": "সবচেয়ে ছোট স্বাভাবিক সংখ্যা কোনটি?",
-                        "options": [
-                            {
-                                "id": "o1",
-                                "text": "০"
-                            },
-                            {
-                                "id": "o2",
-                                "text": "১"
-                            },
-                            {
-                                "id": "o3",
-                                "text": "-১"
-                            },
-                            {
-                                "id": "o4",
-                                "text": "২"
-                            }
-                        ],
-                        "correctOptionId": "o2",
-                        "marksIfCorrect": 2,
-                        "penaltyIfWrong": -1,
-                        "timeLimitSec": 30,
-                        "explainIfWrong": "স্বাভাবিক সংখ্যা গণনা করার জন্য ব্যবহৃত হয়, যা ১ থেকে শুরু হয়।"
-                    },
-                    {
-                        "id": "q2",
-                        "type": "stepByStep",
-                        "question": "সমাধান করো: 2x + 5 = 15",
-                        "marksIfCorrect": 5,
-                        "penaltyIfWrong": -1,
-                        "steps": [
-                            {
-                                "step_no": 1,
-                                "goal": "+৫ কে অন্য পাশে নাও",
-                                "options": [
-                                    "2x = 15 + 5",
-                                    "2x = 15 - 5",
-                                    "x = 15 - 5",
-                                    "2x = 5 - 15"
-                                ],
-                                "correct_answer": "2x = 15 - 5",
-                                "wrong_feedback": "মনে আছে? পক্ষ পরিবর্তন করলে চিহ্ন বদলে যায়! +৫ ওপাশে গেলে -৫ হবে।"
-                            },
-                            {
-                                "step_no": 2,
-                                "goal": "সংখ্যাগুলো বিয়োগ করো",
-                                "options": [
-                                    "2x = 10",
-                                    "2x = 20",
-                                    "x = 10",
-                                    "2x = 15"
-                                ],
-                                "correct_answer": "2x = 10",
-                                "wrong_feedback": "হিসাবটা আবার করো! ১৫ থেকে ৫ বিয়োগ করলে কত থাকে?"
-                            },
-                            {
-                                "step_no": 3,
-                                "goal": "২ দিয়ে ভাগ করো",
-                                "options": [
-                                    "x = 10 / 2",
-                                    "x = 10 * 2",
-                                    "x = 10 - 2",
-                                    "x = 5"
-                                ],
-                                "correct_answer": "x = 10 / 2",
-                                "wrong_feedback": "গুণ অবস্থায় থাকলে ওপাশে গিয়ে ভাগ হয়ে যায়, মনে পড়ল?"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "q3",
-                        "type": "stepByStep",
-                        "question": "সরলীকরণ করো: $\\frac{\\sin\\theta}{\\cos\\theta}$",
-                        "marksIfCorrect": 5,
-                        "penaltyIfWrong": -1,
-                        "steps": [
-                            {
-                                "step_no": 1,
-                                "goal": "$\\frac{\\sin\\theta}{\\cos\\theta}$ কে সরল করো",
-                                "options": [
-                                    "\\tan\\theta",
-                                    "\\cot\\theta",
-                                    "\\sec\\theta",
-                                    "\\sin\\theta \\times \\cos\\theta"
-                                ],
-                                "correct_answer": "\\tan\\theta",
-                                "wrong_feedback": "মনে রাখো: $\\frac{\\sin\\theta}{\\cos\\theta} = \\tan\\theta$, কারণ ট্যান = লম্ব ÷ ভূমি!"
-                            },
-                            {
-                                "step_no": 2,
-                                "goal": "যদি $\\theta = 45°$ হয়, তবে $\\tan 45°$ এর মান কত?",
-                                "options": [
-                                    "0",
-                                    "1",
-                                    "\\frac{1}{2}",
-                                    "\\sqrt{2}"
-                                ],
-                                "correct_answer": "1",
-                                "wrong_feedback": "$45°$ কোণে লম্ব = ভূমি, তাই $\\tan 45° = \\frac{লম্ব}{ভূমি} = 1$"
-                            }
-                        ]
-                    }
-                ]
+        "estimatedTimeMin": 15,
+        "passThresholdPercent": 70,
+        "unlockRequirement": { "type": "none" },
+        "basics": [
+          {
+            "id": "b1-L1",
+            "type": "text",
+            "title": "সেট কী?",
+            "content": {
+              "definition": "বাস্তব বা চিন্তা জগতের সু-সংজ্ঞায়িত বস্তুর সমাবেশকে <f-b>সেট (Set)</f-b> বলে।",
+              "explanation": "যেমন: তোমার পড়ার টেবিলের বইয়ের সেট। ব্রেইন যখন কোনো জিনিসের গ্রুপ দেখে, তখন সে সেটাকে একটা ইউনিট হিসেবে মনে রাখে।"
             }
+          },
+          {
+            "id": "b2-L1",
+            "type": "text",
+            "title": "সসীম সেট (Finite Set)",
+            "content": {
+              "definition": "যে সেটের উপাদান সংখ্যা গুনে শেষ করা যায় তাকে <f-b>সসীম সেট</f-b> বলে।",
+              "explanation": "যেমন: তোমার হাতের ৫টি আঙুল। ব্রেইন যখন শেষ সীমানা দেখে, তখন সে রিল্যাক্স থাকে।"
+            }
+          },
+          {
+            "id": "b3-L1",
+            "type": "text",
+            "title": "অসীম সেট (Infinite Set)",
+            "content": {
+              "definition": "যে সেটের উপাদান সংখ্যা গুনে শেষ করা যায় না তাকে <f-b>অসীম সেট</f-b> বলে।",
+              "explanation": "যেমন: বিজোড় সংখ্যার সেট {১, ৩, ৫, ...}। তিন ডট (...) মানেই এটি অসীম।"
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1-L1",
+            "type": "mcq",
+            "question": "A = {x, y, z} সেটটি কোন ধরণের?",
+            "options": [
+              { "id": "o1", "text": "সসীম সেট" },
+              { "id": "o2", "text": "অসীম সেট" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 5,
+            "hints": ["উপাদানগুলো কি গুনে শেষ করা যাচ্ছে?"],
+            "explainIfWrong": "এখানে মাত্র ৩টি উপাদান আছে, তাই এটি সসীম।"
+          },
+          {
+            "id": "q2-L1",
+            "type": "drag_words",
+            "question": "সঠিক ট্যাগ সাজাও (স্বাভাবিক সংখ্যার সেট):",
+            "wordPool": ["{1, 2, 3, ...}", "is", "infinite", "set", "finite", "a"],
+            "targetAnswer": "{1, 2, 3, ...} is a infinite set",
+            "marksIfCorrect": 6,
+            "hints": ["শেষে কি ডট ডট ডট আছে?"],
+            "explainIfWrong": "ডট ডট মানেই এর কোনো শেষ নেই, তাই এটি অসীম।"
+          },
+          {
+            "id": "q3-L1",
+            "type": "text_input",
+            "question": "যে সেটের শেষ নেই তাকে কী সেট বলে?",
+            "targetAnswer": "অসীম",
+            "marksIfCorrect": 5,
+            "hints": ["আকাশের তারার কথা ভাবো..."],
+            "explainIfWrong": "যার শেষ নেই সে-ই অসীম।"
+          },
+          {
+            "id": "q4-L1",
+            "type": "mcq",
+            "question": "নিচের কোনটি সসীম সেট?",
+            "options": [
+              { "id": "o1", "text": "সপ্তাহের ৭ দিনের সেট" },
+              { "id": "o2", "text": "সকল জোড় সংখ্যার সেট" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 5,
+            "hints": ["কোনটা তুমি গুনে খাতা শেষ করতে পারবে?"],
+            "explainIfWrong": "সপ্তাহের দিন মাত্র ৭টি, তাই এটি সসীম।"
+          },
+          {
+            "id": "q5-L1",
+            "type": "drag_words_dash",
+            "question": "সঠিক বৈশিষ্ট্য চিনে পূর্ণ করো:",
+            "text": "The set of books is [[finite]] and stars are [[infinite]]",
+            "options": ["finite", "infinite", "empty", "universal"],
+            "marksIfCorrect": 6,
+            "hints": ["গোনা গেলে সসীম, না গেলে অসীম।"],
+            "explainIfWrong": "বই গোনা যায় (finite), তারা গোনা যায় না (infinite)।"
+          },
+          {
+            "id": "q6-L1",
+            "type": "mcq",
+            "question": "সেটের উপাদান বুঝাতে কোন চিহ্ন ব্যবহৃত হয়?",
+            "options": [
+              { "id": "o1", "text": "∈" },
+              { "id": "o2", "text": "∉" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 4,
+            "hints": ["এটা দেখতে ইংরেজি 'E' এর মতো।"],
+            "explainIfWrong": "∈ মানে 'belongs to' বা উপাদান।"
+          },
+          {
+            "id": "q7-L1",
+            "type": "text_input",
+            "question": "A = {1, 2, 3} হলে, ২ কি A এর উপাদান? (হ্যাঁ/না)",
+            "targetAnswer": "হ্যাঁ",
+            "marksIfCorrect": 5,
+            "hints": ["সেটের ভেতরে তাকিয়ে দেখো ২ আছে কি না।"],
+            "explainIfWrong": "হ্যাঁ, ২ সেটের ভেতরে বিদ্যমান।"
+          }
         ]
-    }
+      },
+      {
+        "id": "set-02",
+        "title": "অদৃশ্য বক্সের রহস্য (ফাঁকা সেট)",
+        "order": 2,
+        "estimatedTimeMin": 12,
+        "basics": [
+          {
+            "id": "b1-L2",
+            "type": "text",
+            "title": "ফাঁকা সেট (Empty Set)",
+            "content": {
+              "definition": "যে সেটের কোনো উপাদান নেই তাকে <f-b>ফাঁকা সেট</f-b> বলে।",
+              "explanation": "কল্পনা করো একটা খালি স্কুল ব্যাগ। ব্যাগটা আছে কিন্তু বই নেই। একে {} বা ∅ দিয়ে প্রকাশ করা হয়।"
+            }
+          },
+          {
+            "id": "b2-L2",
+            "type": "text",
+            "title": "ফাঁকা সেট চেনার উপায়",
+            "content": {
+              "definition": "সেট গঠন পদ্ধতিতে শর্ত যদি অসম্ভব হয়, তবে সেটি ফাঁকা সেট।",
+              "explanation": "যেমন: ১০ এর চেয়ে বড় কিন্তু ৫ এর চেয়ে ছোট সংখ্যা। এমন সংখ্যা নেই, তাই এটি ফাঁকা।"
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1-L2",
+            "type": "mcq",
+            "question": "ফাঁকা সেটের প্রতীক কোনটি?",
+            "options": [
+              { "id": "o1", "text": "∅" },
+              { "id": "o2", "text": "{0}" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 5,
+            "hints": ["শূন্য থাকা মানেই কিন্তু ফাঁকা না!"],
+            "explainIfWrong": "{0} সেটে একটি উপাদান আছে, তা হলো '০'। কিন্তু ∅ একদম খালি।"
+          },
+          {
+            "id": "q2-L2",
+            "type": "text_input",
+            "question": "ফাঁকা সেটে কয়টি উপাদান থাকে?",
+            "targetAnswer": "০",
+            "marksIfCorrect": 5,
+            "hints": ["খালি ব্যাগে কয়টা কলম থাকে?"],
+            "explainIfWrong": "কোনো উপাদান নেই মানেই সংখ্যাটি ০।"
+          },
+          {
+            "id": "q3-L2",
+            "type": "drag_words_dash",
+            "question": "অসম্ভব শর্ত পূর্ণ করো:",
+            "text": "A set of humans with wings is an [[empty]] set.",
+            "options": ["empty", "finite", "infinite", "full"],
+            "marksIfCorrect": 6,
+            "hints": ["মানুষের কি ডানা আছে?"],
+            "explainIfWrong": "অসম্ভব জিনিসের সেটই ফাঁকা বা empty।"
+          },
+          {
+            "id": "q4-L2",
+            "type": "mcq",
+            "question": "নিচের কোনটি ফাঁকা সেট?",
+            "options": [
+              { "id": "o1", "text": "{x : x জোড় এবং x বিজোড়}" },
+              { "id": "o2", "text": "{x : x মৌলিক সংখ্যা}" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 6,
+            "hints": ["একই সাথে কি কেউ জোড় আর বিজোড় হতে পারে?"],
+            "explainIfWrong": "জোড় ও বিজোড় একসাথে হওয়া অসম্ভব।"
+          },
+          {
+            "id": "q5-L2",
+            "type": "drag_words",
+            "question": "সঠিক সেট সাজাও (ফাঁকা সেট):",
+            "wordPool": ["A", "=", "{", "}", "is", "empty"],
+            "targetAnswer": "A = { } is empty",
+            "marksIfCorrect": 6,
+            "hints": ["বন্ধনী খালি রাখো।"],
+            "explainIfWrong": "বন্ধনীতে কিছু না থাকাই ফাঁকা সেট।"
+          },
+          {
+            "id": "q6-L2",
+            "type": "mcq",
+            "question": "{} সেটের ভেতরের অংশটি কেমন?",
+            "options": [
+              { "id": "o1", "text": "শূন্যহীন ও খালি" },
+              { "id": "o2", "text": "শুন্য যুক্ত" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 5,
+            "hints": ["খালি মানে একদম খালি।"],
+            "explainIfWrong": "ফাঁকা সেটে কোনো কিছুই থাকে না।"
+          }
+        ]
+      },
+      {
+        "id": "set-03",
+        "title": "রাজপ্রাসাদ ও তার ছোট ঘর (সার্বিক ও উপসেট)",
+        "order": 3,
+        "estimatedTimeMin": 15,
+        "basics": [
+          {
+            "id": "b1-L3",
+            "type": "text",
+            "title": "সার্বিক সেট (Universal Set)",
+            "content": {
+              "definition": "আলোচনার অন্তর্গত সকল সেট যার অন্তর্ভুক্ত তাকে <f-b>সার্বিক সেট (U)</f-b> বলে।",
+              "explanation": "ব্রেইন মেটাফোর: পুরো পৃথিবী যদি U হয়, তবে বাংলাদেশ একটি উপসেট।"
+            }
+          },
+          {
+            "id": "b2-L3",
+            "type": "text",
+            "title": "উপসেট (Subset)",
+            "content": {
+              "definition": "একটি সেটের উপাদান থেকে যতগুলো সেট গঠন করা যায়, তারা প্রত্যেকে ঐ সেটের <f-b>উপসেট</f-b>।",
+              "explanation": "চিহ্ন: ⊆। যেমন A = {1, 2}, এর উপসেট হবে {1}, {2}, {1, 2} এবং ∅।"
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1-L3",
+            "type": "mcq",
+            "question": "সার্বিক সেটকে কোন প্রতীক দিয়ে প্রকাশ করা হয়?",
+            "options": [
+              { "id": "o1", "text": "U" },
+              { "id": "o2", "text": "S" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 4,
+            "hints": ["Universal এর প্রথম অক্ষর।"],
+            "explainIfWrong": "U মানেই Universal বা সার্বিক।"
+          },
+          {
+            "id": "q2-L3",
+            "type": "text_input",
+            "question": "A = {1, 2, 3} হলে, {1} সেটটি A এর কী?",
+            "targetAnswer": "উপসেট",
+            "marksIfCorrect": 6,
+            "hints": ["ছোট সেট কি বড় সেটের ভেতরে আছে?"],
+            "explainIfWrong": "যেহেতু উপাদানটি মেইন সেটে আছে, তাই এটি উপসেট।"
+          },
+          {
+            "id": "q3-L3",
+            "type": "mcq",
+            "question": "যেকোনো সেটের উপসেট কোনটি?",
+            "options": [
+              { "id": "o1", "text": "∅" },
+              { "id": "o2", "text": "{0}" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 5,
+            "hints": ["যেটা সব জায়গায় গোপনে থাকে।"],
+            "explainIfWrong": "ফাঁকা সেট সব সেটেরই উপসেট।"
+          },
+          {
+            "id": "q4-L3",
+            "type": "drag_words_dash",
+            "question": "উপসেটের সম্পর্ক পূর্ণ করো:",
+            "text": "If A is a part of B, then A [[is]] a [[subset]] of B.",
+            "options": ["is", "subset", "not", "universal"],
+            "marksIfCorrect": 6,
+            "hints": ["পার্ট বা অংশ মানেই কী?"],
+            "explainIfWrong": "অংশ মানেই উপসেট।"
+          },
+          {
+            "id": "q5-L3",
+            "type": "mcq",
+            "question": "A = {a, b} এর উপসেট কয়টি?",
+            "options": [
+              { "id": "o1", "text": "৪টি" },
+              { "id": "o2", "text": "২টি" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 7,
+            "hints": ["সূত্র: $2^n$, এখানে n=2।"],
+            "explainIfWrong": "উপসেটগুলো: {a}, {b}, {a, b}, ∅।"
+          },
+          {
+            "id": "q6-L3",
+            "type": "drag_words",
+            "question": "সঠিক ক্রম সাজাও (সার্বিক ও উপসেট):",
+            "wordPool": ["Subset", "is", "inside", "Universal", "set"],
+            "targetAnswer": "Subset is inside Universal set",
+            "marksIfCorrect": 6,
+            "hints": ["কে কার ভেতরে থাকে?"],
+            "explainIfWrong": "সার্বিক সেটের ভেতরেই উপসেট থাকে।"
+          },
+          {
+            "id": "q7-L3",
+            "type": "mcq",
+            "question": "A ⊆ B বলতে কী বোঝায়?",
+            "options": [
+              { "id": "o1", "text": "A, B এর উপসেট" },
+              { "id": "o2", "text": "B, A এর উপসেট" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 5,
+            "hints": ["চিহ্নটির মুখ কোন দিকে?"],
+            "explainIfWrong": "A ⊆ B মানে A হলো B এর উপসেট।"
+          }
+        ]
+      },
+      {
+        "id": "set-04",
+        "title": "আয়নার উল্টো পিঠ (পূরক সেট)",
+        "order": 4,
+        "estimatedTimeMin": 18,
+        "basics": [
+          {
+            "id": "b1-L4",
+            "type": "text",
+            "title": "পূরক সেট (Complement Set)",
+            "content": {
+              "definition": "সার্বিক সেট (U) থেকে নির্দিষ্ট সেট (A) বাদ দিলে যা থাকে তাকে <f-b>A এর পূরক সেট</f-b> বলে।",
+              "explanation": "চিহ্ন: $A^c$ বা $A'$. যেমন: U={1, 2, 3}, A={1}, তবে $A^c$={2, 3}।"
+            }
+          },
+          {
+            "id": "b2-L4",
+            "type": "text",
+            "title": "বাদ দেওয়ার নিয়ম (Set Difference)",
+            "content": {
+              "definition": "A - B মানে A থেকে B এর সব উপাদান সরিয়ে ফেলা।",
+              "explanation": "Zeigarnik Effect: ব্রেইন সেই তথ্যটি মনে রাখে যা সরানো হয়েছে।"
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1-L4",
+            "type": "mcq",
+            "question": "A এর পূরক সেট কোনটি?",
+            "options": [
+              { "id": "o1", "text": "U - A" },
+              { "id": "o2", "text": "A - U" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 6,
+            "hints": ["বড় থেকে ছোট বাদ দাও।"],
+            "explainIfWrong": "সবসময় সার্বিক সেট থেকে নির্দিষ্ট সেট বাদ দিতে হয়।"
+          },
+          {
+            "id": "q2-L4",
+            "type": "text_input",
+            "question": "U = {1, 2, 3} এবং A = {2} হলে, $A^c$ কত? (বন্ধনী ছাড়া উত্তর দাও)",
+            "targetAnswer": "1, 3",
+            "marksIfCorrect": 8,
+            "hints": ["U থেকে ২ কে লুকিয়ে ফেলো।"],
+            "explainIfWrong": "২ বাদ দিলে ১ আর ৩ থাকে।"
+          },
+          {
+            "id": "q3-L4",
+            "type": "drag_words_dash",
+            "question": "পূরক সেটের সূত্র পূর্ণ করো:",
+            "text": "The complement of A is written as [[A^c]] which equals [[U]] minus A.",
+            "options": ["A^c", "U", "A^u", "S"],
+            "marksIfCorrect": 6,
+            "hints": ["চিহ্ন এবং মেইন সেট কোনটি?"],
+            "explainIfWrong": "A^c মানে U - A।"
+          },
+          {
+            "id": "q4-L4",
+            "type": "drag_words",
+            "question": "সঠিক ট্যাগ সাজাও (পূরক সেট):",
+            "wordPool": ["Complement", "set", "excludes", "original", "set", "elements"],
+            "targetAnswer": "Complement set excludes original set elements",
+            "marksIfCorrect": 6,
+            "hints": ["পূরক সেটে কি মেইন সেটের উপাদান থাকে?"],
+            "explainIfWrong": "পূরক সেটে অরিজিনাল সেটের উপাদানগুলো বাদ যায়।"
+          },
+          {
+            "id": "q5-L4",
+            "type": "mcq",
+            "question": "U - U = কত?",
+            "options": [
+              { "id": "o1", "text": "∅" },
+              { "id": "o2", "text": "U" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 7,
+            "hints": ["পুরোটা থেকে পুরোটা সরালে কী থাকে?"],
+            "explainIfWrong": "সব সরিয়ে ফেললে ফাঁকা সেট থাকে।"
+          },
+          {
+            "id": "q6-L4",
+            "type": "text_input",
+            "question": "সেটের বিয়োগফলকে কী বলা হয়?",
+            "targetAnswer": "অন্তর",
+            "marksIfCorrect": 5,
+            "hints": ["বাংলায় বিয়োগের আরেক নাম..."],
+            "explainIfWrong": "সেটের বিয়োগকে 'অন্তর সেট' বলা হয়।"
+          }
+        ]
+      },
+      {
+        "id": "set-05",
+        "title": "সবার শক্তি যেখানে (শক্তি সেট)",
+        "order": 5,
+        "estimatedTimeMin": 20,
+        "basics": [
+          {
+            "id": "b1-L5",
+            "type": "text",
+            "title": "শক্তি সেট (Power Set)",
+            "content": {
+              "definition": "একটি সেটের সকল উপসেট নিয়ে গঠিত সেটকে <f-b>শক্তি সেট</f-b> বলে।",
+              "explanation": "প্রতীক: P(A)। তুমি কতভাবে উপহারগুলো সাজাতে পারো?"
+            }
+          },
+          {
+            "id": "b2-L5",
+            "type": "text",
+            "title": "শক্তি সেটের উপাদান সংখ্যা",
+            "content": {
+              "definition": "সেটের উপাদান n হলে, শক্তি সেটের উপাদান হবে $2^n$।",
+              "explanation": "এটি গাণিতিক ক্ষমতা বা পাওয়ার।"
+            }
+          }
+        ],
+        "quiz": [
+          {
+            "id": "q1-L5",
+            "type": "mcq",
+            "question": "A = {1} হলে, P(A) কোনটি?",
+            "options": [
+              { "id": "o1", "text": "{ {1}, ∅ }" },
+              { "id": "o2", "text": "{ 1, ∅ }" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 8,
+            "hints": ["শক্তি সেটের ভেতরে সবাই সেট হিসেবে থাকে।"],
+            "explainIfWrong": "শক্তি সেটের প্রতিটি উপাদানই একটি করে সেট।"
+          },
+          {
+            "id": "q2-L5",
+            "type": "text_input",
+            "question": "A সেটের উপাদান ৩টি হলে P(A) এর উপাদান কয়টি?",
+            "targetAnswer": "৮",
+            "marksIfCorrect": 8,
+            "hints": ["$2^3$ কত হয়?"],
+            "explainIfWrong": "২ × ২ × ২ = ৮।"
+          },
+          {
+            "id": "q3-L5",
+            "type": "drag_words_dash",
+            "question": "সূত্রটি পূর্ণ করো (শক্তি সেট):",
+            "text": "If a set has n elements, its power set has [[2^n]] [[elements]] .",
+            "options": ["2^n", "elements", "n^2", "members"],
+            "marksIfCorrect": 6,
+            "hints": ["সূত্রটি কী ছিল?"],
+            "explainIfWrong": "শক্তি সেটের উপাদান সংখ্যা $2^n$।"
+          },
+          {
+            "id": "q4-L5",
+            "type": "drag_words",
+            "question": "সঠিক ট্যাগ সাজাও (শক্তি সেট):",
+            "wordPool": ["Power", "set", "contains", "all", "subsets", "of", "the", "set"],
+            "targetAnswer": "Power set contains all subsets of the set",
+            "marksIfCorrect": 7,
+            "hints": ["কাদের নিয়ে শক্তি সেট তৈরি হয়?"],
+            "explainIfWrong": "একটি সেটের সব উপসেট মিলেই শক্তি সেট হয়।"
+          },
+          {
+            "id": "q5-L5",
+            "type": "mcq",
+            "question": "P(∅) এর উপাদান কয়টি?",
+            "options": [
+              { "id": "o1", "text": "১টি" },
+              { "id": "o2", "text": "০টি" }
+            ],
+            "correctOptionId": "o1",
+            "marksIfCorrect": 10,
+            "hints": ["ফাঁকা সেটের অন্তত ১টি উপসেট আছে (সে নিজেই)।"],
+            "explainIfWrong": "ফাঁকা সেটের শক্তি সেট { ∅ }, তাই উপাদান সংখ্যা ১।"
+          },
+          {
+            "id": "q6-L5",
+            "type": "text_input",
+            "question": "A = { } হলে P(A) কী হবে?",
+            "targetAnswer": "{∅}",
+            "marksIfCorrect": 5,
+            "hints": ["উপসেটটি লিখে বন্ধনী দাও।"],
+            "explainIfWrong": "ফাঁকা সেটের শক্তি সেট হলো {∅}।"
+          }
+        ]
+      }
+    ]
+  }
 ]
