@@ -106,7 +106,7 @@
               "definition": "যদি গুনতে গুনতে শেষ করা যায় তবে <f-b><c-#10b981>সসীম</c></f>, আর শেষ না হলে তা <f-b><c-#ef4444>অসীম</c></f> সেট।",
               "explanation": "তোমার হাতে ৫টি আঙুল আছে—এটা সসীম (গোনা শেষ)। কিন্তু আকাশের তারা? তুমি যত গুণবে, ততই আসবে—এটা অসীম। <f-b>ভুল কোরো না:</f> উপাদান ১ কোটি হলেও যদি গোনা শেষ হয়, তবে সেটা সসীমই থাকবে!",
                  "image": {
-        "url": "https://console.cloudinary.com/app/c-68afb24400eae97ffdc334223175f7/assets/media_library/search?q=&view_mode=mosaic",
+        "url": "https://res.cloudinary.com/dpv4ufsra/image/upload/v1769366077/infiniteSet_dtnztb.webp",
          "alt": "OFFLINE: naruto looking outside the windo.."
               }
             }
@@ -119,7 +119,7 @@
               "definition": "যে সেটের উপাদানগুলো <f-b>গোনা শেষ করা যায়,</f> বা যার উপাদান সংখ্যা একটি <f-b>নির্দিষ্ট সংখ্যা</f> (Finite), তাকে <c-#28a745>সসীম সেট</c> বলে।",
               "explanation": "তোমার টেবিলেই তুমি যখন পেন্সিলগুলোকে আলাদা করে গুছিয়ে রাখলে, তখন তুমি <f-b>সহজেই গুনতে পারছ যে তোমার কাছে মোট ৫টি পেন্সিল আছে।</f> এরপর আর কোনো পেন্সিল নেই। <f-b>যে সেটের উপাদানগুলো গোনা যায় এবং গোনা শেষ হয়,</f> তাকেই বলা হয় <c-#28a745>সসীম সেট</c>।",
               "image": {
-        "url": "https://console.cloudinary.com/app/c-68afb24400eae97ffdc334223175f7/assets/media_library/search?q=&view_mode=mosaic",
+        "url": "https://res.cloudinary.com/dpv4ufsra/image/upload/v1769366077/infiniteSet_dtnztb.webp",
          "alt": "OFFLINE: naruto looking outside the windo.."
               }
             }
